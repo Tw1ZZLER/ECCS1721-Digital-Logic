@@ -14,7 +14,11 @@
 - In order to give our own inputs, we will right click on each input and click `Force Constant` to add our own inputs.
 	- We want to change from `Hexadecimal` to `Binary`
 	- We will enter a 5-digit binary constant to each input
-- Afterwards, we will run synthesis and create a schematic of our hardware that we have generated.
+- After we have entered our own inputs, we press the `Run` button with a small `(T)` underneath of it to regenerate our simulation.
+	- We can now look at our waveform simulation and see our changes and our new outputs! We should see 2 difference calculations and 2 outputs.
+- We will finish messing with the waveform simulation by taking a screenshot and closing out of it.
+	- Optionally, we could save our waveform to our project file for later use.
+- Afterwards, we will run synthesis.
 ### Results
 - In our simulation, we created a waveform of what our hardware is doing at each nanosecond, as shown in Figure 1:
 ![[../../Media/Pasted image 20240130172107.png]]
