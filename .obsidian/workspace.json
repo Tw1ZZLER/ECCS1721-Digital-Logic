@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "3811cfc7e9c8366d",
+    "type": "split",
+    "children": [
+      {
+        "id": "79b33a6bba25923b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "145dd43d6e969b73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lab Reports/Lab 02 Formal Report.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eea701c92c23c758",
+    "type": "split",
+    "children": [
+      {
+        "id": "805075949bca76a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c80a27399d8ccdc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9c8a5cc5f293b574",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "09a9c084bf492a6c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0c93ee17fc3e6933",
+    "type": "split",
+    "children": [
+      {
+        "id": "763e66910ef798c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bafb77ce3018bddc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lab Reports/Lab 02 Formal Report.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15dfc32a7ceddb63",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f9df96e2c2325d8e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lab Reports/Lab 02 Formal Report.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false
+    }
+  },
+  "active": "145dd43d6e969b73",
+  "lastOpenFiles": [
+    "Templates/Lab Formal Report Template.md",
+    "Lab Reports/Lab 03 Formal Report.md",
+    "Lab Reports/Lab 02 Formal Report.md",
+    "Lab Reports/Lab 01 Informal Report.md",
+    "Templates",
+    "Media/Pasted image 20240130171458.png",
+    "Media/Pasted image 20240130173915.png",
+    "Media/Pasted image 20240130173713.png",
+    "Media/Pasted image 20240130172107.png",
+    "Media",
+    "Formal Report Guidelines.pdf",
+    "Lab Reports/Lab 02 Report.md",
+    "Lab Handouts/02-handout.pdf",
+    "Lab Handouts/01-handout.pdf",
+    "Lab Handouts",
+    "Welcome.md",
+    "Lab Reports"
+  ]
+}

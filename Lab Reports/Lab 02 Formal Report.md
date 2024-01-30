@@ -1,0 +1,34 @@
+# ECCS 1721
+## Lab 02 - Introduction to VHDL
+- Lab Conducted: 2024-01-30
+- Lab Group Members:
+	- Corbin Hibler
+	- Dylan Hughes
+### Introduction
+- In this lab, we will use Vivado to simulate a simple comparator, and we will use and read through a VHDL file to learn how and why it works. VHDL is a type of hardware-descriptive language that we will understand how to use in Vivado.
+### Procedure
+- First we download the lab02.vhd file from Canvas. 
+	- This file contains the VHDL code that we will use in Vivado
+- We will add this file to a Vivado project.
+- We will run a simulation and view our waveform.
+- In order to give our own inputs, we will right click on each input and click `Force Constant` to add our own inputs.
+	- We want to change from `Hexadecimal` to `Binary`
+	- We will enter a 5-digit binary constant to each input
+- Afterwards, we will run synthesis and create a schematic of our hardware that we have generated.
+### Results
+- In our simulation, we created a waveform of what our hardware is doing at each nanosecond, as shown in Figure 1:
+![[../../Media/Pasted image 20240130172107.png]]
+Figure 1: Waveform Simulation of Comparator
+
+![[../../Media/Pasted image 20240130173713.png]]
+Figure 2: Schematic of Hardware without any changes
+
+![[../../Media/Pasted image 20240130173915.png]]
+Figure 3: Schematic of Hardware with the signed 0 removed
+
+
+### Discussion
+- It was very interesting to see how simulated hardware can be visualized using waveforms, and the capabilities of Vivado to do so.
+- In Figure 1, we saw how 
+
+### Conclusion
