@@ -11,12 +11,9 @@
             "id": "145dd43d6e969b73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Lab Reports/Lab 02 Formal Report.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Lab Handouts/01-handout.pdf"
               }
             }
           }
@@ -86,7 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Reports/Lab 02 Formal Report.md",
+                "file": "Lab Handouts/01-handout.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Reports/Lab 02 Formal Report.md"
+                "file": "Lab Handouts/01-handout.pdf"
               }
             }
           }
@@ -129,9 +126,9 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
+    "Lab Reports/Lab 02 Formal Report.md",
     "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 03 Formal Report.md",
-    "Lab Reports/Lab 02 Formal Report.md",
     "Lab Reports/Lab 01 Informal Report.md",
     "Templates",
     "Media/Pasted image 20240130171458.png",
