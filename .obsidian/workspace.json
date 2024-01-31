@@ -21,6 +21,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "569be4c102acdef2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a428ef66ae11d85",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Formal Report Guidelines.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0c93ee17fc3e6933",
@@ -129,9 +146,9 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
-    "Templates/Lab Formal Report Template.md",
-    "Lab Reports/Lab 02 Formal Report.md",
     "Formal Report Guidelines.pdf",
+    "Lab Reports/Lab 02 Formal Report.md",
+    "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 01 Informal Report.md",
     "Lab Handouts/01-handout.pdf",
     "Lab Reports/Lab 03 Formal Report.md",
