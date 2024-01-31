@@ -11,9 +11,12 @@
             "id": "145dd43d6e969b73",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Formal Report Guidelines.pdf"
+                "file": "Templates/Lab Formal Report Template.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formal Report Guidelines.pdf",
+                "file": "Templates/Lab Formal Report Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formal Report Guidelines.pdf"
+                "file": "Templates/Lab Formal Report Template.md"
               }
             }
           }
@@ -127,6 +130,7 @@
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
     "Lab Reports/Lab 02 Formal Report.md",
+    "Formal Report Guidelines.pdf",
     "Lab Reports/Lab 01 Informal Report.md",
     "Lab Handouts/01-handout.pdf",
     "Templates/Lab Formal Report Template.md",
@@ -137,7 +141,6 @@
     "Media/Pasted image 20240130173713.png",
     "Media/Pasted image 20240130172107.png",
     "Media",
-    "Formal Report Guidelines.pdf",
     "Lab Reports/Lab 02 Report.md",
     "Lab Handouts/02-handout.pdf",
     "Lab Handouts",
