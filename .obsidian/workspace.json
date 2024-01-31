@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Lab Handouts/01-handout.pdf"
+                "file": "Formal Report Guidelines.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Handouts/01-handout.pdf",
+                "file": "Formal Report Guidelines.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Handouts/01-handout.pdf"
+                "file": "Formal Report Guidelines.pdf"
               }
             }
           }
@@ -127,9 +127,10 @@
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
     "Lab Reports/Lab 02 Formal Report.md",
+    "Lab Reports/Lab 01 Informal Report.md",
+    "Lab Handouts/01-handout.pdf",
     "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 03 Formal Report.md",
-    "Lab Reports/Lab 01 Informal Report.md",
     "Templates",
     "Media/Pasted image 20240130171458.png",
     "Media/Pasted image 20240130173915.png",
@@ -139,7 +140,6 @@
     "Formal Report Guidelines.pdf",
     "Lab Reports/Lab 02 Report.md",
     "Lab Handouts/02-handout.pdf",
-    "Lab Handouts/01-handout.pdf",
     "Lab Handouts",
     "Welcome.md",
     "Lab Reports"
