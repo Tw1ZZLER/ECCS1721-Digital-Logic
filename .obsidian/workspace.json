@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Lab Formal Report Template.md",
+                "file": "Lab Reports/Lab 02 Formal Report.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Lab Formal Report Template.md",
+                "file": "Lab Reports/Lab 02 Formal Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Lab Formal Report Template.md"
+                "file": "Lab Reports/Lab 02 Formal Report.md"
               }
             }
           }
@@ -129,11 +129,11 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
+    "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 02 Formal Report.md",
     "Formal Report Guidelines.pdf",
     "Lab Reports/Lab 01 Informal Report.md",
     "Lab Handouts/01-handout.pdf",
-    "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 03 Formal Report.md",
     "Templates",
     "Media/Pasted image 20240130171458.png",
