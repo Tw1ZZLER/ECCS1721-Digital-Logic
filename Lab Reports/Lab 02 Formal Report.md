@@ -30,7 +30,7 @@ Figure 2: Schematic of Hardware without any changes
 ![[../../Media/Pasted image 20240130173915.png]]
 Figure 3: Schematic of Hardware with the signed 0 removed
 
-☺
+☺oiwejriqjwierqiwehrioqweriohqwiouer
 ### Discussion
 - It was very interesting to see how simulated hardware can be visualized using waveforms, and the capabilities of Vivado to do so.
 - In Figure 1, we saw how 
