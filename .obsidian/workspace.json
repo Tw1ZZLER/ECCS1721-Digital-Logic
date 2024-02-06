@@ -21,22 +21,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "569be4c102acdef2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1a428ef66ae11d85",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Report Guidelines.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -145,6 +129,7 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
+    "Lab Handouts/03-handout.pdf",
     "Lab Reports/Lab 02 Formal Report.md",
     "Lab Reports/Lab 03 Discussion.md",
     "Formal Report Guidelines.pdf",
