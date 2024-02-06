@@ -1,4 +1,4 @@
 - Were the simulation results accurate enough?
-	- 
+	- For most applications, these answers were accurate enough, as the error % never exceeded 0
 - How could the accuracy be improved?
 	- 
