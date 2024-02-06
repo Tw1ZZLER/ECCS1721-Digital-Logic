@@ -83,6 +83,7 @@ https://gist.github.com/ScottKillen/499246e2f44fc1b59d8ff3795311f21f
     background: none;
     font-size: 12pt;
     tab-size: 2; /* set tab size, works in codeblock */
+    color: black;
   }
 
   p {
