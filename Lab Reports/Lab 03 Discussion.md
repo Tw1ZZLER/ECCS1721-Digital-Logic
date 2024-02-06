@@ -1,4 +1,6 @@
 - Were the simulation results accurate enough?
-	- For most applications, these answers were accurate enough, as the error between numbers never exceeded 0%
+	- For most applications, these answers were accurate enough, as the error between numbers never exceeded 0%. However, if you are doing intense research with a lot of calculations or engineering that requires extreme precision, you would need to be more accurate. 
 - How could the accuracy be improved?
-	- We can increase the number of terms from Taylor's series and use more fraction bits, and we can represent constants better. 
+	- We can increase the number of terms from Taylor's series. 
+	- We can use more fraction bits.
+	- We can represent constants from Taylor's series better and more accurately
