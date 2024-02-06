@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab Reports/Lab 02 Formal Report.md",
+                "file": "Lab Reports/Lab 03 Discussion.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0c93ee17fc3e6933",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Reports/Lab 02 Formal Report.md",
+                "file": "Lab Reports/Lab 03 Discussion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Reports/Lab 02 Formal Report.md"
+                "file": "Lab Reports/Lab 03 Discussion.md"
               }
             }
           }
@@ -146,8 +145,9 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
-    "Formal Report Guidelines.pdf",
     "Lab Reports/Lab 02 Formal Report.md",
+    "Lab Reports/Lab 03 Discussion.md",
+    "Formal Report Guidelines.pdf",
     "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 01 Informal Report.md",
     "Lab Handouts/01-handout.pdf",
