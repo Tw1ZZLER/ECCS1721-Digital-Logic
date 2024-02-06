@@ -1,4 +1,4 @@
 - Were the simulation results accurate enough?
-	- For most applications, these answers were accurate enough, as
+	- For most applications, these answers were accurate enough, as 
 - How could the accuracy be improved?
 	- We can increase the number of terms from Taylor's series and use more fraction bits, and we can represent constants better. 
