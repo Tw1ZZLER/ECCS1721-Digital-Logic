@@ -13,10 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab Reports/Lab 03 Discussion.md",
+                "file": "Lab Reports/Lab 02 Formal Report.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e6b1e8099d82a124",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "745157d711c011ee",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Media/Lab 03 Discussion.pdf"
               }
             }
           }
@@ -86,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Reports/Lab 03 Discussion.md",
+                "file": "Lab Reports/Lab 02 Formal Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Reports/Lab 03 Discussion.md"
+                "file": "Lab Reports/Lab 02 Formal Report.md"
               }
             }
           }
@@ -130,14 +146,15 @@
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
     "Media/Lab 03 Discussion.pdf",
-    "Media/Lab 03 Discussion.docx",
+    "Lab Handouts/02-handout.pdf",
     "Lab Reports/Lab 02 Formal Report.md",
-    "Lab Reports/Lab 03 Discussion.md",
+    "Lab Handouts/01-handout.pdf",
     "Lab Handouts/03-handout.pdf",
+    "Lab Reports/Lab 03 Discussion.md",
+    "Media/Lab 03 Discussion.docx",
     "Formal Report Guidelines.pdf",
     "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 01 Informal Report.md",
-    "Lab Handouts/01-handout.pdf",
     "Lab Reports/Lab 03 Formal Report.md",
     "Templates",
     "Media/Pasted image 20240130171458.png",
@@ -146,7 +163,6 @@
     "Media/Pasted image 20240130172107.png",
     "Media",
     "Lab Reports/Lab 02 Report.md",
-    "Lab Handouts/02-handout.pdf",
     "Lab Handouts",
     "Welcome.md",
     "Lab Reports"
