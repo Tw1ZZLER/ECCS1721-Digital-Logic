@@ -10,7 +10,7 @@
 - First we download the lab02.vhd file from Canvas. 
 	- This file contains the VHDL code that we will use in Vivado
 - We will add this file to a Vivado project.
-- We will run a simulation and view our waveform.
+- We will click `Run Simulation` and view our waveform afterwards.
 - In order to give our own inputs, we will right click on each input and click `Force Constant` to add our own inputs.
 	- We want to change from `Hexadecimal` to `Binary`
 	- We will enter a 5-digit binary constant to each input
