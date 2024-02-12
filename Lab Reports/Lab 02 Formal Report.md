@@ -25,10 +25,11 @@
 ![[../../Media/Pasted image 20240130172107.png]]
 Figure 1: Waveform Simulation of Comparator
 
-- We a
+- We can also view a hardware schematic of our simulation, with no changes to the VHDL, as shown in Figure 2:
 ![[../../Media/Pasted image 20240130173713.png]]
 Figure 2: Schematic of Hardware without any changes
 
+- We can remove the signed 0 from the schematic as well, 
 ![[../../Media/Pasted image 20240130173915.png]]
 Figure 3: Schematic of Hardware with the signed 0 removed
 
