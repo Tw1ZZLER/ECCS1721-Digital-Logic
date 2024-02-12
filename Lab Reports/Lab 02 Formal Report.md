@@ -29,10 +29,9 @@ Figure 1: Waveform Simulation of Comparator
 ![[../../Media/Pasted image 20240130173713.png]]
 Figure 2: Schematic of Hardware without any changes
 
-- We can remove the signed 0 from the schematic as well, 
+- We can remove the signed 0 from the schematic as well, and we get the following schematic in Figure 3:
 ![[../../Media/Pasted image 20240130173915.png]]
 Figure 3: Schematic of Hardware with the signed 0 removed
-
 
 ### Discussion
 - It was very interesting to see how simulated hardware can be visualized using waveforms, and the capabilities of Vivado to do so.
