@@ -46,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,9 +157,9 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
-    "Formal Report Guidelines.pdf",
-    "Lab Reports/Lab 02 Formal Report.md",
     "Lab Handouts/02-handout.pdf",
+    "Lab Reports/Lab 02 Formal Report.md",
+    "Formal Report Guidelines.pdf",
     "Lab Handouts/03-handout.pdf",
     "Lab Reports/Lab 03 Discussion.md",
     "Media/Lab 03 Discussion.pdf",

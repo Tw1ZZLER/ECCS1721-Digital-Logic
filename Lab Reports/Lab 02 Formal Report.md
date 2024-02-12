@@ -20,6 +20,7 @@
 	- Optionally, we could save our waveform to our project file for later use.
 - Afterwards, we will run synthesis.
 	- We will click `Run Synthesis` and watch the bottom right pane and wait for it to complete.
+
 ### Results
 - In our simulation, we created a waveform of what our hardware is doing at each nanosecond, as shown in Figure 1:
 ![[../../Media/Pasted image 20240130172107.png]]
@@ -33,10 +34,13 @@ Figure 2: Schematic of Hardware without any changes
 ![[../../Media/Pasted image 20240130173915.png]]
 Figure 3: Schematic of Hardware with the signed 0 removed
 
+
 ### Discussion
 - It was very interesting to see how simulated hardware can be visualized using waveforms, and the capabilities of Vivado to do so.
+- 
 - In Figure 1, we saw how changing the 2 inputs would affect the outputs, and we could see how the outputs operated with an additional bit using sign extension.
 - In Figure 2 and Figure 3, we could see a visual representation of our simulation and the small but significant changes that signs have on our program.
+- This lab was very enjoyable. It was interesting to see how Vivado is used firsthand and being able to experiment with it ourselves. We look forward to seeing how to use it more in-depth as the course continues.
 
 ### Conclusion
 We have created a simulation that represents a simple comparator using principles such as signed 5 bit, sign extension, and unsigned 5 bit.  By using the various ways of displaying the simulation we can more easily interpret and explain the details of the simulation to learn all the parts of a digital comparator.

@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "phoenix-print"
   ],
-  "cssTheme": ""
+  "cssTheme": "",
+  "theme": "obsidian"
 }
