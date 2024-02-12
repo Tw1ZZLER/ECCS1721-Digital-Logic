@@ -38,7 +38,7 @@ Figure 3: Schematic of Hardware with the signed 0 removed
 ### Discussion
 - It was very interesting to see how simulated hardware can be visualized using waveforms, and the capabilities of Vivado to do so.
 - This piece of hardware, known commonly as a comparator, is a simple device that takes two inputs, takes the difference, sends that as one output, then takes another difference, and sends that as the other output. This is an extremely common and useful piece of hardware that is very common. 
-	- Some of our first experience with comparators is actually using them in Minecraft's redstone system, which is capable of making basic computers.
+	- Some of our first experience with comparators is actually using them in Minecraft's redstone system, which is capable of making basic computers. 
 - In Figure 1, we saw how changing the 2 inputs would affect the outputs, and we could see how the outputs operated with an additional bit using sign extension.
 - In Figure 2 and Figure 3, we could see a visual representation of our simulation and the small but significant changes that signs have on our program.
 - This lab was very enjoyable. It was interesting to see how Vivado is used firsthand and being able to experiment with it ourselves. We look forward to seeing how to use it more in-depth as the course continues.
