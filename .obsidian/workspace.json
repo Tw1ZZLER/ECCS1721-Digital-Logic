@@ -21,33 +21,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "ddb5fd6c2f094742",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2f7c235064bf9aee",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Report Guidelines.pdf"
-              }
-            }
-          },
-          {
-            "id": "4f06712b69e7298e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Lab Handouts/02-handout.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0c93ee17fc3e6933",
@@ -157,16 +129,15 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
-    "Lab Handouts/02-handout.pdf",
-    "Lab Reports/Lab 02 Formal Report.md",
-    "Formal Report Guidelines.pdf",
-    "Media/Lab 03 Discussion.pdf",
-    "Lab Handouts/01-handout.pdf",
-    "Lab Handouts/03-handout.pdf",
     "Lab Reports/Lab 03 Discussion.md",
+    "Media/Lab 03 Discussion.pdf",
     "Media/Lab 03 Discussion.docx",
+    "Lab Reports/Lab 02 Formal Report.md",
+    "Lab Handouts/03-handout.pdf",
+    "Formal Report Guidelines.pdf",
     "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 01 Informal Report.md",
+    "Lab Handouts/01-handout.pdf",
     "Lab Reports/Lab 03 Formal Report.md",
     "Templates",
     "Media/Pasted image 20240130171458.png",
@@ -175,6 +146,7 @@
     "Media/Pasted image 20240130172107.png",
     "Media",
     "Lab Reports/Lab 02 Report.md",
+    "Lab Handouts/02-handout.pdf",
     "Lab Handouts",
     "Welcome.md",
     "Lab Reports"
