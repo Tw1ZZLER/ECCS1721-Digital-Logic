@@ -34,6 +34,7 @@ Figure 3: Schematic of Hardware with the signed 0 removed
 ### Discussion
 - It was very interesting to see how simulated hardware can be visualized using waveforms, and the capabilities of Vivado to do so.
 - In Figure 1, we saw how changing the 2 inputs would affect the outputs, and we could see how the outputs operated with an additional bit using sign extension.
-- 
+- In Figure 2 and Figure 3, we could see a visual representation of our simulation and the small but significant changes that signs have on our program.
 
 ### Conclusion
+We have created a simulation that represents a simple comparator, and using the various ways of displaying the simulation 
