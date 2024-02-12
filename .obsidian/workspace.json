@@ -21,6 +21,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "6d3906671423e5c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98e928bfc021123d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Lab Handouts/02-handout.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,11 +145,12 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
+    "Lab Handouts/02-handout.pdf",
+    "Lab Reports/Lab 02 Formal Report.md",
+    "Lab Handouts/03-handout.pdf",
     "Lab Reports/Lab 03 Discussion.md",
     "Media/Lab 03 Discussion.pdf",
     "Media/Lab 03 Discussion.docx",
-    "Lab Reports/Lab 02 Formal Report.md",
-    "Lab Handouts/03-handout.pdf",
     "Formal Report Guidelines.pdf",
     "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 01 Informal Report.md",
@@ -146,7 +163,6 @@
     "Media/Pasted image 20240130172107.png",
     "Media",
     "Lab Reports/Lab 02 Report.md",
-    "Lab Handouts/02-handout.pdf",
     "Lab Handouts",
     "Welcome.md",
     "Lab Reports"

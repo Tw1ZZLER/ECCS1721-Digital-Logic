@@ -19,6 +19,8 @@
 - We will finish messing with the waveform simulation by taking a screenshot and closing out of it.
 	- Optionally, we could save our waveform to our project file for later use.
 - Afterwards, we will run synthesis.
+	- We will click `Run Synthesis` and watch the bottom right pane and wait for it to complete.
+	- 
 ### Results
 - In our simulation, we created a waveform of what our hardware is doing at each nanosecond, as shown in Figure 1:
 ![[../../Media/Pasted image 20240130172107.png]]
