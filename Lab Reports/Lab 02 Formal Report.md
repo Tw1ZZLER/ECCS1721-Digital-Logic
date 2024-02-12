@@ -37,4 +37,4 @@ Figure 3: Schematic of Hardware with the signed 0 removed
 - In Figure 2 and Figure 3, we could see a visual representation of our simulation and the small but significant changes that signs have on our program.
 
 ### Conclusion
-We have created a simulation that represents a simple comparator, and using the various ways of displaying the simulation 
+We have created a simulation that represents a simple comparator using principles such as signed 5 bit, sign extension, and unsigned 5 bit.  By using the various ways of displaying the simulation we can more easily interpret and explain the details of the simulation to learn all the parts of a digital comparator.
