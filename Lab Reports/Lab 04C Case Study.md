@@ -15,7 +15,7 @@
 			- 
 	- Provide clear and reasonable arguments how each of the 6 factors apply to **your company.** 
 		- Promise
-			- 
+			- The company has promised to provide 5000 calculators with a high-precision floating point chip that provides accurate calculations up to 17 significant digits.  However due to an error in the 
 		- Credibility
 			- 
 		- Differentiator
