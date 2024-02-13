@@ -17,15 +17,15 @@
 - Promise
 	- The company has promised to provide 5000 calculators with a high-precision floating point chip that provides accurate calculations up to 17 significant digits.  However due to an error in the tables of values, this will not be true
 - Credibility
-	- if the error is discovered in the provided products the company's reputation will plummet and will receive less requests.
+	- If the error is discovered in the provided products the company's reputation will plummet and will receive less requests.
 - Differentiator
-	- since the chip is supposed to be higher precision than others the company will have a better reputation due to providing a better product than competing companies
+	- Since the chip is supposed to be higher precision than others the company will have a better reputation due to providing a better product than competing companies
 - Price
-	- if more chips sell the company will make more money to produce more products.
+	- If more chips sell the company will make more money to produce more products.
 - Risk
-	- if the chips are sold the company will be risking its reputation and its future buyer's trust
+	- If the chips are sold the company will be risking its reputation and its future buyer's trust
 - Effort
-	- it would take a lot of effort and money to recall
+	- It would take a lot of effort and money to recall all of the chips for reprogramming.  It would be much cheaper and easier to continue to sell the chips at the risk of the company's reputation.
 ### Plan of Action
 1. Invest resources to rectify the incorrect entries in the firmware tables to ensure accurate floating-point operations.
 2. Transparently communicate the discovered issue to customers who have received beta units and delay the shipment of the 5000 manufactured calculators until the problem is resolved.
