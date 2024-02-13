@@ -13,7 +13,7 @@
 	- If I continue, I am risking my credibility and risking my job if I get fired for this mistake. If I stop and don't sell the chips, I am risking losing reputation with my company.
 - Effort
 	- If I continue to sell the chip, it will be a lot less effort than having to develop a new chip and fix the problems with it. If I stop and don't sell the chips, I don't have to focus any more effort on it.
-	- Provide clear and reasonable arguments how each of the 6 factors apply to **your company.** 
+### Company Factors
 		- Promise
 			- The company has promised to provide 5000 calculators with a high-precision floating point chip that provides accurate calculations up to 17 significant digits.  However due to an error in the tables of values, this will not be true
 		- Credibility
