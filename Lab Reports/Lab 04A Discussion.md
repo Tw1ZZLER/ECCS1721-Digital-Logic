@@ -1,5 +1,6 @@
 - Compare the results of steps 1, 2, and 3. Are they different? If so, how? 
-We got the same answers for all three steps.
+	- We got the same answers for all three steps.
 - What components do we need to implement this algorithm in hardware? 
-We need to implement a comparator steps 1 and 2.  We also need to find the most significant high bits, 
+	- We need to implement a comparator steps 1 and 2.  We also need to find the most significant high bits, 
 - If a is a negative value, would the algorithm still work? If not, what do we need to change?
+	- No, the algorithm will not work. 
