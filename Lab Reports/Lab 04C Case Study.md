@@ -19,13 +19,13 @@
 		- Credibility
 			- if the error is discovered in the provided products the company's reputation will plummet and will receive less requests.
 		- Differentiator
-			- 
+			- since the chip is supposed to be higher precision than others the company will have a better reputation due to providing a better product than competing companies
 		- Price
-			- 
+			- if more chips sell the company will make more money to produce more products.
 		- Risk
-			- 
+			- if the chips are sold the company will be risking its reputation and its future buyer's trust
 		- Effort
-			- 
+			- it would take a lot of effort and money to recall
 	- Describe a detailed **plan of action** (more than the single sentences provided in the Analysis section). 
 	- Identify at least **5 reasonable ramifications** (mix of technical and nontechnical) of your plan of action. 
 - Include your reflection in your informal report for Lab 04.
