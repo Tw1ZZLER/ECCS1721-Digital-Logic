@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "184e709769f403fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "6d3906671423e5c5",
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Lab Reports/Lab 04A Discussion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Lab Reports/Lab 04A Discussion.md"
               }
             }
           }
@@ -168,10 +154,10 @@
       "templates:Insert template": false
     }
   },
-  "active": "184e709769f403fb",
+  "active": "145dd43d6e969b73",
   "lastOpenFiles": [
-    "Lab Reports/Lab 04A Discussion.md",
     "conflict-files-obsidian-git.md",
+    "Lab Reports/Lab 04A Discussion.md",
     "Lab Handouts/04A-handout.pdf",
     "Lab Reports/Lab 02 Formal Report.md",
     "Formal Report Guidelines.pdf",
