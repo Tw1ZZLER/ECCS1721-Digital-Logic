@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Lab Handouts/04C-handout.pdf"
+                "file": "Lab Handouts/04B-handout.pdf"
               }
             }
           }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Handouts/04C-handout.pdf",
+                "file": "Lab Handouts/04B-handout.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Handouts/04C-handout.pdf"
+                "file": "Lab Handouts/04B-handout.pdf"
               }
             }
           }
@@ -153,6 +153,7 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
+    "Lab Handouts/04C-handout.pdf",
     "Lab Reports/Lab 04A Discussion.md",
     "conflict-files-obsidian-git.md",
     "Lab Handouts/04A-handout.pdf",
@@ -160,7 +161,6 @@
     "Formal Report Guidelines.pdf",
     "Lab Handouts/04-handout.pdf",
     "Lab Handouts/02-handout.pdf",
-    "Lab Handouts/04C-handout.pdf",
     "Lab Handouts/04B-handout.pdf",
     "Media/04C_VPB_Presentation.pdf",
     "Media/04C_CaseStudyRubric.xlsx",
