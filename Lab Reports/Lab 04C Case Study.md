@@ -12,6 +12,7 @@
 	- If I continue, I am risking my credibility and risking my job if I get fired for this mistake. If I stop and don't sell the chips, I am risking losing reputation with my company.
 - Effort
 	- If I continue to sell the chip, it will be a lot less effort than having to develop a new chip and fix the problems with it. If I stop and don't sell the chips, I don't have to focus any more effort on it.
+
 ### Company Factors
 - Promise
 	- The company has promised to provide 5000 calculators with a high-precision floating point chip that provides accurate calculations up to 17 significant digits.  However due to an error in the tables of values, this will not be true
@@ -34,7 +35,6 @@
 5. Conduct a review of the development and testing processes we use to develop chips, so we can identify gaps and prevent similar issues in future projects.
 
 ### Ramifications:
-
 1. The recall and replacement process will cause a lot of financial costs for the company.
 2. Failure to address the issue promptly and transparently may cause more reputational damage and loss of customer trust.
 3. Fixing the problem will delay the release of the product to market, potentially impacting the finances of the company.
