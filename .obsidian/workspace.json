@@ -11,27 +11,16 @@
             "id": "145dd43d6e969b73",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Media/04C_VPB_Presentation.pdf"
-              }
-            }
-          },
-          {
-            "id": "5f629530cf422e3a",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Lab Reports/Lab 03 Discussion.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "ac197fa348e70b94",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Lab Reports/Lab 03 Discussion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Lab Reports/Lab 03 Discussion.md"
               }
             }
           }
@@ -154,7 +143,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "5f629530cf422e3a",
+  "active": "145dd43d6e969b73",
   "lastOpenFiles": [
     "Media/04C_VPB_Presentation.pdf",
     "conflict-files-obsidian-git.md",
