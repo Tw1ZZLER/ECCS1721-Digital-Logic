@@ -11,47 +11,20 @@
             "id": "145dd43d6e969b73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Lab Reports/Lab 04A Discussion.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "184e709769f403fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Media/04C_VPB_Presentation.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "6d3906671423e5c5",
+        "id": "ac197fa348e70b94",
         "type": "tabs",
         "children": [
           {
-            "id": "8306a13c4a4313f4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Report Guidelines.pdf"
-              }
-            }
-          },
-          {
-            "id": "98e928bfc021123d",
+            "id": "e51951a2edc61501",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -60,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Media/04C_VPB_Presentation.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Media/04C_VPB_Presentation.pdf"
               }
             }
           }
@@ -168,22 +140,22 @@
       "templates:Insert template": false
     }
   },
-  "active": "184e709769f403fb",
+  "active": "145dd43d6e969b73",
   "lastOpenFiles": [
     "Lab Reports/Lab 04A Discussion.md",
-    "conflict-files-obsidian-git.md",
     "Lab Handouts/04A-handout.pdf",
-    "Lab Reports/Lab 02 Formal Report.md",
-    "Formal Report Guidelines.pdf",
     "Lab Handouts/04-handout.pdf",
-    "Lab Handouts/02-handout.pdf",
-    "Lab Handouts/04C-handout.pdf",
-    "Lab Handouts/04B-handout.pdf",
     "Media/04C_VPB_Presentation.pdf",
-    "Media/04C_CaseStudyRubric.xlsx",
-    "Lab Handouts/03-handout.pdf",
     "Lab Reports/Lab 03 Discussion.md",
+    "Lab Handouts/04C-handout.pdf",
+    "Formal Report Guidelines.pdf",
+    "conflict-files-obsidian-git.md",
+    "Media/04C_CaseStudyRubric.xlsx",
+    "Lab Handouts/04B-handout.pdf",
+    "Lab Reports/Lab 02 Formal Report.md",
     "Media/Lab 03 Discussion.pdf",
+    "Media/Lab 03 Discussion.docx",
+    "Lab Handouts/03-handout.pdf",
     "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 01 Informal Report.md",
     "Lab Reports/Lab 03 Formal Report.md",
