@@ -1,6 +1,6 @@
 - Compare the results of steps 1, 2, and 3. Are they different? If so, how? 
 	- We got the same answers for all three steps.
 - What components do we need to implement this algorithm in hardware? 
-	- We need to implement a comparator steps 1 and 2.  We also need to find the most significant high bits, 
+	- We need a priority encoder, a barrel shifter, a comparator, and an adder. We also need a resistor to store values from previous iterations.
 - If a is a negative value, would the algorithm still work? If not, what do we need to change?
-	- No, the algorithm will not work. 
+	- Represent the numbers in sign and magnitude, find the modulo of the magnitude, add the sign to it, and then add our positvie
