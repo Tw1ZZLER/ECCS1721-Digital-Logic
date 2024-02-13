@@ -11,12 +11,9 @@
             "id": "145dd43d6e969b73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Lab Reports/Lab 04A Discussion.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Lab Handouts/04C-handout.pdf"
               }
             }
           }
@@ -113,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Reports/Lab 04A Discussion.md",
+                "file": "Lab Handouts/04C-handout.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Reports/Lab 04A Discussion.md"
+                "file": "Lab Handouts/04C-handout.pdf"
               }
             }
           }
@@ -156,8 +153,8 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Lab Reports/Lab 04A Discussion.md",
+    "conflict-files-obsidian-git.md",
     "Lab Handouts/04A-handout.pdf",
     "Lab Reports/Lab 02 Formal Report.md",
     "Formal Report Guidelines.pdf",
