@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab Reports/Lab 02 Formal Report.md",
+                "file": "Lab Reports/Lab 04A Discussion.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,7 +42,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Lab Handouts/02-handout.pdf"
+                "file": "Lab Handouts/04A-handout.pdf"
               }
             }
           }
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Reports/Lab 02 Formal Report.md",
+                "file": "Lab Reports/Lab 04A Discussion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Reports/Lab 02 Formal Report.md"
+                "file": "Lab Reports/Lab 04A Discussion.md"
               }
             }
           }
@@ -154,21 +154,21 @@
       "templates:Insert template": false
     }
   },
-  "active": "9c80a27399d8ccdc",
+  "active": "145dd43d6e969b73",
   "lastOpenFiles": [
+    "Lab Handouts/04A-handout.pdf",
+    "Lab Reports/Lab 04A Discussion.md",
+    "Lab Reports/Lab 02 Formal Report.md",
+    "Formal Report Guidelines.pdf",
+    "Lab Handouts/04-handout.pdf",
+    "Lab Handouts/02-handout.pdf",
     "Lab Handouts/04C-handout.pdf",
     "Lab Handouts/04B-handout.pdf",
-    "Lab Handouts/04A-handout.pdf",
-    "Lab Handouts/04-handout.pdf",
     "Media/04C_VPB_Presentation.pdf",
     "Media/04C_CaseStudyRubric.xlsx",
     "Lab Handouts/03-handout.pdf",
-    "Lab Reports/Lab 02 Formal Report.md",
     "Lab Reports/Lab 03 Discussion.md",
     "Media/Lab 03 Discussion.pdf",
-    "Lab Handouts/02-handout.pdf",
-    "Formal Report Guidelines.pdf",
-    "Media/Lab 03 Discussion.docx",
     "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 01 Informal Report.md",
     "Lab Reports/Lab 03 Formal Report.md",
