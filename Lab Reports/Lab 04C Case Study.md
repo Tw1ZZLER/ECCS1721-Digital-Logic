@@ -1,5 +1,4 @@
-- Using the factors of Promise, Credibility, Differentiator, Price, Risk, and Effort of a value proposition, read through the following case study, and identify how each of these factors apply to you the engineer, and to the company. Use structured text (meaning bullets and/or numbered lists).
-- Write a reflection following the analysis section. For grading, see the rubric, briefly described here. Think of this list as a checklist. Do all of the following: 
+## Value Proposition Analysis
 ### Engineer Factors
 - Promise
 	- As an engineer, I promised to my clients that our product features high-precision floating point accuracy to 17 significant digits, and I would be lying to them if we went through with this.
@@ -26,6 +25,7 @@
 	- If the chips are sold the company will be risking its reputation and its future buyer's trust
 - Effort
 	- It would take a lot of effort and money to recall all of the chips for reprogramming.  It would be much cheaper and easier to continue to sell the chips at the risk of the company's reputation.
+
 ### Plan of Action
 1. Invest resources to rectify the incorrect entries in the firmware tables to ensure accurate floating-point operations.
 2. Transparently communicate the discovered issue to customers who have received beta units and delay the shipment of the 5000 manufactured calculators until the problem is resolved.
@@ -35,9 +35,8 @@
 
 ### Ramifications:
 
-1. **Financial Loss:** The recall and replacement process will incur significant financial costs for the company.
-2. **Reputational Damage:** Failure to address the issue promptly and transparently may result in reputational damage and loss of customer trust.
-3. **Delayed Time-to-Market:** Rectifying the problem will delay the release of the product to market, potentially impacting revenue projections.
-4. **Competitive Disadvantage:** Competitors may capitalize on the company's misstep, gaining a competitive advantage in the market.
-5. **Employee Morale:** The pressure to release the flawed product may impact employee morale and confidence in company leadership.
->>>>>>> origin/main
+1. The recall and replacement process will cause a lot of financial costs for the company.
+2. Failure to address the issue promptly and transparently may cause more reputational damage and loss of customer trust.
+3. Fixing the problem will delay the release of the product to market, potentially impacting the finances of the company.
+4. Competitors may capitalize on our company's mistake, call us out on it, and sell to our clients instead.
+5. The pressure to release a flawed chip may impact employee morale and confidence in company leadership.
