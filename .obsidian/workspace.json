@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0c93ee17fc3e6933",
@@ -157,12 +156,12 @@
   },
   "active": "145dd43d6e969b73",
   "lastOpenFiles": [
-    "Lab Handouts/02-handout.pdf",
+    "Media/Lab 03 Discussion.pdf",
     "Lab Reports/Lab 02 Formal Report.md",
+    "Lab Handouts/02-handout.pdf",
     "Formal Report Guidelines.pdf",
     "Lab Handouts/03-handout.pdf",
     "Lab Reports/Lab 03 Discussion.md",
-    "Media/Lab 03 Discussion.pdf",
     "Media/Lab 03 Discussion.docx",
     "Templates/Lab Formal Report Template.md",
     "Lab Reports/Lab 01 Informal Report.md",
