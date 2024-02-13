@@ -4,15 +4,15 @@
 		- Promise
 			- As an engineer, I promised to my clients that our product features high-precision floating point accuracy to 17 significants digits, and I would be lying to them if we went through with this.
 		- Credibility
-			- If we continue to sell this product, and people find out, my credibility will be tanked as en 
+			- If I continue to sell this product, and people find out, my credibility will be tanked as an engineer.
 		- Differentiator
 			- 
 		- Price
-			- 
+			- If I continue, it will be a lot less money than if we were to delay the project and spend money developing a new chip.
 		- Risk
-			- 
+			- If I continue, I am risking my credibility and risking my job if I get fired for this mistake. If I stop and don't sell the chips, I am risking losing reputation with my company.
 		- Effort
-			- 
+			- If I continue to sell the chip, it will be a lot less effort than having to develop a new chip and fix the problems with it. If I stop and don't sell the chips, I don't have to focus any more effort on it.
 	- Provide clear and reasonable arguments how each of the 6 factors apply to **your company.** 
 		- Promise
 			- 
