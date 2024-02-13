@@ -2,11 +2,11 @@
 - Write a reflection following the analysis section. For grading, see the rubric, briefly described here. Think of this list as a checklist. Do all of the following: 
 	- Provide clear and reasonable arguments how each of the 6 factors apply to **you, the engineer.** 
 		- Promise
-			- As an engineer, I promised to my clients that our product features high-precision floating point accuracy to 17 significants digits, and I would be lying to them if we went through with this.
+			- As an engineer, I promised to my clients that our product features high-precision floating point accuracy to 17 significant digits, and I would be lying to them if we went through with this.
 		- Credibility
 			- If I continue to sell this product, and people find out, my credibility will be tanked as an engineer.
 		- Differentiator
-			- 
+			- If we sell this product, and no one finds out, I will be well-regarded for my design and I will stand out from the rest.
 		- Price
 			- If I continue, it will be a lot less money than if we were to delay the project and spend money developing a new chip.
 		- Risk
