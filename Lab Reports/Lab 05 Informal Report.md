@@ -149,18 +149,12 @@ output < = A xnor B;
 <p style="text-align: center">(g)</p>
 <p style="text-align: center">Figure 1: Play-Doh Logic gate symbols (a) NOT gate, (b) AND gate, (c) OR gate, (d) NAND gate, (e) NOR gate, (f) XOR gate, (g) XNOR gate.</p>
 #### In-Depth Gate Analysis
-- The gate we'll select for in-depth analysis is our OR gate, represented in figure 1c.
+- The gate we'll select for in-depth analysis is the OR gate. Our novel logic gate symbol is represented in figure 1c.
 
-
-- Evaluate and discuss your novel logic gate symbol for the selected gate. 
-	- Is it sensible? Does its form help in expressing the gateʼs functionality or is it sensible in another way? 
+- The accepted logic gate does not seem sensible.
 
  - The form of our OR gate is in the shape of a right bracket. 
 		- This converges the two lines into a single vertical line and that vertical line is passed out of the front. We feel this is a better representation of the OR operation than the curved arrow. 
-		- The 90 degree angles also make it easier to draw and represent.
+		- The 90 degree angles also make it easier to draw and represent, as opposed to the curved arrow of the accepted design.
 	- It is aesthetically pleasing because of our 90 degree angles and right bracket design. 
-		- The two lines going inside of the bracket and then passing out as one line is nice to look at.
-
-		- Compare and contrast the sensibility of your novel symbol to the accepted symbol. Make the case for how it might be better, and/or how it might be worse. 
-	- Is it aesthetically pleasing? Why? (Note: this is a personal opinion) 
-		- Compare and contrast the aesthetics of your novel symbol to the accepted symbol. Make the case for how it is aesthetically better, and/or how it is worse, in your view
+		- The two lines going inside of the bracket and then passing out as one line is nice to look at. This is in contrast the sharp edges of the accepted OR gate and oblong curvy shape.
