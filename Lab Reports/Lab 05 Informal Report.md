@@ -153,6 +153,9 @@ output < = A xnor B;
 
 - Evaluate the accepted logic gate symbol for the selected gate. 
 	- Is it sensible? That is, does its form help in expressing the gateʼs functionality (e.g., truth table)? 
+
+The form of the OR gate is in the shape of a right bracket. This converges the two lines into a single vertical line and that vertical line is passed out of the front. We feel this is a better representation of the OR operation than the curved arrow. It  is also more accessible, because 
+
 	- Is it aesthetically pleasing? Why? (Note: this is a personal opinion) 
 - Evaluate and discuss your novel logic gate symbol for the selected gate. 
 	- Is it sensible? Does its form help in expressing the gateʼs functionality or is it sensible in another way? 
