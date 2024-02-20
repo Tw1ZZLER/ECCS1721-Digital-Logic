@@ -88,7 +88,47 @@ begin
 
 end architecture behavioral;
 ```
-
+![[Pasted image 20240220170157.png]]
+![[Pasted image 20240220170205.png]]
 ## Part D - More on Logic Gates
-- 
+- We went over seven logic gates and their boolean expressions, as well as schematic notations and VHDL. 
+#### Through
+$$O = A$$
+```vhdl
+output < = A;
+```
+#### NOT
+$$O = \overline{A} $$
+```vhdl
+output < = not A;
+```
+#### AND
+$$O = A\bullet B = AB $$
+```vhdl
+output < = A and B;
+```
+#### NAND
+$$O = \overline{A\bullet B} = \overline{AB}$$
+```vhdl
+output < = A nand B;
+```
+#### OR
+$$ O = A + B $$
+```vhdl
+output < = A or B;
+```
+#### NOR
+$$ O = \overline{A + B} $$
+```vhdl
+output < = A nor B;
+```
+#### XOR
+$$ O = A \oplus B = \overline{A}\bulletB$$
+```vhdl
+output < = A xor B;
+```
+#### XNOR
+```vhdl
+output < = A xnor B;
+```
 ## Part E - Novel Gate Representation Activity
