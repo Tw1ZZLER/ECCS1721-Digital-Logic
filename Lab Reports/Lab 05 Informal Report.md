@@ -137,9 +137,9 @@ output < = A xnor B;
 <p style="text-align: center">(a)</p>
 ![[Pasted image 20240220172529.png]]
 <p style="text-align: center">(b)</p>
-![[Pasted image 20240220172537.png]]
-<p style="text-align: center">(c)</p>
 ![[Pasted image 20240220172545.png]]
+<p style="text-align: center">(c)</p>
+![[Pasted image 20240220172537.png]]
 <p style="text-align: center">(d)</p>
 ![[Pasted image 20240220172615.png]]
 <p style="text-align: center">(e)</p>
@@ -149,6 +149,8 @@ output < = A xnor B;
 <p style="text-align: center">(g)</p>
 <p style="text-align: center">Figure 1: Play-Doh Logic gate symbols (a) NOT gate, (b) AND gate, (c) OR gate, (d) NAND gate, (e) NOR gate, (f) XOR gate, (g) XNOR gate.</p>
 #### In-Depth Gate Analysis
+- The gate we'll select for in-depth analysis is our OR gate, represented in figure 1c.
+
 - Evaluate the accepted logic gate symbol for the selected gate. 
 	- Is it sensible? That is, does its form help in expressing the gateʼs functionality (e.g., truth table)? 
 	- Is it aesthetically pleasing? Why? (Note: this is a personal opinion) 
