@@ -164,5 +164,12 @@ output < = A xnor B;
 #### Summary
 - In a summary paragraph (not a bulleted list) discuss how you have taken ownership of and expressed interest in logic gate symbol representation through this exercise. 
 	- Discuss why you examined the gate that you did. 
-	- Provide an overview sentence or two describing the remaining other novel gates. 
-	- Self-reflect on how this exercise has opened your eyes to some new insight with respect to logic gate functionality or symbols (new or accepted).
+
+We examined the OR gate 
+
+- Provide an overview sentence or two describing the remaining other novel gates. 
+
+
+
+- Self-reflect on how this exercise has opened your eyes to some new insight with respect to logic gate functionality or symbols (new or accepted).
+
