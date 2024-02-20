@@ -149,3 +149,11 @@ output < = A xnor B;
 <p style="text-align: center">(g)</p>
 <p style="text-align: center">Figure 1: Play-Doh Logic gate symbols (a) NOT gate, (b) AND gate, (c) OR gate, (d) NAND gate, (e) NOR gate, (f) XOR gate, (g) XNOR gate.</p>
 #### In-Depth Gate Analysis
+- Evaluate the accepted logic gate symbol for the selected gate. 
+	- Is it sensible? That is, does its form help in expressing the gateʼs functionality (e.g., truth table)? 
+	- Is it aesthetically pleasing? Why? (Note: this is a personal opinion) 
+- Evaluate and discuss your novel logic gate symbol for the selected gate. 
+	- Is it sensible? Does its form help in expressing the gateʼs functionality or is it sensible in another way? 
+		- Compare and contrast the sensibility of your novel symbol to the accepted symbol. Make the case for how it might be better, and/or how it might be worse. 
+	- Is it aesthetically pleasing? Why? (Note: this is a personal opinion) 
+		- Compare and contrast the aesthetics of your novel symbol to the accepted symbol. Make the case for how it is aesthetically better, and/or how it is worse, in your view
