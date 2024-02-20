@@ -50,7 +50,8 @@ begin
 end architecture behavioral;
 ```
 
-
+![[Pasted image 20240220161411.png]]
+![[Pasted image 20240220161437.png]]
 
 ## Part C - Implementing Logic Gates
 
