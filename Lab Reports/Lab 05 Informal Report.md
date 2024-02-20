@@ -133,6 +133,19 @@ $$ O = \overline{A \oplus B} = \overline{A} \cdot \overline{B} + A \cdot B$$
 output < = A xnor B;
 ```
 ## Part E - Novel Gate Representation Activity
-![[Pasted image 20240220172328.png]]![[Pasted image 20240220172529.png]]
+![[Pasted image 20240220172328.png]]
+<p style="text-align: center">(a)</p>
+![[Pasted image 20240220172529.png]]
+<p style="text-align: center">(b)</p>
 ![[Pasted image 20240220172537.png]]
+<p style="text-align: center">(c)</p>
 ![[Pasted image 20240220172545.png]]
+<p style="text-align: center">(d)</p>
+![[Pasted image 20240220172615.png]]
+<p style="text-align: center">(e)</p>
+![[Pasted image 20240220172623.png]]
+<p style="text-align: center">(f)</p>
+![[Pasted image 20240220172630.png]]
+<p style="text-align: center">(g)</p>
+<p style="text-align: center">Figure 1: Play-Doh Logic gate symbols (a) NOT gate, (b) AND gate, (c) OR gate, (d) NAND gate, (e) NOR gate, (f) XOR gate, (g) XNOR gate.</p>
+#### In-Depth Gate Analysis
