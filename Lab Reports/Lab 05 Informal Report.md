@@ -154,7 +154,8 @@ output < = A xnor B;
 - The accepted logic gate does not seem sensible. 
 	- The curved arrow does not represent the OR operation to us. 
 	- The convergence of the arrow into the line might incorrectly represent the AND operation to some.
-- 
+- The accepted logic gate is aesthetically pleasing.
+	- We will admit that the curved arrow is more pretty
 
  - The form of our OR gate is in the shape of a right bracket. 
 		- This converges the two lines into a single vertical line and that vertical line is passed out of the front. We feel this is a better representation of the OR operation than the curved arrow. 
