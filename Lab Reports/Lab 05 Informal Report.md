@@ -103,12 +103,12 @@ $$O = \overline{A} $$
 output < = not A;
 ```
 #### AND
-$$O = A\bullet B = AB $$
+$$O = A\cdot B = AB $$
 ```vhdl
 output < = A and B;
 ```
 #### NAND
-$$O = \overline{A\bullet B} = \overline{AB}$$
+$$O = \overline{A\cdot B} = \overline{AB}$$
 ```vhdl
 output < = A nand B;
 ```
@@ -123,11 +123,12 @@ $$ O = \overline{A + B} $$
 output < = A nor B;
 ```
 #### XOR
-$$ O = A \oplus B = \overline{A}\bulletB$$
+$$ O = A \oplus B = A \cdot \overline{B} +\overline{A} \cdot B$$
 ```vhdl
 output < = A xor B;
 ```
 #### XNOR
+$$ O = \overline{A \oplus B} = \overline{A} \cdot \overline{B} + A \cdot B$$
 ```vhdl
 output < = A xnor B;
 ```
