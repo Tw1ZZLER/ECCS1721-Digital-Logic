@@ -150,15 +150,19 @@ output < = A xnor B;
 <p style="text-align: center">Figure 1: Play-Doh Logic gate symbols (a) NOT gate, (b) AND gate, (c) OR gate, (d) NAND gate, (e) NOR gate, (f) XOR gate, (g) XNOR gate.</p>
 #### In-Depth Gate Analysis
 - The gate we'll select for in-depth analysis is the OR gate. Our novel logic gate symbol is represented in figure 1c.
-
-- The accepted logic gate does not seem sensible. 
-	- The curved arrow does not represent the OR operation to us. 
-	- The convergence of the arrow into the line might incorrectly represent the AND operation to some.
-- The accepted logic gate is aesthetically pleasing.
-	- We will admit that the curved arrow is more pretty
-
+	- The accepted logic gate does not seem sensible. 
+		- The curved arrow does not represent the OR operation to us. 
+		- The convergence of the arrow into the line might incorrectly represent the AND operation to some.
+	- The accepted logic gate is aesthetically pleasing.
+		- We will admit that the curved arrow is more pretty to look at than our right bracket. However, this takes away from the function of the gate.
  - The form of our OR gate is in the shape of a right bracket. 
 		- This converges the two lines into a single vertical line and that vertical line is passed out of the front. We feel this is a better representation of the OR operation than the curved arrow. 
 		- The 90 degree angles also make it easier to draw and represent, as opposed to the curved arrow of the accepted design.
 	- It is aesthetically pleasing because of our 90 degree angles and right bracket design. 
 		- The two lines going inside of the bracket and then passing out as one line is nice to look at. This is in contrast the sharp edges of the accepted OR gate and oblong curvy shape.
+
+#### Summary
+- In a summary paragraph (not a bulleted list) discuss how you have taken ownership of and expressed interest in logic gate symbol representation through this exercise. 
+	- Discuss why you examined the gate that you did. 
+	- Provide an overview sentence or two describing the remaining other novel gates. 
+	- Self-reflect on how this exercise has opened your eyes to some new insight with respect to logic gate functionality or symbols (new or accepted).
