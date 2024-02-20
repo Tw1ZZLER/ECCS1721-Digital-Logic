@@ -90,5 +90,5 @@ end architecture behavioral;
 ```
 
 ## Part D - More on Logic Gates
-
+- 
 ## Part E - Novel Gate Representation Activity
