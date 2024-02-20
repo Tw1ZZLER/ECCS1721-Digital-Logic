@@ -133,3 +133,6 @@ $$ O = \overline{A \oplus B} = \overline{A} \cdot \overline{B} + A \cdot B$$
 output < = A xnor B;
 ```
 ## Part E - Novel Gate Representation Activity
+![[Pasted image 20240220172328.png]]![[Pasted image 20240220172529.png]]
+![[Pasted image 20240220172537.png]]
+![[Pasted image 20240220172545.png]]
