@@ -151,7 +151,10 @@ output < = A xnor B;
 #### In-Depth Gate Analysis
 - The gate we'll select for in-depth analysis is the OR gate. Our novel logic gate symbol is represented in figure 1c.
 
-- The accepted logic gate does not seem sensible.
+- The accepted logic gate does not seem sensible. 
+	- The curved arrow does not represent the OR operation to us. 
+	- The convergence of the arrow into the line might incorrectly represent the AND operation to some.
+- 
 
  - The form of our OR gate is in the shape of a right bracket. 
 		- This converges the two lines into a single vertical line and that vertical line is passed out of the front. We feel this is a better representation of the OR operation than the curved arrow. 
