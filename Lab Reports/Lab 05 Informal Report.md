@@ -169,7 +169,8 @@ We examined the OR gate because out of the 3 main symbols for logic gates, it is
 
 - Provide an overview sentence or two describing the remaining other novel gates. 
 
-The other novel gates include an angled bracket for the AND and NAND gates, 
+The other novel gates include an angled bracket for the AND and NAND gates, and a vertical line to represent the inverter in the NOT, NAND, and XNOR gates. The XOR and XNOR gates feature a vertical line on the left of the angle brackets to close off the brackets into rectangles.
 
 - Self-reflect on how this exercise has opened your eyes to some new insight with respect to logic gate functionality or symbols (new or accepted).
 
+I never really thought about how important having legible and functionally symbolic logic gate symbols was before 
