@@ -162,15 +162,6 @@ output < = A xnor B;
 		- The two lines going inside of the bracket and then passing out as one line is nice to look at. This is in contrast the sharp edges of the accepted OR gate and oblong curvy shape.
 
 #### Summary
-- In a summary paragraph (not a bulleted list) discuss how you have taken ownership of and expressed interest in logic gate symbol representation through this exercise. 
-	- Discuss why you examined the gate that you did. 
-
-We examined the OR gate because out of the 3 main symbols for logic gates, it is the most confusing. The sharpness of the arrow does not indicate anything about how it's logic functions, and we thought we could do it better.
-
-- Provide an overview sentence or two describing the remaining other novel gates. 
-
-The other novel gates include an angled bracket for the AND and NAND gates, and a vertical line to represent the inverter in the NOT, NAND, and XNOR gates. The XOR and XNOR gates feature a vertical line on the left of the angle brackets to close off the brackets into rectangles.
-
-- Self-reflect on how this exercise has opened your eyes to some new insight with respect to logic gate functionality or symbols (new or accepted).
-
-I never really thought about how important having legible and functionally symbolic logic gate symbols was before 
+- We examined the OR gate because out of the 3 main symbols for logic gates, it is the most confusing. The sharpness of the arrow does not indicate anything about how it's logic functions, and we thought we could do it better.
+- The other novel gates include an angled bracket for the AND and NAND gates, and a vertical line to represent the inverter in the NOT, NAND, and XNOR gates. The XOR and XNOR gates feature a vertical line on the left of the angle brackets to close off the brackets into rectangles.
+- I never really thought about how important having legible and functionally symbolic logic gate symbols was before this lab. I respect the work that engineers before me have put into designing the logic gate schematic system and their symbols.
