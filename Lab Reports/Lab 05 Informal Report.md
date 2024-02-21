@@ -165,7 +165,7 @@ output < = A xnor B;
 - In a summary paragraph (not a bulleted list) discuss how you have taken ownership of and expressed interest in logic gate symbol representation through this exercise. 
 	- Discuss why you examined the gate that you did. 
 
-We examined the OR gate because out of the 3 main symbols for logic gates, it is the most confusing. 
+We examined the OR gate because out of the 3 main symbols for logic gates, it is the most confusing. The sharpness of the arrow does not indicate 
 
 - Provide an overview sentence or two describing the remaining other novel gates. 
 
