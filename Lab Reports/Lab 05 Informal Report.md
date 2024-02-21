@@ -135,9 +135,9 @@ output < = A xnor B;
 ```
 
 ## Part E - Novel Gate Representation Activity
-![[Pasted image 20240220172328.png]]
+![[Media/Pasted image 20240220172328.png]]
 <p style="text-align: center">(a)</p>
-![[Pasted image 20240220172529.png]]
+![[Media/Pasted image 20240220172529.png]]
 <p style="text-align: center">(b)</p>
 ![[Pasted image 20240220172545.png]]
 <p style="text-align: center">(c)</p>
