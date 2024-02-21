@@ -23,15 +23,15 @@
 
 ### Results
 - In our simulation, we created a waveform of what our hardware is doing at each nanosecond, as shown in Figure 1:
-![[../../Media/Pasted image 20240130172107.png]]
+![[waveform-02-01.png]]
 Figure 1: Waveform Simulation of Comparator
 
 - We can also view a hardware schematic of our simulation, with no changes to the VHDL, as shown in Figure 2:
-![[../../Media/Pasted image 20240130173713.png]]
+![[02-schematic.png]]
 Figure 2: Schematic of Hardware without any changes
 
 - We can remove the signed 0 from the schematic as well, and we get the following schematic in Figure 3:
-![[../../Media/Pasted image 20240130173915.png]]
+![[02-schematic-1.png]]
 Figure 3: Schematic of Hardware with the signed 0 removed
 
 
