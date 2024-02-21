@@ -165,11 +165,11 @@ output < = A xnor B;
 - In a summary paragraph (not a bulleted list) discuss how you have taken ownership of and expressed interest in logic gate symbol representation through this exercise. 
 	- Discuss why you examined the gate that you did. 
 
-We examined the OR gate because out of the 3 main symbols for logic gates, it is the most confusing. The sharpness of the arrow does not indicate 
+We examined the OR gate because out of the 3 main symbols for logic gates, it is the most confusing. The sharpness of the arrow does not indicate anything about how it's logic functions, and we thought we could do it better.
 
 - Provide an overview sentence or two describing the remaining other novel gates. 
 
-
+The other novel gates include an angled bracket for the AND and NAND gates, 
 
 - Self-reflect on how this exercise has opened your eyes to some new insight with respect to logic gate functionality or symbols (new or accepted).
 
