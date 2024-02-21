@@ -90,6 +90,7 @@ end architecture behavioral;
 ```
 ![[Pasted image 20240220170157.png]]
 ![[Pasted image 20240220170205.png]]
+
 ## Part D - More on Logic Gates
 - We went over seven logic gates and their boolean expressions, as well as schematic notations and VHDL. 
 #### Through
@@ -132,6 +133,7 @@ $$ O = \overline{A \oplus B} = \overline{A} \cdot \overline{B} + A \cdot B$$
 ```vhdl
 output < = A xnor B;
 ```
+
 ## Part E - Novel Gate Representation Activity
 ![[Pasted image 20240220172328.png]]
 <p style="text-align: center">(a)</p>
@@ -148,6 +150,7 @@ output < = A xnor B;
 ![[Pasted image 20240220172630.png]]
 <p style="text-align: center">(g)</p>
 <p style="text-align: center">Figure 1: Play-Doh Logic gate symbols (a) NOT gate, (b) AND gate, (c) OR gate, (d) NAND gate, (e) NOR gate, (f) XOR gate, (g) XNOR gate.</p>
+
 #### In-Depth Gate Analysis
 - The gate we'll select for in-depth analysis is the OR gate. Our novel logic gate symbol is represented in figure 1c.
 	- The accepted logic gate does not seem sensible. 
