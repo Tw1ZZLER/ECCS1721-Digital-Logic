@@ -1,0 +1,389 @@
+/* 
+Modified from ScottKillen's print.css
+https://gist.github.com/ScottKillen/499246e2f44fc1b59d8ff3795311f21f 
+*/
+
+@media print {
+  :root {
+    /* my colors */
+    /* --r-dark0:        #212121;
+    --r-light2-soft:  #c4b09c;
+    --dark-red:       #bc0104;
+    --red-orange:     #cd2b11;
+    --deep-orange:    #ed5b0f;
+    --bright-orange:  #fe750e;
+    --yellow-orange:  #fe9109;
+    --dark-orange:    #d5520e;
+    --meteor:         #72504b;
+    --gunmetal:       #534f4e;
+    --scorpion:       #625e5e;
+    --test-green:     #00ff00;
+    */
+    
+
+    /* gruvbox colors */
+    /* --dark0-soft:     #32302f;
+    --light0:         #fbf1c7;
+    --light0-hard:    #f9f5d7;
+    --light1:         #ebdbb2; */
+    --neutral-red_x:    204,36,29; /* #cc241d */
+    --neutral-red:      rgb(var(--neutral-red_x));
+    --neutral-green_x:  152,151,26; /* #98971a */
+    --neutral-green:    rgb(var(--neutral-green_x));
+    --neutral-yellow_x: 215,153,33; /* #d79921 */
+    --neutral-yellow:   rgb(var(--neutral-yellow_x));
+    --neutral-blue_x:   69,133,136; /* #458588 */
+    --neutral-blue:     rgb(var(--neutral-blue_x));
+    --neutral-purple_x: 177,98,134; /* #b16286 */
+    --neutral-purple:   rgb(var(--neutral-purple_x));
+    --neutral-aqua_x:   104,157,106; /* #689d6a */
+    --neutral-aqua:     rgb(var(--neutral-aqua_x));
+    --neutral-orange_x: 214,93,14; /* #d65d0e */
+    --neutral-orange:   rgb(var(--neutral-orange_x));
+
+    /* fonts */
+    --body-font-family: -apple-system, BlinkMacSystemFont, SF Pro Text, SF Mono, Monospace, Segoe UI;
+    --header-font-family: var(--body-font-family);
+    --code-font-family: "JetBrains Mono", Monospace, "Segoe UI";
+
+    /* headers */ 
+    /* --text-title-h1:              var(--dark-red);
+    --text-title-h2:              var(--red-orange);
+    --text-title-h3:              var(--deep-orange);
+    --text-title-h4:              var(--bright-orange);
+    --text-title-h5:              var(--yellow-orange);
+    --text-title-h6:              var(--meteor); */
+
+    /* special text */
+    /* --text-a:                     var(--bright-orange);
+    --text-a-hover:               var(--yellow-orange);
+    --text-link:                  var(--dark-orange);
+    --text-link-hover:            var(--deep-orange); */
+
+    /* code */
+    --print-codeblock-color:      #ece9e5;
+    --pre-code:                   var(--print-codeblock-color) !important;
+    --print-code-punctuation:     var(--gunmetal) !important;
+    --print-code-function:        var(--neutral-orange) !important;
+    --print-code-keyword:         var(--neutral-purple) !important;
+    --print-code-operator:        var(--neutral-red) !important;
+    --print-code-string:          var(--neutral-green) !important;
+
+  }
+
+  body {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.4;
+    word-spacing: 1.1pt;
+    letter-spacing: 0.2pt;
+    font-family: var(--body-font-family);
+    /* background: none; */
+    background: none;
+    font-size: 12pt;
+    tab-size: 2; /* set tab size, works in codeblock */
+  }
+
+  p {
+    margin-top: 0.25em !important;
+    margin-bottom: 1em !important;
+  }
+
+  /* page break stuff */
+  .image-embed,
+  img,
+  blockquote,
+  table,
+  pre,
+  .callout {
+    page-break-inside: avoid;
+  }
+
+  /* ul, ul > ul {
+    page-break-before: avoid;
+    page-break-inside: avoid;
+  } */
+
+  li:not(li:empty) {
+    page-break-inside: avoid;
+  }
+
+  li:empty {
+    page-break-before: avoid;
+    page-break-after: auto;
+  }
+
+  /* header formatting */
+  h1, h2, h3, h4, h5, h6 {
+    /* font-family: var(--header-font-family); */
+    page-break-before: auto;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    font-weight: 500 !important;
+  }
+
+  h1 {
+    font-size: 2.2em !important;
+    color: var(--text-title-h1) !important;
+  }
+
+  h1 a.internal-link, h1 code {
+    color: var(--text-title-h1) !important;
+  }
+
+  h2 {
+    font-size: 2.0em !important;
+    color: var(--text-title-h2) !important;
+  }
+
+  h2 a.internal-link, h2 code {
+    color: var(--text-title-h2) !important;
+  }
+
+  h3 {
+    font-size: 1.8em !important;
+    color: var(--text-title-h3) !important;
+  }
+
+  h3 a.internal-link, h3 code {
+    color: var(--text-title-h3) !important;
+  }
+
+  h4 {
+    font-size: 1.6em !important;
+    color: var(--text-title-h4) !important;
+  }
+
+  h4 a.internal-link, h4 code {
+    color: var(--text-title-h4) !important;
+  }
+
+  h5 {
+    font-size: 1.4em !important;
+    color: var(--text-title-h5) !important;
+  }
+
+  h5 a.internal-link, h5 code {
+    color: var(--text-title-h5) !important;
+  }
+
+  h6 {
+    font-size: 1.2em !important;
+    color: var(--text-title-h6) !important;
+  }
+
+  h6 a.internal-link, h6 code {
+    color: var(--text-title-h6) !important;
+  }
+
+  /* callouts */
+  .callout {
+    /* background: none; */
+    /* border-width: 1px;
+    border-color: rgba(var(--callout-color), 0.75); */
+  }
+
+  /* remove drop shadows from (first?) admonition/callout in document */
+  /* subsequent callouts are not affected (???) */
+  .callout, 
+  .callout:not(.admonition).drop-shadow {
+    box-shadow: none;
+  }
+
+  .callout-content {
+    padding: var(--callout-content-padding);
+  }
+
+  /* printing task lists inside callouts cuts them off unlike in obsidian */
+  .callout-content ul.contains-task-list {
+    padding-left: var(--size-4-6);
+    padding-top: var(--size-4-1);
+  }
+
+  /* code formatting */
+  code, code[class*="language-"],
+  pre, pre[class*="language-"],
+  code span, pre > code, pre code, 
+  .callout code,
+  .theme-dark code[class*="language-"], 
+  .theme-dark pre[class*="language-"], 
+  .theme-light code[class*="language-"], 
+  .theme-light pre[class*="language-"]
+  {
+    background-color: var(--print-codeblock-color) !important;
+    /* color: var(--r-dark0); */
+  }
+
+  span[class*="token keyword"],
+  span[class*="token property"] {
+    color: var(--print-code-keyword) !important;
+  }
+
+  span[class*="token punctuation"] {
+    color: var(--print-code-punctuation) !important;
+  }
+
+  span[class*="token function"],
+  span[class*="token color"] {
+    color: var(--print-code-function) !important;
+  }
+
+  span[class*="token operator"],
+  span[class*="token tag"] {
+    color: var(--print-code-operator) !important;
+  }
+
+  span[class*="token string"],
+  span[class*="token attr-name"] {
+    color: var(--print-code-string) !important;
+  }
+
+  /* scott's code stuff */
+  code, code[class*="language-"],
+  pre, pre[class*="language-"] {
+    font-size: 10pt;
+    font-family: var(--code-font-family);
+    /* color: black !important; */
+    /* background: none !important; */
+    /* background-color: #1a1a1a !important; */
+  }
+
+  /* pre,
+  code span,
+  code {
+    color: black !important;
+  } */
+
+  code {
+    /* border: 1px solid darkgray !important; */
+    padding: 0 0.2em !important;
+    line-height: initial !important;
+    border-radius: 4px !important;
+  }
+
+  pre {
+    /* border: 1px solid darkgray !important; */
+    margin: 1em 0px !important;
+    padding: 0.5em !important;
+    border-radius: 4px !important;
+  }
+
+  pre > code {
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-radius: 4px !important;
+  }
+
+  blockquote {
+    margin: 1.3em;
+    padding: 1em;
+    font-size: 10pt;
+    /* color: darkslategray !important; */
+  }
+
+  hr {
+    background-color: #ccc;
+  }
+
+  img {
+    display:block;
+    margin: 1em 0;
+  }
+
+  a img {
+    border: none;
+  }
+
+  table {
+    margin: 1px;
+    text-align: left;
+  }
+
+  th {
+    border-bottom: 1px aolis #333;
+  }
+
+  td {
+    border-bottom: 1px solid #333;
+  }
+
+  th, td, tr {
+    padding: 4px 10px 4px 0;
+    color: black !important;
+    background: none !important;
+  }
+
+  tfoot {
+    font-style: italic;
+  }
+
+  caption {
+    background: #fff;
+    margin-bottom: 2em;
+    text-align: left;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
+  /* a[aria-label]::after {
+    display: inline !important;
+    content: " (" attr(aria-label) ")" !important;
+    color: slategray !important;
+    font-size: 70% !important;
+  } */
+
+  a[class="tag"] {
+    font-weight: bold;
+    font-family: var(--font-monospace);
+    background: none;
+  }
+
+  /* -=-=-=-=-=-=- */
+  /* Specific to custom checkboxes in @kepano's minimal theme */
+  /* li[data-task="/"]>input:checked::after,
+  input[type=checkbox]:checked::after {
+    background-color: black;
+  }
+
+  input[type=checkbox]:checked {
+    background: none;
+  }
+
+  ul>li.task-list-item[data-task="x"] {
+    color: black;
+  }
+
+  li[data-task="!"]>input:checked::after,
+  li[data-task="*"]>input:checked::after,
+  li[data-task='"']>input:checked::after,
+  li[data-task="l"]>input:checked::after,
+  li[data-task="b"]>input:checked::after,
+  li[data-task="i"]>input:checked::after,
+  li[data-task="S"]>input:checked::after,
+  li[data-task="I"]>input:checked::after,
+  li[data-task="p"]>input:checked::after,
+  li[data-task="c"]>input:checked::after,
+  li[data-task="f"]>input:checked::after,
+  li[data-task="k"]>input:checked::after,
+  li[data-task="w"]>input:checked::after,
+  li[data-task="u"]>input:checked::after,
+  li[data-task="d"]>input:checked::after,
+  li[data-task="?"]>input:checked::after {
+    background: none !important;
+    -webkit-mask-image: none !important;
+  } */
+  /* -=-=-=-=-=-=- */
+}
