@@ -76,8 +76,9 @@ end architecture behavioral;
 ![[Pasted image 20240227162346.png]]
 ### Answers to handout questions
 - Is the resource utilization the same as the previous code?
-	- Yes, it i
+	- Yes, it is the same.
 - Verify the functionality. Is the functionality the same as the previous code?
+	- 
 
 ## Part D - K-Map Game
 - Scan or picture of completed K-Map Game 
