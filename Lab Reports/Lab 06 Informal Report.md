@@ -1,6 +1,6 @@
 ## Part B - Hexadecimal to 7-Segment
 #### Screenshots of FPGA resource utilization (LUTs, FFs) 
-
+![[Pasted image 20240227174459.png]]
 #### Screenshots of Elaborated Design 
 
 #### Pictures of FPGA development board with functional hardware running 
@@ -42,7 +42,7 @@ $$ O = AB + AC + AD + BC + BD + CD $$
 $$ O = (A+B+C)(A+B+D)(A+C+D)(B+C+D)$$
 
 #### Pictures of drawn gate implementation
-
+![[Pasted image 20240227174348.png]]
 #### Completed VHDL Code 
 ```vhdl
 library IEEE;
