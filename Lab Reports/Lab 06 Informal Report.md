@@ -7,13 +7,23 @@
 ## Part C - The Two-High-Bit Challenge Strikes Back
 - Derived 4x4 K-Map and equations 
 
+| A   | B   | C   | D   | O   |
+| --- | --- | --- | --- | --- |
+| 0   | 0   | 0   | 0   | 0   |
+| 0   | 0   | 0   | 1   | 0   |
+| 0   | 0   | 1   | 0   | 0   |
+| 0   | 0   | 1   | 1   | 1   |
+| 0   | 1   | 0   | 0   | 0   |
+| 0   | 1   | 0   | 1   | 1   |
+|     |     |     |     |     |
 
-| AB/CD                      | $\overline{C}\overline{D}$ | $\overline{C}\overline{D}$ |     |     |
-| -------------------------- | -------------------------- | -------------------------- | --- | --- |
-| $\overline{A}\overline{B}$ |                            |                            |     |     |
-| $\overline{A}B$            |                            |                            |     |     |
-| $AB$                       |                            |                            |     |     |
-| $A\overline{B}$            |                            |                            |     |     |
+
+| AB/CD                      | $\overline{C}\overline{D}$ | $\overline{C}D$ | $CD$ | $C\overline{D}$ |
+| -------------------------- | -------------------------- | --------------- | ---- | --------------- |
+| $\overline{A}\overline{B}$ | 0                          | 0               | 1    | 0               |
+| $\overline{A}B$            | 0                          | 1               | 1    | 1               |
+| $AB$                       | 1                          | 1               | 1    | 1               |
+| $A\overline{B}$            | 0                          | 1               | 1    | 1               |
 
 
 - Completed VHDL Code 
