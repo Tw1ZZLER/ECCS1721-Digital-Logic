@@ -8,8 +8,8 @@
 ![[Pasted image 20240227174914.png]]
 ![[Pasted image 20240227174921.png]]
 #### Answers to selected discussion questions (see individual handouts) 
-*10.*  The most significant bit is switch 15 (R2)
-*11.*   Anything past 9 would need 2 digits in base 10 
+10. The most significant bit is switch 15 (R2)
+11. Anything past 9 would need 2 digits in base 10 but we are in      base 15 
 
 ## Part C - The Two-High-Bit Challenge Strikes Back
 #### Derived 4x4 K-Map and equations 
