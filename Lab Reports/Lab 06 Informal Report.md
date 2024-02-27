@@ -5,7 +5,7 @@
 - Answers to selected discussion questions (see individual handouts) 
 
 ## Part C - The Two-High-Bit Challenge Strikes Back
-- Derived 4x4 K-Map and equations 
+Derived 4x4 K-Map and equations 
 
 | A   | B   | C   | D   | O   |
 | --- | --- | --- | --- | --- |
@@ -35,7 +35,7 @@
 ###### Sum-of-Products
 $$ O = AB + AC + AD + BC + BD + CD $$
 ###### Product-of-Sums
-$$ O = ()()()()$$
+$$ O = (A+B+C)(A+B+D)(A+C+D)(B+C+D)$$
 
 - Completed VHDL Code 
 - Screenshot of FPGA resource utilization (LUTs, FFs) 
