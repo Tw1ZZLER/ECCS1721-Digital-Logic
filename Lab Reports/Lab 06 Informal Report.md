@@ -90,7 +90,28 @@ end architecture behavioral;
 #### Sum of Product and Product of Sum implementation drawings and analysis 
 ##### Game 1
 ###### Sum-of-Products
-
-###### Proud
+$$ O = D $$
+###### Product-of-Sums
+$$ O = D $$
+##### Game 2
+###### Sum-of-Products
+$$ O = \overline{C}AB + \overline{C}\overline{A}\overline{B} + D\overline{A}B + \overline{D}AB + A\overline{C}\overline{D}$$
+###### Product-of-Sums
+$$ O = (\overline{C+B) $$
+##### Game 3
+###### Sum-of-Products
+$$ O =  $$
+###### Product-of-Sums
+$$ O =  $$
+##### Game 4
+###### Sum-of-Products
+$$ O =  $$
+###### Product-of-Sums
+$$ O =  $$
+##### Game 5
+###### Sum-of-Products
+$$ O =  $$
+###### Product-of-Sums
+$$ O =  $$
 
 #### Reflection from handout
