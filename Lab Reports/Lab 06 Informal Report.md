@@ -6,6 +6,13 @@
 
 ## Part C - The Two-High-Bit Challenge Strikes Back
 - Derived 4x4 K-Map and equations 
+
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+|     |     |     |     |     |
+
+
 - Completed VHDL Code 
 - Screenshot of FPGA resource utilization (LUTs, FFs) 
 - Screenshot of Elaborated Design 
