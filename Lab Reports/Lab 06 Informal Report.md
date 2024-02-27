@@ -2,9 +2,11 @@
 #### Screenshots of FPGA resource utilization (LUTs, FFs) 
 ![[Pasted image 20240227174459.png]]
 #### Screenshots of Elaborated Design 
-
+![[Pasted image 20240227174818.png]]
 #### Pictures of FPGA development board with functional hardware running 
-
+![[Pasted image 20240227174907.png]]
+![[Pasted image 20240227174914.png]]
+![[Pasted image 20240227174921.png]]
 #### Answers to selected discussion questions (see individual handouts) 
 *10.*  The most significant bit is switch 15 (R2)
 *11.*   Anything past 9 would need 2 digits in base 10 
