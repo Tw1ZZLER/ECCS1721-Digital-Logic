@@ -81,6 +81,7 @@ end architecture behavioral;
 	- The functionality is not the same.
 
 ## Part D - K-Map Game
-- Scan or picture of completed K-Map Game 
+### Scan or picture of completed K-Map Game 
+![[Feb 27, Doc 2 Page 0.jpeg]]
 - Sum of Product and Product of Sum implementation drawings and analysis 
 - Reflection from handout
