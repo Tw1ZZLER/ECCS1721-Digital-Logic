@@ -39,7 +39,33 @@ $$ O = (A+B+C)(A+B+D)(A+C+D)(B+C+D)$$
 
 ### Completed VHDL Code 
 ```vhdl
+library IEEE;
+  use IEEE.std_logic_1164.all;
+  use IEEE.numeric_std.all;
 
+entity lab06c is
+  port (
+    switches : in    std_logic_vector(15 downto 0);
+    leds     : out   std_logic_vector(15 downto 0)
+  );
+end lab06c;
+
+architecture behavioral of lab06c is
+
+  signal input  : std_logic_vector(3 downto 0); -- input 4 bits
+  signal output : std_logic;                    -- output 1 bit
+
+  --* Hint: it may help to declare one or more additional signals
+
+begin
+
+  --* Do not modify
+  input   <= switches(3 downto 0);
+  leds(0) <= output;
+  
+  output <= (input(0) or input(1) or input(2)) and (input(0) or input(2) or input(3)) and (input(1) or input(2) or input(3)) and (input(0) or input(1) or input(3));
+  
+end architecture behavioral;
 ```
 ### Screenshot of FPGA resource utilization (LUTs, FFs) 
 
