@@ -63,7 +63,10 @@ begin
   input   <= switches(3 downto 0);
   leds(0) <= output;
   
-  output <= (input(0) or input(1) or input(2)) and (input(0) or input(2) or input(3)) and (input(1) or input(2) or input(3)) and (input(0) or input(1) or input(3));
+  output <= (input(0) or input(1) or input(2)) and
+		    (input(0) or input(2) or input(3)) and 
+		    (input(1) or input(2) or input(3)) and 
+		    (input(0) or input(1) or input(3));
   
 end architecture behavioral;
 ```
