@@ -115,4 +115,4 @@ $$ O =  $$
 $$ O =  $$
 
 #### Reflection from handout
-by playing these 5 k-map games we have a better understanding of how to group the 1's and 0's and how to explain 
+By playing these 5 k-map games we have a better understanding of how to group the 1's and 0's and how to explain those groupings using the least amount of transistors.
