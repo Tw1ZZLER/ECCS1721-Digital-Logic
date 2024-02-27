@@ -44,7 +44,7 @@ $$ O = (A+B+C)(A+B+D)(A+C+D)(B+C+D)$$
 ### Screenshot of FPGA resource utilization (LUTs, FFs) 
 
 ### Screenshot of Elaborated Design 
-
+![[Pasted image 20240227162346.png]]
 ### Answers to handout questions
 - Is the resource utilization the same as the previous code?
 - Verify the functionality. Is the functionality the same as the previous code?
