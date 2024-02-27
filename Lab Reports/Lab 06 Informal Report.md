@@ -87,6 +87,7 @@ end architecture behavioral;
 ## Part D - K-Map Game
 #### Scan or picture of completed K-Map Game 
 ![[Feb 27, Doc 2 Page 0.jpeg]]
+- Game 2 correction: $(\overline{C} \cdot B)$ should be $(\overline{C}+B)$ 
 #### Sum of Product and Product of Sum implementation drawings and analysis 
 ##### Game 1
 ###### Sum-of-Products
@@ -105,12 +106,12 @@ $$ O = A\overline{D} + \overline{B}D + B\overline{C}\overline{D} $$
 $$ O = (\overline{B}+\overline{D})(A+B+D)(A+\overline{C}+D) $$
 ##### Game 4
 ###### Sum-of-Products
-$$ O =  $$
+$$ O = \overline{A}D+\overline{B}\overline{C} +A\overline{B} $$
 ###### Product-of-Sums
-$$ O =  $$
+$$ O = (\overline{A}+\overline{B})(D+\overline{B})(\overline{C}+D+A) $$
 ##### Game 5
 ###### Sum-of-Products
-$$ O =  $$
+$$ O = A\overline{CD} + \overline{AC}D + ABCD + A\overline{BD} +\overline{A}B\overline{C} $$
 ###### Product-of-Sums
 $$ O =  $$
 
