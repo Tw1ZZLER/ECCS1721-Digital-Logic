@@ -32,9 +32,9 @@
 | $\overline{A}B$            | 0                          | 1               | 1    | 1               |
 | $AB$                       | 1                          | 1               | 1    | 1               |
 | $A\overline{B}$            | 0                          | 1               | 1    | 1               |
-###### Sum-of-Products
+#### Sum-of-Products
 $$ O = AB + AC + AD + BC + BD + CD $$
-###### Product-of-Sums
+#### Product-of-Sums
 $$ O = (A+B+C)(A+B+D)(A+C+D)(B+C+D)$$
 
 ### Completed VHDL Code 
@@ -78,7 +78,7 @@ end architecture behavioral;
 - Is the resource utilization the same as the previous code?
 	- Yes, it is the same.
 - Verify the functionality. Is the functionality the same as the previous code?
-	- 
+	- The functionality is not the same.
 
 ## Part D - K-Map Game
 - Scan or picture of completed K-Map Game 
