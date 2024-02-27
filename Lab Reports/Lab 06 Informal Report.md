@@ -71,7 +71,7 @@ begin
 end architecture behavioral;
 ```
 ### Screenshot of FPGA resource utilization (LUTs, FFs) 
-
+![[Pasted image 20240227163424.png]]
 ### Screenshot of Elaborated Design 
 ![[Pasted image 20240227162346.png]]
 ### Answers to handout questions
