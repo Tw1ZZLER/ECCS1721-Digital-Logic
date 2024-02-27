@@ -97,12 +97,12 @@ $$ O = D $$
 ###### Sum-of-Products
 $$ O = \overline{C}AB + \overline{C}\overline{A}\overline{B} + D\overline{A}B + \overline{D}AB + A\overline{C}\overline{D}$$
 ###### Product-of-Sums
-$$ O = (\overline{C+B) $$
+$$ O = (\overline{C}+B)(A+\overline{C}+D)(D+A+\overline{B})(\overline{C}+\overline{D}+\overline{A})(\overline{A}+B+\overline{D}) $$
 ##### Game 3
 ###### Sum-of-Products
-$$ O =  $$
+$$ O = A\overline{D} + \overline{B}D + B\overline{C}\overline{D} $$
 ###### Product-of-Sums
-$$ O =  $$
+$$ O = (\overline{B}+\overline{D})(A+B+D)(A+\overline{C}+D) $$
 ##### Game 4
 ###### Sum-of-Products
 $$ O =  $$
