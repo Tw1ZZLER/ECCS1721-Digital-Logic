@@ -113,6 +113,6 @@ $$ O = (\overline{A}+\overline{B})(D+\overline{B})(\overline{C}+D+A) $$
 ###### Sum-of-Products
 $$ O = A\overline{CD} + \overline{AC}D + ABCD + A\overline{BD} +\overline{A}B\overline{C} $$
 ###### Product-of-Sums
-$$ O =  $$
+$$ O = (A+C+D)(A+\overline{C}+\overline{D})(\overline{A}+C+\overline{D})(\overline{A}+B+\overline{D})(\overline{A}+\overline{B}+\overline{C}+D) $$
 
 #### Reflection from handout
