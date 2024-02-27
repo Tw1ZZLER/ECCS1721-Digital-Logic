@@ -23,7 +23,7 @@
 
 ### Results
 - In our simulation, we created a waveform of what our hardware is doing at each nanosecond, as shown in Figure 1:
-![[waveform-02-01.png]]
+![[02-waveform.png]]
 Figure 1: Waveform Simulation of Comparator
 
 - We can also view a hardware schematic of our simulation, with no changes to the VHDL, as shown in Figure 2:

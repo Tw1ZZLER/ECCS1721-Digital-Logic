@@ -137,17 +137,23 @@ output < = A xnor B;
 ## Part E - Novel Gate Representation Activity
 ![[05-logic-not.png]]
 <p style="text-align: center">(a)</p>
-![[Media/Pasted image 20240220172529.png]]
+
+![[05-logic-and.png]]
 <p style="text-align: center">(b)</p>
-![[Media/Pasted image 20240220172545.png]]
+
+![[05-logic-or.png]]
 <p style="text-align: center">(c)</p>
-![[Media/Pasted image 20240220172537.png]]
+
+![[05-logic-nand.png]]
 <p style="text-align: center">(d)</p>
-![[Media/Pasted image 20240220172615.png]]
+
+![[05-logic-nor.png]]
 <p style="text-align: center">(e)</p>
-![[Media/Pasted image 20240220172623.png]]
+
+![[05-logic-xor.png]]
 <p style="text-align: center">(f)</p>
-![[Media/Pasted image 20240220172630.png]]
+
+![[05-logic-xnor.png]]
 <p style="text-align: center">(g)</p>
 <p style="text-align: center">Figure 1: Play-Doh Logic gate symbols (a) NOT gate, (b) AND gate, (c) OR gate, (d) NAND gate, (e) NOR gate, (f) XOR gate, (g) XNOR gate.</p>
 
