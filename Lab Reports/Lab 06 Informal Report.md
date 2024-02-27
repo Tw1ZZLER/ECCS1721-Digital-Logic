@@ -9,7 +9,7 @@
 ![[Pasted image 20240227174921.png]]
 #### Answers to selected discussion questions (see individual handouts) 
 10. The most significant bit is switch 15 (R2).
-11. Anything past 9 would need 2 digits in base 10 but we are in base 15. 
+11. Anything past 9 would need 2 digits in base 10 but we are in base 15. We could make c lowercase and it would still be distinct from the others. Other than that, there are very few ways to change the letters to make them readable and distinct.
 
 ## Part C - The Two-High-Bit Challenge Strikes Back
 #### Derived 4x4 K-Map and equations 
@@ -87,7 +87,7 @@ end architecture behavioral;
 - Is the resource utilization the same as the previous code?
 	- Yes, it is the same.
 - Verify the functionality. Is the functionality the same as the previous code?
-	- The functionality is not the same.
+	- The functionality is the same, even though the implementation is different.
 
 ## Part D - K-Map Game
 #### Scan or picture of completed K-Map Game 
