@@ -41,6 +41,8 @@ $$ O = AB + AC + AD + BC + BD + CD $$
 ##### Product-of-Sums
 $$ O = (A+B+C)(A+B+D)(A+C+D)(B+C+D)$$
 
+#### Pictures of drawn gate implementation
+
 #### Completed VHDL Code 
 ```vhdl
 library IEEE;
@@ -87,6 +89,7 @@ end architecture behavioral;
 ## Part D - K-Map Game
 #### Scan or picture of completed K-Map Game 
 ![[Feb 27, Doc 2 Page 0.jpeg]]
+- Game 2 correction: $(\overline{C} \cdot B)$ should be $(\overline{C}+B)$ 
 #### Sum of Product and Product of Sum implementation drawings and analysis 
 ##### Game 1
 ###### Sum-of-Products
@@ -105,14 +108,14 @@ $$ O = A\overline{D} + \overline{B}D + B\overline{C}\overline{D} $$
 $$ O = (\overline{B}+\overline{D})(A+B+D)(A+\overline{C}+D) $$
 ##### Game 4
 ###### Sum-of-Products
-$$ O =  $$
+$$ O = \overline{A}D+\overline{B}\overline{C} +A\overline{B} $$
 ###### Product-of-Sums
-$$ O =  $$
+$$ O = (\overline{A}+\overline{B})(D+\overline{B})(\overline{C}+D+A) $$
 ##### Game 5
 ###### Sum-of-Products
-$$ O =  $$
+$$ O = A\overline{CD} + \overline{AC}D + ABCD + A\overline{BD} +\overline{A}B\overline{C} $$
 ###### Product-of-Sums
-$$ O =  $$
+$$ O = (A+C+D)(A+\overline{C}+\overline{D})(\overline{A}+C+\overline{D})(\overline{A}+B+\overline{D})(\overline{A}+\overline{B}+\overline{C}+D) $$
 
 #### Reflection from handout
 By playing these 5 k-map games we have a better understanding of how to group the 1's and 0's and how to explain those groupings using the least amount of transistors.
