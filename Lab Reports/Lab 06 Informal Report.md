@@ -41,6 +41,8 @@ $$ O = AB + AC + AD + BC + BD + CD $$
 ##### Product-of-Sums
 $$ O = (A+B+C)(A+B+D)(A+C+D)(B+C+D)$$
 
+#### Pictures of drawn gate implementation
+
 #### Completed VHDL Code 
 ```vhdl
 library IEEE;
