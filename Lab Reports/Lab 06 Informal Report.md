@@ -8,9 +8,12 @@
 - Derived 4x4 K-Map and equations 
 
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |
-|     |     |     |     |     |
+| AB/CD                      | $\overline{C}\overline{D}$ | $\overline{C}\overline{D}$ |     |     |
+| -------------------------- | -------------------------- | -------------------------- | --- | --- |
+| $\overline{A}\overline{B}$ |                            |                            |     |     |
+| $\overline{A}B$            |                            |                            |     |     |
+| $AB$                       |                            |                            |     |     |
+| $A\overline{B}$            |                            |                            |     |     |
 
 
 - Completed VHDL Code 
