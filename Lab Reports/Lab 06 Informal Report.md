@@ -1,11 +1,15 @@
 ## Part B - Hexadecimal to 7-Segment
-- Screenshots of FPGA resource utilization (LUTs, FFs) 
-- Screenshots of Elaborated Design 
-- Pictures of FPGA development board with functional hardware running 
-- Answers to selected discussion questions (see individual handouts) 
+#### Screenshots of FPGA resource utilization (LUTs, FFs) 
+
+#### Screenshots of Elaborated Design 
+
+#### Pictures of FPGA development board with functional hardware running 
+
+#### Answers to selected discussion questions (see individual handouts) 
+
 
 ## Part C - The Two-High-Bit Challenge Strikes Back
-### Derived 4x4 K-Map and equations 
+#### Derived 4x4 K-Map and equations 
 
 | A   | B   | C   | D   | O   |
 | --- | --- | --- | --- | --- |
@@ -32,12 +36,12 @@
 | $\overline{A}B$            | 0                          | 1               | 1    | 1               |
 | $AB$                       | 1                          | 1               | 1    | 1               |
 | $A\overline{B}$            | 0                          | 1               | 1    | 1               |
-#### Sum-of-Products
+##### Sum-of-Products
 $$ O = AB + AC + AD + BC + BD + CD $$
-#### Product-of-Sums
+##### Product-of-Sums
 $$ O = (A+B+C)(A+B+D)(A+C+D)(B+C+D)$$
 
-### Completed VHDL Code 
+#### Completed VHDL Code 
 ```vhdl
 library IEEE;
   use IEEE.std_logic_1164.all;
@@ -70,18 +74,23 @@ begin
   
 end architecture behavioral;
 ```
-### Screenshot of FPGA resource utilization (LUTs, FFs) 
+#### Screenshot of FPGA resource utilization (LUTs, FFs) 
 ![[Pasted image 20240227163424.png]]
-### Screenshot of Elaborated Design 
+#### Screenshot of Elaborated Design 
 ![[Pasted image 20240227162346.png]]
-### Answers to handout questions
+#### Answers to handout questions
 - Is the resource utilization the same as the previous code?
 	- Yes, it is the same.
 - Verify the functionality. Is the functionality the same as the previous code?
 	- The functionality is not the same.
 
 ## Part D - K-Map Game
-### Scan or picture of completed K-Map Game 
+#### Scan or picture of completed K-Map Game 
 ![[Feb 27, Doc 2 Page 0.jpeg]]
-- Sum of Product and Product of Sum implementation drawings and analysis 
-- Reflection from handout
+#### Sum of Product and Product of Sum implementation drawings and analysis 
+##### Game 1
+###### Sum-of-Products
+
+###### Proud
+
+#### Reflection from handout
