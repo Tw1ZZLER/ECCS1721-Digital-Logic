@@ -17,12 +17,16 @@
 - We generated bitstream and uploaded to our FPGA board, to test our gate-based 8:3 priority encoder on the board.
 - We tested the switches on the board and took 3 photos of our results with 3 different inputs, as seen in Figures 1, 2, and 3.
 - We reviewed the elaborated design with the instructor and took a photo of the schematic, as seen in Figure 4.
-- We also took a photo of our look-up tables, as seen in Figure 5.
+- We also took a photo of our look-up table usage, as seen in Figure 5.
 #### Part C
 - We created a new Vivado project and imported `lab07c.vhd` and `lab07c.xdc` files from Canvas.
 - We generated bitstream and uploaded to our FPGA board, to test our MUX-based 8:3 priority encoder on the board.
 - The MUX-based priority encoder gave us the same results as the gate-based priority encoder.
-- We took photos of our 
+- We took photos of our schematic after we reviewed it with the instructor, as seen in Figure 6. 
+- We also took a photo of our look-up table usage, as seen in Figure 7.
+#### Part D
+ - We created a new Vivado project and imported `lab07d.vhd`, `priority_encoder_4.vhd`, and `lab07d.xdc` files from Canvas.
+- We generated bitstream and uploaded to our FPGA board, to test the two-level 16:4 priority encoder.
 
 ### Results
 ![[Pasted image 20240305163941.png]]
@@ -45,6 +49,8 @@
 
 ![[Pasted image 20240305165417.png]]
 <div style="text-align: center">Figure 7: LUT Usage from Part C</div>
+
+![[Pasted image 20240305171317.png]]
 ### Discussion/Analysis
 #### Part A
 
@@ -54,9 +60,17 @@
 	- In addition, the leftmost switch on the board is reserved for the valid bit, telling us that we have a valid input. It is off when there are no switches inputted.
 - The valid bit in 
 #### Part C
-- The LATCH at the very right of Figure 6 is a mistake, and should not be there.
+- The LATCH at the very right of Figure 6 was a mistake, and should not have been there.
+- The functionality of the the MUX-based priority encoder is the exact same as the gate-based priority encoder.
+- Gate-based priority encoders are cheaper in terms of LUTs, as we can see from Figures 5 and 7. Gate-based uses 1 more LUT than MUX-based.
 #### Part D
-
+- As discussed in the lecture, as the input width for a priority encoder grows, it rapidly becomes extremely difficult to find its boolean equations and implement it at the gate level. 
+	- How does the two-level hardware structure help mitigate the problem of rapid growth in hardware complexity with input size? 
+		- **insert answer here**
+	- What size do you think the component encoders should be for a 64:6 two-level priority encoder? What about a 32:5 2LPE?
+		- **insert answer here**
+	- Do you think there is a better way to structure the encoder than the two-level hardware structure introduced in this lab? There is no wrong answer, but be sure to explain your reasoning.
+		- **insert answer here**
 ### Conclusion
 
 
