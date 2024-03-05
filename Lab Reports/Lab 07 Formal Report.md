@@ -10,7 +10,8 @@
 ### Procedure
 #### Part A 
 - First we download the 7A-handout
-- The first goal of the lab is to 
+- The first goal of the lab is to understand the implementation of gates and how we can substitute them with each other to make the process use less transistors
+- 
 #### Part B
 - We created a new Vivado project and imported `lab07b.vhd` and `lab07b.xdc` files from Canvas.
 - We generated bitstream and uploaded to our FPGA board, to test our gate-based 8:3 priority encoder on the board.
@@ -65,7 +66,8 @@
 
 #### Gate Implementation Analysis
 5. How many transistors do your AND / OR implementations from Step 3 cost? Do the SoP and PoS implementations differ in cost?
-
+Sop contains 66Ts
+Pos contains 66Ts
 
 
 6. How many transistors does your NAND / NOR implementations from Step 4 cost? Are they different from their corresponding implementations from Step 3? Are the different from each other? If so, by how many transistors?
