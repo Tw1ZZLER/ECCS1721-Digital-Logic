@@ -2,14 +2,12 @@
 #### Screenshots of FPGA resource utilization (LUTs, FFs) 
 ![[Pasted image 20240227174459.png]]
 #### Screenshots of Elaborated Design 
-![[Pasted image 20240227174818.png]]
+
 #### Pictures of FPGA development board with functional hardware running 
-![[Pasted image 20240227174907.png]]
-![[Pasted image 20240227174914.png]]
-![[Pasted image 20240227174921.png]]
+
 #### Answers to selected discussion questions (see individual handouts) 
-10. The most significant bit is switch 15 (R2).
-11. Anything past 9 would need 2 digits in base 10 but we are in base 15. We could make c lowercase and it would still be distinct from the others. Other than that, there are very few ways to change the letters to make them readable and distinct.
+10. The most significant bit is switch 15 (R2)
+11. Anything past 9 would need 2 digits in base 10 but we are in      base 15 
 
 ## Part C - The Two-High-Bit Challenge Strikes Back
 #### Derived 4x4 K-Map and equations 
@@ -85,9 +83,9 @@ end architecture behavioral;
 ![[Pasted image 20240227162346.png]]
 #### Answers to handout questions
 - Is the resource utilization the same as the previous code?
-	- Yes, it is the same. This is because Vivado attempts to find the best way to implement your VHDL in hardware, and will be smart and use only 1 lookup table.
+	- Yes, it is the same.
 - Verify the functionality. Is the functionality the same as the previous code?
-	- The functionality is the same, even though the implementation is different.
+	- The functionality is not the same.
 
 ## Part D - K-Map Game
 #### Scan or picture of completed K-Map Game 
@@ -121,4 +119,4 @@ $$ O = A\overline{CD} + \overline{AC}D + ABCD + A\overline{BD} +\overline{A}B\ov
 $$ O = (A+C+D)(A+\overline{C}+\overline{D})(\overline{A}+C+\overline{D})(\overline{A}+B+\overline{D})(\overline{A}+\overline{B}+\overline{C}+D) $$
 
 #### Reflection from handout
-- By playing these 5 K-map games we have a better understanding of how to group the 1's and 0's and how to explain those groupings using the least amount of transistors.
+By playing these 5 k-map games we have a better understanding of how to group the 1's and 0's and how to explain those groupings using the least amount of transistors.
