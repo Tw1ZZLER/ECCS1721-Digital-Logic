@@ -10,7 +10,8 @@
 ### Procedure
 #### Part A 
 - First we download the 7A-handout
-- The first goal of the lab is to 
+- The first goal of the lab is to understand the implementation of gates and how we can substitute them with each other to make the process use less transistors
+- 
 #### Part B
 - We created a new Vivado project and imported `lab07b.vhd` and `lab07b.xdc` files from Canvas.
 - We generated bitstream and uploaded to our FPGA board, to test our gate-based 8:3 priority encoder on the board.
