@@ -39,37 +39,52 @@
 <div style="text-align: center">Figure 3: Gate-Based 8:3 Priority Encoder (Input: 00011011)</div>
 
 ![[Pasted image 20240305162156.png]]
-<div style="text-align: center">Figure 4: Schematic of Part B</div>
+<div style="text-align: center">Figure 4: Schematic of Gate-based 8:3 Priority Encoder</div>
 
 ![[Pasted image 20240305162242.png]]
-<div style="text-align: center">Figure 5: LUT Usage from Part B</div>
+<div style="text-align: center">Figure 5: LUT Usage of Gate-based 8:3 Priority Encoder</div>
 
 ![[Pasted image 20240305164909.png]]
-<div style="text-align: center">Figure 6: Schematic of Part C</div>
+<div style="text-align: center">Figure 6: Schematic of MUX-based 8:3 Priority Encoder</div>
 
 ![[Pasted image 20240305165417.png]]
-<div style="text-align: center">Figure 7: LUT Usage from Part C</div>
+<div style="text-align: center">Figure 7: LUT Usage of MUX-based 8:3 Priority Encoder</div>
 
 ![[Pasted image 20240305171317.png]]
-### Discussion/Analysis
-#### Part A
+<div style="text-align: center">Figure 8: Two-Level 16:4 Priority Encoder (Input: 0000010000000000)</div>
 
+![[Pasted image 20240305173014.png]]
+<div style="text-align: center">Figure 9: Two-Level 16:4 Priority Encoder (Input: 0000011111111111)</div>
+
+
+![[Pasted image 20240305173021.png]]
+<div style="text-align: center">Figure 10: Two-Level 16:4 Priority Encoder (Input: 0000000000001001)</div>
+
+![[Pasted image 20240305172917.png]]
+<div style="text-align: center">Figure 11: Annotated Schematic of 16:4 Priority Encoder</div>
+
+![[Pasted image 20240305173516.png]]
+<div style="text-align: center">Figure 12: LUT Usage of 16:4 Priority Encoder</div>
+
+### Discussion/Analysis
 #### Part B
 - We learned that we can edit the constraints (`.xdc`) file in Vivado to change how the switches behave.
 - The constraints file we downloaded makes the 8 rightmost switches the input bits, where the rightmost switch is the least significant bit, and the leftmost bit is the most significant bit.
 	- In addition, the leftmost switch on the board is reserved for the valid bit, telling us that we have a valid input. It is off when there are no switches inputted.
-- The valid bit in 
+- The valid bit in **insert answer here**
 #### Part C
 - The LATCH at the very right of Figure 6 was a mistake, and should not have been there.
 - The functionality of the the MUX-based priority encoder is the exact same as the gate-based priority encoder.
 - Gate-based priority encoders are cheaper in terms of LUTs, as we can see from Figures 5 and 7. Gate-based uses 1 more LUT than MUX-based.
 #### Part D
-- As discussed in the lecture, as the input width for a priority encoder grows, it rapidly becomes extremely difficult to find its boolean equations and implement it at the gate level. 
-	- How does the two-level hardware structure help mitigate the problem of rapid growth in hardware complexity with input size? 
+- In Figure 11, we can see the 4 input OR gates on the left that are our friends. 
+
+- *As discussed in the lecture, as the input width for a priority encoder grows, it rapidly becomes extremely difficult to find its boolean equations and implement it at the gate level.* 
+	- *How does the two-level hardware structure help mitigate the problem of rapid growth in hardware complexity with input size?* 
 		- **insert answer here**
-	- What size do you think the component encoders should be for a 64:6 two-level priority encoder? What about a 32:5 2LPE?
-		- **insert answer here**
-	- Do you think there is a better way to structure the encoder than the two-level hardware structure introduced in this lab? There is no wrong answer, but be sure to explain your reasoning.
+	- *What size do you think the component encoders should be for a 64:6 two-level priority encoder? What about a 32:5 2LPE?*
+		- For a 64:6 two-level priority encoder, the coarse encoder would be a 32:5 priority encoder and the fine encoder would be a 16:4 priority encoder.  For a 32:5 two-level priority encoder, the coarse encoder would be a 16:4 priority encoder and the fine encoder would be a 8:3 priority encoder. 
+	- *Do you think there is a better way to structure the encoder than the two-level hardware structure introduced in this lab? There is no wrong answer, but be sure to explain your reasoning.*
 		- **insert answer here**
 ### Conclusion
 
