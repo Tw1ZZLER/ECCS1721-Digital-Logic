@@ -8,7 +8,7 @@
 - In this lab, we practiced creating logic gate diagrams from K-Maps. We worked more on solving the Two High-Bit challenge, from labs 5 and 6. We also tested two-level 16:4 priority encoders as well as 8:3 priority encoders, on our field-programmable gate array (FPGA) development board.
 
 ### Procedure
-- First we download the 7A-handout
+- First we downloaded the 7A-handout
 
 ### Results
 
