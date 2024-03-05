@@ -20,7 +20,8 @@
 #### Part C
 - We created a new Vivado project and imported `lab07c.vhd` and `lab07c.xdc` files from Canvas.
 - We generated bitstream and uploaded to our FPGA board, to test our MUX-based 8:3 priority encoder on the board.
-- 
+- The MUX-based priority encoder gave us the same results as the gate-based priority encoder.
+- We took photos of our 
 
 ### Results
 ![[Pasted image 20240305163941.png]]
@@ -30,7 +31,7 @@
 <div style="text-align: center">Figure 2: Gate-Based 8:3 Priority Encoder  (Input: 00011111)</div>
 
 ![[Pasted image 20240305163955.png]]
-<div style="text-align: center">Figure 3: Gate-Based 8:3 Priority Encoder (Input</div>
+<div style="text-align: center">Figure 3: Gate-Based 8:3 Priority Encoder (Input: 00011011)</div>
 
 ![[Pasted image 20240305162156.png]]
 <div style="text-align: center">Figure 4: Schematic of Part B</div>
@@ -38,6 +39,11 @@
 ![[Pasted image 20240305162242.png]]
 <div style="text-align: center">Figure 5: LUT Usage from Part B</div>
 
+![[Pasted image 20240305164909.png]]
+<div style="text-align: center">Figure 6: Schematic of Part C</div>
+
+![[Pasted image 20240305165417.png]]
+<div style="text-align: center">Figure 7: LUT Usage from Part C</div>
 ### Discussion/Analysis
 #### Part A
 
@@ -47,7 +53,7 @@
 	- In addition, the leftmost switch on the board is reserved for the valid bit, telling us that we have a valid input. It is off when there are no switches inputted.
 - The valid bit in 
 #### Part C
-
+- The LATCH at the very right of Figure 6 is a mistake, and should not be there.
 #### Part D
 
 ### Conclusion
