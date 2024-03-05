@@ -104,8 +104,4 @@ nand/nor Pos critical path was also 6 gates long
 
 Both Sop and Pos had the same optimal critical path length of 6 Tg in nand/nor format.  However, the nand/nor Sop had the least transistors with 52 Ts.
 
-
-
-9. If you converted the NAND or NOR implementations to VHDL, would the resulting hardware use more or less resources (lookup tables) than the hardware from Lab 06C? Why? Hint: remember that the lookup tables on the FPGA have 6 inputs and 1 output.
-
 			
