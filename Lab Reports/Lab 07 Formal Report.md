@@ -69,20 +69,25 @@
 
 Sop contained 66Ts
 Pos contained 66Ts
+			They did not differ in cost.
 
 
 6. How many transistors does your NAND / NOR implementations from Step 4 cost? Are they different from their corresponding implementations from Step 3? Are the different from each other? If so, by how many transistors?
 
 nand/nor Sop contained 52Ts
 nand/nor Pos contained 56Ts
-			both nand/nor contained less transistors than their counterparts but the nand/nor Sop contained the least with 14 less transistors than its counterpart. 
+			Both nand/nor contained less transistors than their counterparts but the nand/nor Sop contained the least with 14 less transistors than its counterpart. 
 
 
 7. How long are the critical paths from your NAND / NOR implementations from Step 4? Are the critical paths from the NAND and NOR implementations different? If so, by how much?
 
+nand/nor Sop critical path was 6 gates long
+nand/nor Pos critical path was also 6 gates long
+			They did not differ in length
 
 
 8. Which method (sum-of-product or product-of-sum) resulted in a more efficient hardware implementation from the perspective of complexity/power (number of transistors) and speed (critical path)? Why?
+
 
 
 
