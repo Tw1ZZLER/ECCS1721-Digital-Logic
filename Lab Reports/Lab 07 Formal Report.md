@@ -72,7 +72,7 @@
 	- Do you think there is a better way to structure the encoder than the two-level hardware structure introduced in this lab? There is no wrong answer, but be sure to explain your reasoning.
 		- **insert answer here**
 ### Conclusion
-
+We covered 
 
 ### Attachments / Appendix
 #### Drawn Gate Implementations
