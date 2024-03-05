@@ -83,11 +83,12 @@ nand/nor Pos contained 56Ts
 
 nand/nor Sop critical path was 6 gates long
 nand/nor Pos critical path was also 6 gates long
-			They did not differ in length
+			They did not differ in length.
 
 
 8. Which method (sum-of-product or product-of-sum) resulted in a more efficient hardware implementation from the perspective of complexity/power (number of transistors) and speed (critical path)? Why?
 
+Both Sop and Pos had the same optimal critical path length of 6 Tg in nand/nor format.  However, the nand/nor Sop had the least transistors with 52 Ts.
 
 
 
