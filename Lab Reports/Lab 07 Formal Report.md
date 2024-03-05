@@ -8,7 +8,7 @@
 
 
 ### Procedure
-
+- First we download the 7A-handout
 
 ### Results
 
