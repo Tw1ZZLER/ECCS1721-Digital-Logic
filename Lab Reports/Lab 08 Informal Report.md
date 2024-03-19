@@ -36,7 +36,7 @@
 #### FPGA Development Board
 
 #### Handout Questions
-
+11.  What do the bits displayed on the LEDs (`15)
 #### Testing Results
 
 #### Manual Verification of Functionality
