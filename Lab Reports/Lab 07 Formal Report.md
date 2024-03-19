@@ -97,27 +97,26 @@ We covered
 #### Gate Implementation Analysis
 5. How many transistors do your AND / OR implementations from Step 3 cost? Do the SoP and PoS implementations differ in cost?
 
-Sop contained 66Ts
-Pos contained 66Ts
-			They did not differ in cost.
-
+	- AND/OR SoP contained 66Ts
+	- AND/OR PoS contained 66Ts
+	- They did not differ in cost.
 
 6. How many transistors does your NAND / NOR implementations from Step 4 cost? Are they different from their corresponding implementations from Step 3? Are the different from each other? If so, by how many transistors?
 
-nand/nor Sop contained 52Ts
-nand/nor Pos contained 56Ts
-			Both nand/nor contained less transistors than their counterparts but the nand/nor Sop contained the least with 14 less transistors than its counterpart. 
+- NAND/NOR SoP contained 52Ts
+- NAND/NOR PoS contained 56Ts		
+- Both nand/nor contained less transistors than their counterparts but the nand/nor Sop contained the least with 14 less transistors than its counterpart. 
 
 
 7. How long are the critical paths from your NAND / NOR implementations from Step 4? Are the critical paths from the NAND and NOR implementations different? If so, by how much?
 
-nand/nor Sop critical path was 6 gates long
-nand/nor Pos critical path was also 6 gates long
-			They did not differ in length.
+- NAND/NOR SoP critical path was 6 gates long
+- NAND/NOR PoS critical path was also 6 gates long
+- They did not differ in length.
 
 
-8. Which method (sum-of-product or product-of-sum) resulted in a more efficient hardware implementation from the perspective of complexity/power (number of transistors) and speed (critical path)? Why?
+9. Which method (sum-of-product or product-of-sum) resulted in a more efficient hardware implementation from the perspective of complexity/power (number of transistors) and speed (critical path)? Why?
 
-Both Sop and Pos had the same optimal critical path length of 6 Tg in nand/nor format.  However, the nand/nor Sop had the least transistors with 52 Ts.
+- Both SoP and PoS had the same optimal critical path length of 6 Tg in NAND/NOR format.  However, the NAND/NOR SoP had the least transistors with 52 Ts.
 
 			
