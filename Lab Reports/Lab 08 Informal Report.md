@@ -36,7 +36,9 @@
 #### FPGA Development Board
 
 #### Handout Questions
-11.  What do the bits displayed on the LEDs (`15)
+11.  What do the bits displayed on the LEDs (`15` and `12`) mean?
+
+12. Is the output of the subtractor displayed in two's complement?
 #### Testing Results
 
 #### Manual Verification of Functionality
