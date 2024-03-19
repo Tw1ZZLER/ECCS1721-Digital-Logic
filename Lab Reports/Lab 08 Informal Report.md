@@ -61,4 +61,4 @@
 ![[Pasted image 20240319173017.png]]
 #### Handout Questions
 9. Using a calculator, we get the expected answers that match our output from the simulation.
-16. When we change the radix of the outputs in our simulation to hexadecimal, the results match up with our tests using the development board.
+16. When we change the radix of the outputs in our simulation to hexadecimal, the results match up with our tests using the development board, which uses the 7-segment display as a hexadecimal output.
