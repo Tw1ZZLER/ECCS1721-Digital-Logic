@@ -30,7 +30,7 @@
 
 ## Part C - 8-Bit Adder/Subtractor on 7-Segment Display
 #### Elaborated Design Schematic
-
+![[Pasted image 20240319162515.png]]
 #### FPGA Resource Utilization
 ![[Pasted image 20240319162214.png]]
 #### FPGA Development Board
