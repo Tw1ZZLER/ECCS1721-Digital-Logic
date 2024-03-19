@@ -37,8 +37,9 @@
 
 #### Handout Questions
 11.  LED `15` represents the most significant bit of the adder's output and LED `12` represents the most significant bit of the subtractor's output
-12. Is the output of the subtractor displayed in two's complement?
+12. The output of the subtractor id in two's complement
 #### Testing Results
+
 | Input 1 | Input 2 | Adder Output | Subtractor Output |
 | ------- | ------- | ------------ | ----------------- |
 | `2A`    | `4B`    | `075`        | `1DF`             |
