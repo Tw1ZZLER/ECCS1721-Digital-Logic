@@ -34,33 +34,31 @@
 #### FPGA Resource Utilization
 ![[Pasted image 20240319162214.png]]
 #### FPGA Development Board
-
+![[Pasted image 20240319165359.png]]
 #### Handout Questions
 11.  LED `15` represents the most significant bit of the adder's output and LED `12` represents the most significant bit of the subtractor's output
-12. The output of the subtractor id in two's complement
+12. Yes, the output of the subtractor is displayed in 2's complement.
 #### Testing Results
 
 | Input 1 | Input 2 | Adder Output | Subtractor Output |
 | ------- | ------- | ------------ | ----------------- |
 | `2A`    | `4B`    | `075`        | `1DF`             |
 | `05`    | `10`    | `015`        | `1F5`             |
-| `FF`    | `FF`    |              |                   |
-| `01`    | `FF`    |              |                   |
+| `FF`    | `FF`    | `1FE`        | `000`             |
+| `01`    | `FF`    | `000`        | `002`             |
 
 #### Manual Verification of Functionality
-
-
+![[Pasted image 20240319165441.png]]
 ## Part D - 8-Bit Signed Array Multiplier
 #### Elaborated Design Schematic
-
-
+![[Pasted image 20240319170503.png]]
 #### Simulation Results
-
-
+![[Pasted image 20240319172511.png]]
+![[Pasted image 20240319172525.png]]
 #### FPGA Resource Utilization
-
 
 #### FPGA Development Board
 
-
 #### Handout Questions
+9. Using a calculator, we get the expected answers that match our output from the simulation.
+16. 
