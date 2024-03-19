@@ -36,10 +36,15 @@
 #### FPGA Development Board
 
 #### Handout Questions
-11.  What do the bits displayed on the LEDs (`15` and `12`) mean?
-
+11.  LED `15` represents the most significant bit of the adder's output and LED `12` represents the most significant bit of the subtractor's output
 12. Is the output of the subtractor displayed in two's complement?
 #### Testing Results
+| Input 1 | Input 2 | Adder Output | Subtractor Output |
+| ------- | ------- | ------------ | ----------------- |
+| `2A`    | `4B`    | `075`        | `1DF`             |
+| `05`    | `10`    | `015`        | `1F5`             |
+| `FF`    | `FF`    |              |                   |
+| `01`    | `FF`    |              |                   |
 
 #### Manual Verification of Functionality
 
