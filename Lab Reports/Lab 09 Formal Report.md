@@ -38,7 +38,7 @@
 
 28. The clock is slow on the FPGA board. This could be because it would very occasionally stop for short moments.
 29. Cooking timers, ovens, microwaves, etc. a second is not very important in these applications.
-30. answer
+30. increacing the tick speed of the clock could increace the accuracy of the stopwatch
 31. answer
 35. answer
 36. answer
