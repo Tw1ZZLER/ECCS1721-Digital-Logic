@@ -24,7 +24,7 @@
 ##### Improved Stopwatch Component
 
 #### Simulation Results for `d_counter.vhd`
-
+![[Pasted image 20240326165102.png]]
 #### FPGA Resource Utilization
 
 #### FPGA Development Board
