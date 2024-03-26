@@ -35,6 +35,7 @@
 ##### Improved
 
 #### Handout Questions
+
 28. The clock is slow on the FPGA board. This could be because it would very occasionally stop for short moments.
 29. Cooking timers, ovens, microwaves, etc. A single second is not very important in these applications.
 30. answer
