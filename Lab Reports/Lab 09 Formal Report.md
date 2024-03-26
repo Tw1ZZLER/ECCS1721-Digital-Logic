@@ -14,11 +14,11 @@
 #### Elaborated Design Schematic
 ![[Pasted image 20240326155346.png]]
 #### Simulation Results
-![[Pasted image 20240326160841.png]]
+![[Pasted image 20240326163133.png]]
 ## Part D - Digital Stopwatch Accuracy
 #### Elaborated Design Schematics
 ##### `d_counter.vhd`
-
+![[Pasted image 20240326163306.png]]
 ##### Whole Stopwatch
 
 ##### Improved Stopwatch Component
