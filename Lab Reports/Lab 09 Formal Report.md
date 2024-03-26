@@ -18,7 +18,7 @@
 ## Part D - Digital Stopwatch Accuracy
 #### Elaborated Design Schematics
 ##### `d_counter.vhd`
-![[Pasted image 20240326163306.png]]
+![[Pasted image 20240326164407.png]]
 ##### Whole Stopwatch
 
 ##### Improved Stopwatch Component
