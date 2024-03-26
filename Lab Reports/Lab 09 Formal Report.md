@@ -20,7 +20,7 @@
 ##### `d_counter.vhd`
 ![[Pasted image 20240326164407.png]]
 ##### Whole Stopwatch
-
+![[Pasted image 20240326165436.png]]
 ##### Improved Stopwatch Component
 
 #### Simulation Results for `d_counter.vhd`
