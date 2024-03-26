@@ -28,7 +28,7 @@
 #### Simulation Results for `d_counter.vhd`
 ![[Pasted image 20240326165102.png]]
 #### FPGA Resource Utilization
-
+![[Pasted image 20240326170032.png]]
 #### FPGA Development Board
 ##### Standard
 
