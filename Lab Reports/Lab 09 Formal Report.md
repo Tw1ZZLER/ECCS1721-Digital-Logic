@@ -15,6 +15,8 @@
 ![[Pasted image 20240326155346.png]]
 #### Simulation Results
 ![[Pasted image 20240326163133.png]]
+![[Screenshot 2024-03-26 165307.png]]
+![[Pasted image 20240326165410.png]]
 ## Part D - Digital Stopwatch Accuracy
 #### Elaborated Design Schematics
 ##### `d_counter.vhd`
