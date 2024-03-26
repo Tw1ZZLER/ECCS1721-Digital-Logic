@@ -9,10 +9,10 @@
 ##### First Failed Timing Run
 ![[Pasted image 20240326154737.png]]
 ##### Last Sucessful Timing Run
-
+![[Pasted image 20240326155211.png]]
 ## Part C - Two High-Bit Challenge x16 
 #### Elaborated Design Schematic
-
+![[Pasted image 20240326155346.png]]
 #### Simulation Results
 
 ## Part D - Digital Stopwatch Accuracy
