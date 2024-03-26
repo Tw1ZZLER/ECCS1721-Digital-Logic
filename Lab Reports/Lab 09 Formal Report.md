@@ -31,7 +31,7 @@
 ![[Pasted image 20240326170032.png]]
 #### FPGA Development Board
 ##### Standard
-
+![[Pasted image 20240326171101.png]]
 ##### Improved
 
 #### Handout Questionsp
