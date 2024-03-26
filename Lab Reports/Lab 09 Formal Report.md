@@ -7,7 +7,7 @@
 ## Part B - Array Multiplier Timing
 #### Screenshots
 ##### First Failed Timing Run
-
+![[Pasted image 20240326154737.png]]
 ##### Last Sucessful Timing Run
 
 ## Part C - Two High-Bit Challenge x16 
