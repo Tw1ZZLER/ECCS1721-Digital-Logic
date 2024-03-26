@@ -1,8 +1,8 @@
 ## Part A - Adder / Subtractor Timing
 #### Screenshots
 ##### First Failed Timing Run
-
-##### Last Sucessful Timing Run
+![[Pasted image 20240326153743.png]]
+##### Last Successful Timing Run
 
 ## Part B - Array Multiplier Timing
 #### Screenshots
