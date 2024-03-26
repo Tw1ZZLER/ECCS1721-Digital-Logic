@@ -35,7 +35,7 @@
 ##### Improved
 
 #### Handout Questions
-28. answer
+28. The clock is slow on the FPGA board. This could be because it would very occasionally stop for short moments.
 29. answer
 30. answer
 31. answer
