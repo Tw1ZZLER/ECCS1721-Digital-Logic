@@ -3,7 +3,7 @@
 ##### First Failed Timing Run
 ![[Pasted image 20240326153743.png]]
 ##### Last Successful Timing Run
-
+![[Pasted image 20240326154207.png]]
 ## Part B - Array Multiplier Timing
 #### Screenshots
 ##### First Failed Timing Run
