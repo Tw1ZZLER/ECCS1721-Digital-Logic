@@ -23,8 +23,6 @@
 ![[Pasted image 20240326164407.png]]
 ##### Whole Stopwatch
 ![[Pasted image 20240326165436.png]]
-##### Improved Stopwatch Component
-
 #### Simulation Results for `d_counter.vhd`
 ![[Pasted image 20240326165102.png]]
 #### FPGA Resource Utilization
@@ -32,13 +30,8 @@
 #### FPGA Development Board
 ##### Standard
 ![[Pasted image 20240326171101.png]]
-##### Improved
-
-#### Handout Questionsp
+#### Handout Questions
 28. The clock is slow on the FPGA board. This could be because it would very occasionally stop for short moments.
 29. Cooking timers, ovens, microwaves, etc. a second is not very important in these applications.
-30. increacing the tick speed of the clock could increace the accuracy of the stopwatch
+30. Increasing the tick speed of the clock could increace the accuracy of the stopwatch
 31. If the stopwatch was more precise it could be used in more delicate applications such as speedrunning, racing, Long-term timekeeping, etc.
-35. answer
-36. answer
-37. answer
