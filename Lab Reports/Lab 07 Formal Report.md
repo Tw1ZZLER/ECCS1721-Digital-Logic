@@ -9,15 +9,18 @@
 
 ### Procedure
 #### Part A 
-1. First, we download the 7A-handout from Canvas.
-2. The first goal of the lab is to understand the implementation of gates and how we can substitute them with each other to make the process use less transistors
-3. We'll consider solutions to the given K-Maps, by evaluating their sum-of-product and product-of-sum boolean expressions.
-4. Then, we will draw the hardware implementations of both of these equations, with 2-input `AND` and `OR` gates.
-5. Now, we will instead use `NAND` and `NOT` gates for the sum-of-product hardware, and `NOR` and `NOT` gates for the product-of-sum hardware, using the following procedure:
-	1. Take our previously made `AND/OR` gate implementations and count our transistors (6 per `AND`/`OR` gate).
-	2. Apply the Double Bubble rule to all internal wires. This keeps the function of the circuit the same while changing it's implementation.
-	3. We now circle all the `NAND` or `NOR` gates we've created using this technique.
-	4. 
+1. First, we downloaded the 7A-handout from Canvas.
+2. The first goal of the lab was to understand the implementation of gates and how we can substitute them with each other to make the process use less transistors
+3. We considered solutions to the given K-Maps, by evaluating their sum-of-product and product-of-sum boolean expressions.
+4. Then, we drew the hardware implementations of both of these equations, with 2-input `AND` and `OR` gates.
+5. Afterwards, we instead used `NAND` and `NOT` gates for the sum-of-product hardware, and `NOR` and `NOT` gates for the product-of-sum hardware, and used the following procedure:
+	1. We took our previously made `AND/OR` gate implementations and counted our transistors (6 per `AND`/`OR` gate).
+	2. Applied the Double Bubble rule to all internal wires. This keeps the function of the circuit the same while changing it's implementation.
+	3. Circled all the `NAND` or `NOR` gates we created using this technique.
+	4. Counted all the transistors and calculated the total transistors saved.
+		  - 4 Ts per `NAND`/`NOR`, and 2 Ts per `NOT` gate.
+	5. Determined the critical path by finding the longest sequence of gates and inverters between the input wires and output wires.
+6. We drew the gate implementations, as seen in Figure
 #### Part B
 - We created a new Vivado project and imported `lab07b.vhd` and `lab07b.xdc` files from Canvas.
 - We generated bitstream and uploaded to our FPGA board, to test our gate-based 8:3 priority encoder on the board.
