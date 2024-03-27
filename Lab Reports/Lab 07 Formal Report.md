@@ -20,7 +20,7 @@
 	4. Counted all the transistors and calculated the total transistors saved.
 		  - 4 Ts per `NAND`/`NOR`, and 2 Ts per `NOT` gate.
 	5. Determined the critical path by finding the longest sequence of gates and inverters between the input wires and output wires.
-6. We drew the gate implementations, as seen in Figure 13 in the appendix.
+6. We drew the gate implementations of this hardware, as seen in the appendix in the rDrawn Gate Implementations section.
 #### Part B
 - We created a new Vivado project and imported `lab07b.vhd` and `lab07b.xdc` files from Canvas.
 - We generated bitstream and uploaded to our FPGA board, to test our gate-based 8:3 priority encoder on the board.
@@ -107,7 +107,7 @@ We covered deriving boolean equations from truth tables and K-Maps and transform
 ### Attachments / Appendix
 #### Drawn Gate Implementations
 
-<div style="text-align: center">Figure 13: Drawn Gate Implementations</div>
+
 #### Gate Implementation Analysis
 5. How many transistors do your AND / OR implementations from Step 3 cost? Do the SoP and PoS implementations differ in cost?
 
