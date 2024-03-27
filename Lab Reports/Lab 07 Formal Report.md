@@ -39,7 +39,7 @@
  - We also noted the resource utilization of the FPGA board by our hardware, including look-up tables and flip-flops, which can be viewed in Figure 12.
  - We generated bitstream and uploaded to our FPGA board, to test the two-level 16:4 priority encoder.
  - We tested 3 different inputs of the 16:4 priority encoder, as seen in Figures 8, 9 and 10. The inputs we tested were `0000010000000000`, `0000011111111111`, and `0000000000001001`, which yielded the results `9`, `A`, and `3` respectively.
- - We then verified using 
+ - We then verified that our hardware generated the correct outputs. evaluated the truth table ourselves and produced our own outputs. 
 
 ### Results
 ![[Pasted image 20240305163941.png]]
@@ -89,14 +89,15 @@
 	- In addition, the leftmost switch on the board is reserved for the valid bit, which told us that we have a valid input. It is off when there are no switches inputted.
 	- We saw how these constraints are implemented in the schematic shown in Figure 4.
 	- We also saw how the constraint file affects the number of LUTs and FFs, as seen in Figure 5.
-- The valid bit is necessary to verify that we have any input versus no input. We saw the importance of this validity bit in the truth table shown in the `07B-handout`. We saw this valid bit in action in Figures 1, 2, 3, in the LED all the way at the left. 
+- The valid bit is necessary to verify that we have any input versus no input. We saw the importance of this validity bit in the truth table shown in the `07B-handout`. We saw this valid bit in action in Figures 1-3 and 8-10 in the LED all the way at the left. 
 #### Part C
-- Figure 6 shows the schematic
-- The LATCH at the very right of Figure 6 was a mistake, and should not have been there. 
+- Figure 6 shows the schematic for implementing a priority encoder using multiplexers instead of gates, and makes the process much, much easier.
+	- The LATCH at the very right of Figure 6 was a mistake, and should not have been there. 
 - The functionality of the the MUX-based priority encoder is the exact same as the gate-based priority encoder.
 - Gate-based priority encoders are cheaper in terms of LUTs, as we can see from Figures 5 and 7. Gate-based uses 1 more LUT than MUX-based.
 #### Part D
 - In Figure 11, we can see the 4 input OR gates on the left that are our friends. These are an important part of the two-level structure of this priority encoder, which helps mitigate the exponential growth of priority encoders when they get more and more inputs.
+- Figure 12 shows the LUT and FF usage of the 16:4 priority encoder. We can compare it to Figure 7 and see it uses 17 more LUTs, which is significantly more resources.
 - One-level hardware can easily become massive without being divided and split up into multiple parts. Since priority encoders get exponentially larger, we can think of the levels of hardware as making the hardware logarithmically smaller.
 - For a 64:6 two-level priority encoder, the coarse encoder would be a 32:5 priority encoder and the fine encoder would be a 16:4 priority encoder.  For a 32:5 two-level priority encoder, the coarse encoder would be a 16:4 priority encoder and the fine encoder would be a 8:3 priority encoder. 
 - A four-level hardware structure instead of the two-level hardware structure show in this lab could be used to mitigate the exponential growth of priority encoders four-fold. As discussed earlier, the levels of hardware can reduce our hardware logarithmically, up to a certain point. I think 8-level could introduce problems that cause it to be more complex. A four-level would likely be a good middle ground.
