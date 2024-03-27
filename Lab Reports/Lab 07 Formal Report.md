@@ -39,7 +39,7 @@
  - We also noted the resource utilization of the FPGA board by our hardware, including look-up tables and flip-flops, which can be viewed in Figure 12.
  - We generated bitstream and uploaded to our FPGA board, to test the two-level 16:4 priority encoder.
  - We tested 3 different inputs of the 16:4 priority encoder, as seen in Figures 8, 9 and 10. The inputs we tested were `0000010000000000`, `0000011111111111`, and `0000000000001001`, which yielded the results `9`, `A`, and `3` respectively.
- - We 
+ - We then verified using 
 
 ### Results
 ![[Pasted image 20240305163941.png]]
@@ -82,12 +82,12 @@
 ### Discussion/Analysis
 #### Part A
 - We learned how we can easily reduce the numbers of transistors and increase the speed of our hardware by using the Double Bubble rule.
-- We saw how to convert hardware implementation from `AND` / `OR` gates into `NAND` / `NOR` / `NOT` gates, and it showed us that being stingy is always a good thing th
+- We saw how to convert hardware implementation from `AND` / `OR` gates into `NAND` / `NOR` / `NOT` gates, and it showed us that being stingy is always a good thing the realm of digital logic.
 #### Part B
 - We learned that we can edit the constraints (`.xdc`) file in Vivado to change how the switches behave.
 - The constraints file we downloaded makes the 8 rightmost switches the input bits, where the rightmost switch is the least significant bit, and the leftmost bit is the most significant bit.
 	- In addition, the leftmost switch on the board is reserved for the valid bit, telling us that we have a valid input. It is off when there are no switches inputted.
-- The valid bit in **insert answer here**
+- The valid bit is necessary to verify that we have a true input of `0` versus no input. We can see this valid bit in action in Figures 1, 2, 3, in the LED all the way at the left. 
 #### Part C
 - The LATCH at the very right of Figure 6 was a mistake, and should not have been there.
 - The functionality of the the MUX-based priority encoder is the exact same as the gate-based priority encoder.
