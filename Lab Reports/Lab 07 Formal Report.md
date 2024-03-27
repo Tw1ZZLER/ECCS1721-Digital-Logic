@@ -91,19 +91,15 @@
 	- We also saw how the constraint file affects the number of LUTs and FFs, as seen in Figure 5.
 - The valid bit is necessary to verify that we have any input versus no input. We saw the importance of this validity bit in the truth table shown in the `07B-handout`. We saw this valid bit in action in Figures 1, 2, 3, in the LED all the way at the left. 
 #### Part C
-- The LATCH at the very right of Figure 6 was a mistake, and should not have been there.
+- Figure 6 shows the schematic
+- The LATCH at the very right of Figure 6 was a mistake, and should not have been there. 
 - The functionality of the the MUX-based priority encoder is the exact same as the gate-based priority encoder.
 - Gate-based priority encoders are cheaper in terms of LUTs, as we can see from Figures 5 and 7. Gate-based uses 1 more LUT than MUX-based.
 #### Part D
-- In Figure 11, we can see the 4 input OR gates on the left that are our friends. 
-
-- *As discussed in the lecture, as the input width for a priority encoder grows, it rapidly becomes extremely difficult to find its boolean equations and implement it at the gate level.* 
-	- *How does the two-level hardware structure help mitigate the problem of rapid growth in hardware complexity with input size?* 
-		- One-level hardware can easily become massive without being divided and split up into multiple parts. Since priority encoders get exponentially larger, 
-	- *What size do you think the component encoders should be for a 64:6 two-level priority encoder? What about a 32:5 2LPE?*
-		- For a 64:6 two-level priority encoder, the coarse encoder would be a 32:5 priority encoder and the fine encoder would be a 16:4 priority encoder.  For a 32:5 two-level priority encoder, the coarse encoder would be a 16:4 priority encoder and the fine encoder would be a 8:3 priority encoder. 
-	- *Do you think there is a better way to structure the encoder than the two-level hardware structure introduced in this lab? There is no wrong answer, but be sure to explain your reasoning.*
-		- **insert answer here**
+- In Figure 11, we can see the 4 input OR gates on the left that are our friends. These are an important part of the two-level structure of this priority encoder, which helps mitigate the exponential growth of priority encoders when they get more and more inputs.
+- One-level hardware can easily become massive without being divided and split up into multiple parts. Since priority encoders get exponentially larger, we can think of the levels of hardware as making the hardware logarithmically smaller.
+- For a 64:6 two-level priority encoder, the coarse encoder would be a 32:5 priority encoder and the fine encoder would be a 16:4 priority encoder.  For a 32:5 two-level priority encoder, the coarse encoder would be a 16:4 priority encoder and the fine encoder would be a 8:3 priority encoder. 
+- A four-level hardware structure instead of the two-level hardware structure show in this lab could be used to mitigate the exponential growth of priority encoders four-fold. As discussed earlier, the levels of hardware can reduce our hardware logarithmically, up to a certain point. I think 8-level could introduce problems that cause it to be more complex. A four-level would likely be a good middle ground.
 ### Conclusion
 We covered deriving boolean equations from truth tables and K-Maps and transforming boolean equations to both Sum of Product and Product of Sum with `NAND` / `NOR` gates. Afterwards, in Part B, we worked more with Vivado and VHDL and practicing using the FPGA board for development and testing. We saw implementations of priority encoders in Vivado, including a gate-based 8:3 priority encoder, a multiplexer-based 8:3 priority encoder, and a two-level 16:4 priority encoder.
 
