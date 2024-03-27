@@ -1,3 +1,4 @@
+
 # ECCS 1721
 ## Lab 07 - Priority Encoders
 - Lab Conducted: 2024-03-05
