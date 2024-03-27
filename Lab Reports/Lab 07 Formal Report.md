@@ -36,6 +36,8 @@
 #### Part D
  - We created a new Vivado project and imported `lab07d.vhd`, `priority_encoder_4.vhd`, and `lab07d.xdc` files from Canvas.
 - We generated bitstream and uploaded to our FPGA board, to test the two-level 16:4 priority encoder.
+- We tested 3 different inputs of the 16:4 priority encoder, as seen in Figures 8, 9 and 10. The inputs we tested were `0000010000000000`, 0000011111111111, and 0000000000001001, which yielded the results 9, A, and 3 respectively.
+- We 
 - **insert stuff**
 
 ### Results
@@ -97,7 +99,7 @@
 	- *Do you think there is a better way to structure the encoder than the two-level hardware structure introduced in this lab? There is no wrong answer, but be sure to explain your reasoning.*
 		- **insert answer here**
 ### Conclusion
-We covered deriving boolean equations from truth tables and K-Maps and transforming boolean equations to both Sum of Product and Product of Sum with `NAND` / `NOR` gates. Afterwards, in Part B, we worked more with Vivado and VHDL and practicing using the FPGA board for development and testing. 
+We covered deriving boolean equations from truth tables and K-Maps and transforming boolean equations to both Sum of Product and Product of Sum with `NAND` / `NOR` gates. Afterwards, in Part B, we worked more with Vivado and VHDL and practicing using the FPGA board for development and testing. We saw implementations of priority encoders in Vivado, including a gate-based 8:3 priority encoder, a multiplexer-based 8:3 priority encoder, and a two-level 16:4 priority encoder.
 
 ### Attachments / Appendix
 #### Drawn Gate Implementations
@@ -106,9 +108,9 @@ We covered deriving boolean equations from truth tables and K-Maps and transform
 #### Gate Implementation Analysis
 5. How many transistors do your AND / OR implementations from Step 3 cost? Do the SoP and PoS implementations differ in cost?
 
-	- AND/OR SoP contained 66Ts
-	- AND/OR PoS contained 66Ts
-	- They did not differ in cost.
+- AND/OR SoP contained 66Ts
+- AND/OR PoS contained 66Ts
+- They did not differ in cost.
 
 6. How many transistors does your NAND / NOR implementations from Step 4 cost? Are they different from their corresponding implementations from Step 3? Are the different from each other? If so, by how many transistors?
 
@@ -118,11 +120,12 @@ We covered deriving boolean equations from truth tables and K-Maps and transform
 
 
 7. How long are the critical paths from your NAND / NOR implementations from Step 4? Are the critical paths from the NAND and NOR implementations different? If so, by how much?
-      - NAND/NOR SoP critical path was 6 gates long
-      - NAND/NOR PoS critical path was also 6 gates long
-      - They did not differ in length.
 
-8. Which method (sum-of-product or product-of-sum) resulted in a more efficient hardware implementation from the perspective of complexity/power (number of transistors) and speed (critical path)? Why?
+  - NAND/NOR SoP critical path was 6 gates long
+  - NAND/NOR PoS critical path was also 6 gates long
+  - They did not differ in length.
+
+9. Which method (sum-of-product or product-of-sum) resulted in a more efficient hardware implementation from the perspective of complexity/power (number of transistors) and speed (critical path)? Why?
 
 - Both SoP and PoS had the same optimal critical path length of 6 Tg in NAND/NOR format.  However, the NAND/NOR SoP had the least transistors with 52 Ts.
 
