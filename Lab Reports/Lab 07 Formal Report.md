@@ -86,8 +86,10 @@
 #### Part B
 - We learned that we can edit the constraints (`.xdc`) file in Vivado to change how the switches behave.
 - The constraints file we downloaded makes the 8 rightmost switches the input bits, where the rightmost switch is the least significant bit, and the leftmost bit is the most significant bit.
-	- In addition, the leftmost switch on the board is reserved for the valid bit, telling us that we have a valid input. It is off when there are no switches inputted.
-- The valid bit is necessary to verify that we have a true input of `0` versus no input. We can see this valid bit in action in Figures 1, 2, 3, in the LED all the way at the left. 
+	- In addition, the leftmost switch on the board is reserved for the valid bit, which told us that we have a valid input. It is off when there are no switches inputted.
+	- We saw how these constraints are implemented in the schematic shown in Figure 4.
+	- We also saw how the constraint file affects the number of LUTs and FFs, as seen in Figure 5.
+- The valid bit is necessary to verify that we have any input versus no input. We saw the importance of this validity bit in the truth table shown in the `07B-handout`. We saw this valid bit in action in Figures 1, 2, 3, in the LED all the way at the left. 
 #### Part C
 - The LATCH at the very right of Figure 6 was a mistake, and should not have been there.
 - The functionality of the the MUX-based priority encoder is the exact same as the gate-based priority encoder.
@@ -97,7 +99,7 @@
 
 - *As discussed in the lecture, as the input width for a priority encoder grows, it rapidly becomes extremely difficult to find its boolean equations and implement it at the gate level.* 
 	- *How does the two-level hardware structure help mitigate the problem of rapid growth in hardware complexity with input size?* 
-		- **insert answer here**
+		- One-level hardware can easily become massive without being divided and split up into multiple parts. Since priority encoders get exponentially larger, 
 	- *What size do you think the component encoders should be for a 64:6 two-level priority encoder? What about a 32:5 2LPE?*
 		- For a 64:6 two-level priority encoder, the coarse encoder would be a 32:5 priority encoder and the fine encoder would be a 16:4 priority encoder.  For a 32:5 two-level priority encoder, the coarse encoder would be a 16:4 priority encoder and the fine encoder would be a 8:3 priority encoder. 
 	- *Do you think there is a better way to structure the encoder than the two-level hardware structure introduced in this lab? There is no wrong answer, but be sure to explain your reasoning.*
