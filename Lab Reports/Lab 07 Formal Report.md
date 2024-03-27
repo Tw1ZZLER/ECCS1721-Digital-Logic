@@ -35,10 +35,11 @@
 - We also took a photo of our look-up table usage, as seen in Figure 7.
 #### Part D
  - We created a new Vivado project and imported `lab07d.vhd`, `priority_encoder_4.vhd`, and `lab07d.xdc` files from Canvas.
-- We generated bitstream and uploaded to our FPGA board, to test the two-level 16:4 priority encoder.
-- We tested 3 different inputs of the 16:4 priority encoder, as seen in Figures 8, 9 and 10. The inputs we tested were `0000010000000000`, 0000011111111111, and 0000000000001001, which yielded the results 9, A, and 3 respectively.
-- We 
-- **insert stuff**
+ - We reviewed with the instructor the elaborated design schematic of our 16:4 priority encoder, and took a screenshot and annotated each important part. This can be viewed in Figure 11.
+ - We also noted the resource utilization of the FPGA board by our hardware, including look-up tables and flip-flops, which can be viewed in Figure 12.
+ - We generated bitstream and uploaded to our FPGA board, to test the two-level 16:4 priority encoder.
+ - We tested 3 different inputs of the 16:4 priority encoder, as seen in Figures 8, 9 and 10. The inputs we tested were `0000010000000000`, `0000011111111111`, and `0000000000001001`, which yielded the results `9`, `A`, and `3` respectively.
+ - We 
 
 ### Results
 ![[Pasted image 20240305163941.png]]
@@ -79,6 +80,9 @@
 <div style="text-align: center">Figure 12: LUT Usage of 16:4 Priority Encoder</div>
 
 ### Discussion/Analysis
+#### Part A
+- We learned how we can easily reduce the numbers of transistors and increase the speed of our hardware by using the Double Bubble rule.
+- We saw how to convert hardware implementation from `AND` / `OR` gates into `NAND` / `NOR` / `NOT` gates, and it showed us that being stingy is always a good thing th
 #### Part B
 - We learned that we can edit the constraints (`.xdc`) file in Vivado to change how the switches behave.
 - The constraints file we downloaded makes the 8 rightmost switches the input bits, where the rightmost switch is the least significant bit, and the leftmost bit is the most significant bit.
