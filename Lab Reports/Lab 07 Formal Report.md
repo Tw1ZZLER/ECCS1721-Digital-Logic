@@ -20,7 +20,7 @@
 	4. Counted all the transistors and calculated the total transistors saved.
 		  - 4 Ts per `NAND`/`NOR`, and 2 Ts per `NOT` gate.
 	5. Determined the critical path by finding the longest sequence of gates and inverters between the input wires and output wires.
-6. We drew the gate implementations, as seen in Figure
+6. We drew the gate implementations, as seen in Figure 13 in the appendix.
 #### Part B
 - We created a new Vivado project and imported `lab07b.vhd` and `lab07b.xdc` files from Canvas.
 - We generated bitstream and uploaded to our FPGA board, to test our gate-based 8:3 priority encoder on the board.
@@ -97,12 +97,12 @@
 	- *Do you think there is a better way to structure the encoder than the two-level hardware structure introduced in this lab? There is no wrong answer, but be sure to explain your reasoning.*
 		- **insert answer here**
 ### Conclusion
-We covered 
+We covered deriving boolean equations from truth tables and K-Maps and transforming boolean equations to both Sum of Product and Product of Sum with `NAND` / `NOR` gates. Afterwards, in Part B, we worked more with Vivado and VHDL and practicing using the FPGA board for development and testing. 
 
 ### Attachments / Appendix
 #### Drawn Gate Implementations
 
-
+<div style="text-align: center">Figure 13: Drawn Gate Implementations</div>
 #### Gate Implementation Analysis
 5. How many transistors do your AND / OR implementations from Step 3 cost? Do the SoP and PoS implementations differ in cost?
 
@@ -114,15 +114,13 @@ We covered
 
 - NAND/NOR SoP contained 52Ts
 - NAND/NOR PoS contained 56Ts		
-- Both nand/nor contained less transistors than their counterparts but the nand/nor Sop contained the least with 14 less transistors than its counterpart. 
+- Both NAND / NOR contained less transistors than their counterparts but the nand/nor Sop contained the least with 14 less transistors than its counterpart. 
 
 
 7. How long are the critical paths from your NAND / NOR implementations from Step 4? Are the critical paths from the NAND and NOR implementations different? If so, by how much?
-
-- NAND/NOR SoP critical path was 6 gates long
-- NAND/NOR PoS critical path was also 6 gates long
-- They did not differ in length.
-
+      - NAND/NOR SoP critical path was 6 gates long
+      - NAND/NOR PoS critical path was also 6 gates long
+      - They did not differ in length.
 
 8. Which method (sum-of-product or product-of-sum) resulted in a more efficient hardware implementation from the perspective of complexity/power (number of transistors) and speed (critical path)? Why?
 
