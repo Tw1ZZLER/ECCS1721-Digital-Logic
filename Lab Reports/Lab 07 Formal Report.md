@@ -39,7 +39,7 @@
  - We also noted the resource utilization of the FPGA board by our hardware, including look-up tables and flip-flops, which can be viewed in Figure 12.
  - We generated bitstream and uploaded to our FPGA board, to test the two-level 16:4 priority encoder.
  - We tested 3 different inputs of the 16:4 priority encoder, as seen in Figures 8, 9 and 10. The inputs we tested were `0000010000000000`, `0000011111111111`, and `0000000000001001`, which yielded the results `9`, `A`, and `3` respectively.
- - We then verified that our hardware generated the correct outputs. evaluated the truth table ourselves and produced our own outputs. 
+ - We then verified that our hardware generated the correct outputs. We evaluated the truth table ourselves and produced our own outputs, and then compared them to the ones received by the FPGA board.
 
 ### Results
 ![[Pasted image 20240305163941.png]]
@@ -119,7 +119,7 @@ We covered deriving boolean equations from truth tables and K-Maps and transform
 
 - NAND/NOR SoP contained 52Ts
 - NAND/NOR PoS contained 56Ts		
-- Both NAND / NOR contained less transistors than their counterparts but the nand/nor Sop contained the least with 14 less transistors than its counterpart. 
+- Both NAND / NOR contained less transistors than their counterparts but the NAND / NOR SoP contained the least with 14 less transistors than its counterpart. 
 
 
 7. How long are the critical paths from your NAND / NOR implementations from Step 4? Are the critical paths from the NAND and NOR implementations different? If so, by how much?
