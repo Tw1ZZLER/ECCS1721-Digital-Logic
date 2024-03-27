@@ -106,7 +106,8 @@ We covered deriving boolean equations from truth tables and K-Maps and transform
 
 ### Attachments / Appendix
 #### Drawn Gate Implementations
-
+![[IMG_20240326_220626667.jpg]]
+![[IMG_20240326_220600965.jpg]]
 
 #### Gate Implementation Analysis
 5. How many transistors do your AND / OR implementations from Step 3 cost? Do the SoP and PoS implementations differ in cost?
