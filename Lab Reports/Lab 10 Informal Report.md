@@ -1,0 +1,2 @@
+- what is source of error
+	- It is the fact that the first counter the clock divider goes to 2^20-1 instead of 1 million and by doing that you are 
