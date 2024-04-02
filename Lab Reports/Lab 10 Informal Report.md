@@ -10,7 +10,3 @@ Submit an informal report with answers to the following questions:
 	- 
 5. Why is the carry-look-ahead adder essential in this multiplier? Your answers will help you write your final project report.
 	- 
-- what is source of error
-	- It is the fact that the first counter - the clock divider - goes all the way to 2^20-1 instead of 1 million and by doing that you are
-- Why do I need to keep.
-	- 
