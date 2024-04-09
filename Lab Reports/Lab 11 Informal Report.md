@@ -26,4 +26,4 @@
 ![[Pasted image 20240409170805.png]]
 - The experimental results matched the expected results from the handout.
 #### Handout Questions
-16. 
+16. We will split our 128-bit packet into 2 64-bit packets by using a multiplexor to decide which section of bits we will use. For the transciever, we send this data from the multiplexor to a shift register so when the receiver recieves the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
