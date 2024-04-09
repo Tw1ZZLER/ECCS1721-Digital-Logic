@@ -9,5 +9,7 @@
 #### Brief Comment
 - Our experimental results of the 2-level priority encoder matched the expected results perfectly.
 ## Part C – 64 Bit Two-Level Decoder
+#### Resource Utilization
+![[Pasted image 20240409163507.png]]
 #### 
 ## Part D – 64 Bit Two-Level Barrel Shifter
