@@ -22,4 +22,8 @@
 ![[Pasted image 20240409165840.png]]
 #### Resource Utilization
 ![[Pasted image 20240409170144.png]]
-#### 
+#### SerialTool Output
+![[Pasted image 20240409170805.png]]
+- The experimental results matched the expected results from the handout.
+#### Handout Questions
+16. 
