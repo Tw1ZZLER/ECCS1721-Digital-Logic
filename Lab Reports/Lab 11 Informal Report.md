@@ -16,5 +16,5 @@
 #### Brief Comment
 - Our experimental results of the decoder matched the expected results from the handout. However, the outputs of our decoder did not match the inputs of our priority encoder.
 #### Handout Questions
-16. This tells us that the priority encoder is 
+16. This tells us that the priority encoder is non-invertable. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work.
 ## Part D – 64 Bit Two-Level Barrel Shifter
