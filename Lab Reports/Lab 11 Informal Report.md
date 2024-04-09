@@ -1,5 +1,3 @@
-## Part A - Serial Communication
-
 ## Part B – 64 Bit Two-Level Priority Encoder
 
 ## Part C – 64 Bit Two-Level Decoder
