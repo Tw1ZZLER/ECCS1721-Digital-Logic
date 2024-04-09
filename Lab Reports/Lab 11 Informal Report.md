@@ -11,5 +11,8 @@
 ## Part C – 64 Bit Two-Level Decoder
 #### Resource Utilization
 ![[Pasted image 20240409163507.png]]
-#### 
+#### SerialTool Output
+![[Pasted image 20240409164219.png]]
+#### Brief Comment
+- 
 ## Part D – 64 Bit Two-Level Barrel Shifter
