@@ -18,3 +18,8 @@
 #### Handout Questions
 16. This tells us that the priority encoder is non-invertable. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work.
 ## Part D – 64 Bit Two-Level Barrel Shifter
+#### Elaborated Design Schematic
+![[Pasted image 20240409165840.png]]
+#### Resource Utilization
+![[Pasted image 20240409170144.png]]
+#### 
