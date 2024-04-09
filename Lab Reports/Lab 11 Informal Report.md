@@ -14,5 +14,7 @@
 #### SerialTool Output
 ![[Pasted image 20240409164219.png]]
 #### Brief Comment
-- 
+- Our experimental results of the decoder matched the expected results from the handout. However, the outputs of our decoder did not match the inputs of our priority encoder.
+#### Handout Questions
+16. This tells us that the priority encoder is 
 ## Part D – 64 Bit Two-Level Barrel Shifter
