@@ -10,7 +10,7 @@
 #### Elaborated Design Schematic
 
 #### Resource Utilization
-
+![[20240423_155216.jpg]]
 #### Board Testing
 
 
