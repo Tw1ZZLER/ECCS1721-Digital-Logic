@@ -15,6 +15,14 @@
 ![[20240423_155216.jpg]]
 
 ## Part B – 64 Bit CLA Adder using Serial Communication
+#### Elaborated Design Schematic
+##### Full Schematic
+![[Pasted image 20240423162159.png]]
+##### Adder
+![[Pasted image 20240423162241.png]]
+#### Resource Utilization
+![[Pasted image 20240423162310.png]]
+#### Serial Testing
 
 
 ## Part C – 64 Bit Two-Level Multiplier
