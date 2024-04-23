@@ -20,6 +20,8 @@
 ![[Pasted image 20240423162159.png]]
 ##### Adder
 ![[Pasted image 20240423162241.png]]
+##### Expanded CLAs
+![[Pasted image 20240423164543.png]]
 #### Resource Utilization
 ![[Pasted image 20240423162310.png]]
 #### Serial Testing Results
@@ -36,5 +38,5 @@
 | FFFFFFFFFFFFFFFF | FFFFFFFFFFFFFFFF | 1                        | FFFFFFFFFFFFFFFE | 1                      | FFFFFFFFFFFFFFFE |
 | 8000000000000000 | 8000000000000000 | 1                        | 0000000000000000 | 1                      | 0000000000000000 |
 | 5555555555555555 | AAAAAAAAAAAAAAAA | 0                        | FFFFFFFFFFFFFFFF | 0                      | FFFFFFFFFFFFFFFF |
-
+#### Brief C
 ## Part C – 64 Bit Two-Level Multiplier
