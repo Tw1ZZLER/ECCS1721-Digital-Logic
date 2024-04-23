@@ -40,5 +40,3 @@
 | 5555555555555555 | AAAAAAAAAAAAAAAA | 0                        | FFFFFFFFFFFFFFFF | 0                      | FFFFFFFFFFFFFFFF |
 #### Brief Comment
 Our test results matched the results that we expected.
-
-## Part C – 64 Bit Two-Level Multiplier
