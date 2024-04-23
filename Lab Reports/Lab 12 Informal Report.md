@@ -8,9 +8,9 @@
 ![[20240423_152603.jpg]]
 ### 16-Bit CLA
 #### Elaborated Design Schematic
-
+![[Pasted image 20240423160507.png]]
 #### Resource Utilization
-
+![[Pasted image 20240423160526.png]]
 #### Board Testing
 ![[20240423_155216.jpg]]
 
