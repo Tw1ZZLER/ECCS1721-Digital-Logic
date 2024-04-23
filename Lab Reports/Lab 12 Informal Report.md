@@ -10,9 +10,9 @@
 #### Elaborated Design Schematic
 
 #### Resource Utilization
-![[20240423_155216.jpg]]
-#### Board Testing
 
+#### Board Testing
+![[20240423_155216.jpg]]
 
 ## Part B – 64 Bit CLA Adder using Serial Communication
 
