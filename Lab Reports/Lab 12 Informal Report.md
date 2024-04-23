@@ -3,7 +3,7 @@
 
 #### Resource Utilization
 ![[Pasted image 20240423152417.png]]
-#### Program Example 
+#### Board Testing 
 ![[20240423_152603.jpg]]
 
 ## Part B – 64 Bit CLA Adder using Serial Communication
