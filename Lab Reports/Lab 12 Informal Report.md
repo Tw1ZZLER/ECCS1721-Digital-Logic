@@ -38,5 +38,7 @@
 | FFFFFFFFFFFFFFFF | FFFFFFFFFFFFFFFF | 1                        | FFFFFFFFFFFFFFFE | 1                      | FFFFFFFFFFFFFFFE |
 | 8000000000000000 | 8000000000000000 | 1                        | 0000000000000000 | 1                      | 0000000000000000 |
 | 5555555555555555 | AAAAAAAAAAAAAAAA | 0                        | FFFFFFFFFFFFFFFF | 0                      | FFFFFFFFFFFFFFFF |
-#### Brief C
+#### Brief Comment
+Our test results matched the results that we expected.
+
 ## Part C – 64 Bit Two-Level Multiplier
