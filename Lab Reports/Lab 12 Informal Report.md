@@ -30,3 +30,16 @@
 ![[Pasted image 20240423165949.png]]
 #### Brief Comment
 Our test results matched the results that we expected.
+## Part 12C - 64 Bit Two-Level Multiplier
+#### Elaborated Design Schematic
+##### Expanded Multiplier
+![[lab12c-schematic-multiplier.png]]
+##### CLA
+![[lab12c-schematic-cla.png]]
+#### FPGA Resource Utilization
+![[lab12c-fpgaresources.png]]
+#### Spreadsheet
+![[lab12c-spreadsheet.png]]
+#### SerialTool Results
+![[lab12c-serialtool-1.png]]
+![[lab12c-serialtool-2.png]]
