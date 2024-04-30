@@ -24,7 +24,7 @@
 #### FPGA Resource Utilization
 ![[Pasted image 20240430163823.png]]
 #### Board Test
-
+![[20240430_164521.jpg]]
 #### Testing Spreadsheet
 
 #### Questions
