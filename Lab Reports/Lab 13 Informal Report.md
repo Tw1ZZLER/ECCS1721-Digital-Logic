@@ -26,9 +26,9 @@
 #### Board Test
 ![[20240430_164521.jpg]]
 #### Testing Spreadsheet
-
+![[Pasted image 20240430165307.png]]
 #### Questions
-12. 
+12. The only difference between the two was that a positive zero as a multiplicand multiplied with any negative multiplier gives us a negative zero. The array multiplier has the best throughput but has a latency 2 clocks. The two-level multiplier and serial multiplier 
 13. 
 14. 
 #### Hardware Table
