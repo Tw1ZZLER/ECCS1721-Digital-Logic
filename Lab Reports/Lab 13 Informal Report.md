@@ -28,7 +28,7 @@
 #### Testing Spreadsheet
 ![[Pasted image 20240430165307.png]]
 #### Questions
-12. The only difference between the two was that a positive zero as a multiplicand multiplied with any negative multiplier gives us a negative zero. The array multiplier has the best throughput but has a latency 2 clocks. The two-level multiplier and serial multiplier 
+12. The only difference between the two was that a positive zero as a multiplicand multiplied with any negative multiplier gives us a negative zero. The array multiplier has the best throughput but has a latency 2 clocks. The two-level multiplier and serial multiplier both have the same throughput and latency because you give them an input and you have hit reset. The latency and throughput of them is $n + 2$ clock cycles, where $n$ is the number of bits of the multiplier. Our version is taking to $n + 3$, which 19 clock cycles. Two level multiplier is a little more expensive than serial, but it's latency and throughput are both $n/2$ clock cycles.
 13. The mealy state machine requires only 10 states compared to the moore machine requireing 27 states.  Less States = More cheaper. Multiplier is coming from a flip-flop and mealy requres less clock cycles
 14. The moore machine gives an output every clock cycle where the mealy machine needs to wait to check the bit every state cycle making it give an output every 2 clock cycles.
 #### Hardware Table
