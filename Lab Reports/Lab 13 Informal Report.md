@@ -26,10 +26,10 @@
 #### Board Test
 ![[20240430_164521.jpg]]
 #### Testing Spreadsheet
-
+![[Pasted image 20240430165307.png]]
 #### Questions
-12. 
-13. The mealy state machine requires only 10 states compared to the moore machine requireing 27 states.  Less States = More cheaper
+12. The only difference between the two was that a positive zero as a multiplicand multiplied with any negative multiplier gives us a negative zero. The array multiplier has the best throughput but has a latency 2 clocks. The two-level multiplier and serial multiplier 
+13. The mealy state machine requires only 10 states compared to the moore machine requireing 27 states.  Less States = More cheaper. Multiplier is coming from a flip-flop and mealy requres less clock cycles
 14. 
 #### Hardware Table
 
