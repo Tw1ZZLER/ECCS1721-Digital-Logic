@@ -29,7 +29,7 @@
 
 #### Questions
 12. 
-13. 
+13. The mealy state machine requires only 10 states compared to the moore machine requireing 27 states.  Less States = More cheaper
 14. 
 #### Hardware Table
 
