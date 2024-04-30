@@ -1,16 +1,16 @@
 ## Part A – 4 Bit and 16 Bit CLA Adders
 ### 4-Bit CLA
 #### Elaborated Design Schematic
-![[Pasted image 20240423154604.png]]
+![[lab12a-4bit_schematic.png]]
 #### Resource Utilization
-![[Pasted image 20240423152417.png]]
+![[lab12a-4bit_resource_utilization.png]]
 #### Board Testing 
-![[20240423_152603.jpg]]
+![[lab12a-board_test.jpg]]
 ### 16-Bit CLA
 #### Elaborated Design Schematic
-![[Pasted image 20240423160507.png]]
+![[lab12a-16bit_schematic.png]]
 #### Resource Utilization
-![[Pasted image 20240423160526.png]]
+![[lab12a-16bit_resource_utilization.png]]
 #### Board Testing
 ![[20240423_155216.jpg]]
 
