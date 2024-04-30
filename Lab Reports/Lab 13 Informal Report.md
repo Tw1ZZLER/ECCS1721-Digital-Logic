@@ -22,7 +22,7 @@
 ##### `sign_magnitude_f` Component
 ![[Pasted image 20240430162847.png]]
 #### FPGA Resource Utilization
-
+![[Pasted image 20240430163823.png]]
 #### Board Test
 
 #### Testing Spreadsheet
@@ -33,8 +33,13 @@
 14. 
 #### Hardware Table
 
-|     |     |
-| --- | --- |
-|     |     |
+|                   | Array Multiplier | Serial Multiplier |
+| ----------------- | ---------------- | ----------------- |
+| Area (Complexity) |                  |                   |
+| Speed             |                  |                   |
+| Power             |                  |                   |
+| Latency           |                  |                   |
+| Throughput        |                  |                   |
+| Modularity        |                  |                   |
 
 ## Part C - Prioritization Activity
