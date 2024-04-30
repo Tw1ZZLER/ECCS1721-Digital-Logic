@@ -6,7 +6,8 @@
 ![[Pasted image 20240430160319.png]]
 #### FPGA Resource Utilization
 ![[Pasted image 20240430160351.png]]
-####
+#### Board Test
+
 ## Part B-  8-Bit Serial Multiplier
 
 ## Part C - Prioritization Activity
