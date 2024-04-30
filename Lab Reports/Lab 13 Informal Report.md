@@ -39,6 +39,6 @@
 | Speed             |                  |                   |
 | Power             |                  |                   |
 | Latency           |                  |                   |
-| Throughput        | $n + 2$          |                   |
+| Throughput        | $n + 2$          | $n+2$             |
 | Modularity        |                  |                   |
 
