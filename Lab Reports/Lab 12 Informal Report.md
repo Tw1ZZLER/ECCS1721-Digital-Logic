@@ -5,29 +5,29 @@
 #### Resource Utilization
 ![[lab12a-4bit_resource_utilization.png]]
 #### Board Testing 
-![[lab12a-board_test.jpg]]
+![[lab12a-4bit_board_test.jpg]]
 ### 16-Bit CLA
 #### Elaborated Design Schematic
 ![[lab12a-16bit_schematic.png]]
 #### Resource Utilization
 ![[lab12a-16bit_resource_utilization.png]]
 #### Board Testing
-![[20240423_155216.jpg]]
+![[lab12a-16bit_board_test_5AFE.jpg]]
 
 ## Part B – 64 Bit CLA Adder using Serial Communication
 #### Elaborated Design Schematic
 ##### Full Schematic
-![[Pasted image 20240423162159.png]]
+![[lab12b-full_schematic.png]]
 ##### Adder
-![[Pasted image 20240423162241.png]]
+![[lab12b-adder_schematic.png]]
 ##### Expanded CLAs
-![[Pasted image 20240423164543.png]]
+![[lab12b-expanded_CLA_schematic.png]]
 #### Resource Utilization
-![[Pasted image 20240423162310.png]]
+![[lab12b-resource_utilization.png]]
 #### Serial Testing Results
-![[Pasted image 20240423164110.png]]
-![[Pasted image 20240423164052.png]]
-![[Pasted image 20240423165949.png]]
+![[lab12b-serialtool_output_1.png]]
+![[lab12b-serialtool_output_2.png]]
+![[lab12b-excel_spreadsheet.png]]
 #### Brief Comment
 Our test results matched the results that we expected.
 ## Part 12C - 64 Bit Two-Level Multiplier
