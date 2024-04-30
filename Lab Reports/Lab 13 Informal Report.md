@@ -2,6 +2,8 @@
 #### Elaborated Design Schematic
 ##### Expanded Multiplier
 ![[lab12c-schematic-multiplier.png]]
+##### CLA
+
 #### FPGA Resource Utilization
 ![[lab12c-fpgaresources.png]]
 #### Spreadsheet
