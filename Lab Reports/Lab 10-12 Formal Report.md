@@ -14,6 +14,9 @@
 
 
 ### Results
+The following is the elaborated design schematic of the 64-bit two-level priority encoder:
+![[lab11b-full_schematic.png]]
+
 
 
 ### Discussion/Analysis
