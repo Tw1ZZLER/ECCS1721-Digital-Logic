@@ -56,7 +56,9 @@ After opening the elaborated design schematic of the 16-bit carry-look-ahead add
 Opening design runs, we can view the number of look-up tables and flip-flops this CLA uses, as shown in Figure 15:
 ![[lab12a-16bit_resource_utilization.png]]
 <div style="text-align: center">Figure 15: Resource Utilization of 16-bit CLA</div>
-After doing testing on the board using the switches, we can view the output of our additions via the seven-segment display. This is shown in Figure 17.
+After doing testing on the board using the switches, we can view the output of our additions via the seven-segment display, this time in hexadecimal. This is shown in Figure 16.
+![[lab12a-16bit_board_test_5AFE.jpg]]
+<div style="text-align: center">Figure 16: FPGA Board Testing of 16-bit CLA</div>
 
 ### Discussion/Analysis
 
