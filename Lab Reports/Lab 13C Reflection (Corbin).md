@@ -24,4 +24,4 @@ Power is very important in smartphones and laptops in general, because of batter
 	- Essentially, discuss how your scores changed from each step and from the baseline, and why. 
 		- This is where you examine how the prioritization scores changed. Did the delta between steps increase, decrease, or not change? Did the delta between your scores and the baseline increase, decrease, or not change?
 
-My score deltas changed from being higher to lower as we went from individual to pairwise to group. This means that I was willing to change my opinion and I was wrong, which is good. One exception was that the desktop components did not change at all, as all 3 of us agreed from pairwise to group on what I did being correct. Additionally, going from individual to pairwise 
+My score deltas changed from being higher to lower as we went from individual to pairwise to group. This means that I was willing to change my opinion and I was wrong, which is good. One exception was that the desktop components did not change at all, as all 3 of us agreed from pairwise to group on what I did being correct. Additionally, going from individual to pairwise for GPU
