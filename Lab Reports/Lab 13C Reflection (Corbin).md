@@ -17,7 +17,7 @@ Please follow the handout and rubric
 	- In one paragraph, discuss the rationale your group used in the final prioritization scores. 
 		- Note anything unique about the application that the specific hardware unit or computing platform that led to key decisions in the prioritization. 
 
-
+Power is very important in smartphones in general, because of battery life and limitation. Graphics cards are designed for as much throughput 
 
 	- In a second paragraph, discuss how the prioritization scores for the evaluation metrics changed from the individual stage, to the pairwise stage, and finally to the large group stage. 
 		- Also discuss how the difference between your scores and the baseline scores changed from the individual step, to the individual stage, to the pairwise stage, and finally to the large group stage. 
