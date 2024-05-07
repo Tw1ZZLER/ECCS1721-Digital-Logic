@@ -14,8 +14,15 @@
 
 
 ### Results
-The following is the elaborated design schematic of the 64-bit two-level priority encoder:
+Figure 1 is the elaborated design schematic of the 64-bit two-level priority encoder:
 ![[lab11b-full_schematic.png]]
+<div style="text-align: center">Figure 1: 64-Bit Two-Level Priority Encoder Design Schematic</div>
+We can expand the encoder section of this schematic to view the hardware of the encoder, as seen in Figure 2:
+![[lab11b-subschematic.png]]
+<div style="text-align: center">Figure 2: Encoder Design Schematic</div>
+Opening design runs in elaborated design, we can view the number of look-up tables and flip-flops used by the 64-bit two-level priority encoder, as seen in Figure 3:
+![[lab11b-resource-utilization.png]]
+<div style="text-align: center">Figure 3: Resource Utilization of 64-bit Two-Level Priority Encoder</div>
 
 
 
