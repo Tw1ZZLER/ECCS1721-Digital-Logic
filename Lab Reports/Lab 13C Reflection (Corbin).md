@@ -17,7 +17,7 @@ Please follow the handout and rubric
 - In one paragraph, discuss the rationale your group used in the final prioritization scores. 
 	- Note anything unique about the application that the specific hardware unit or computing platform that led to key decisions in the prioritization. 
 
-Power is very important in smartphones in general, because of battery life and limitation, so it got a high score in all 3. Area is relatively important as smartphones are small. Graphics cards are designed for as much throughput as possible and parallel processing, which is why they got a high throughput score. Desktops are very large and don't have batteries, so that is why area and power are so low for them. For all processors, latency is an important in factor to consider the speed and efficiency of the entire machine.
+Power is very important in smartphones and laptops in general, because of battery life and limitation, so the for the processors of these power got the highest score.  For the processor for the desktop, clock period got the highest score, as these processors need to be as fast as possible. Graphics cards are designed for as much throughput as possible and parallel processing, which is why they got a high throughput score on all 3. For the user interfaces, latency got the highest score on all 3, as sluggish and slow user interfaces are often awful to use. 
 
 - In a second paragraph, discuss how the prioritization scores for the evaluation metrics changed from the individual stage, to the pairwise stage, and finally to the large group stage. 
 	- Also discuss how the difference between your scores and the baseline scores changed from the individual step, to the individual stage, to the pairwise stage, and finally to the large group stage. 
