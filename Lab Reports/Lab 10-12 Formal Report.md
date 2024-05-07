@@ -41,7 +41,23 @@ Opening design runs, we can view the number of look-up tables and flip-flops thi
 After testing the 64-bit two-level barrel shifter, using SerialTool's HEX terminal, we can get outputs from the FPGA device in hexadecimal. These are shown in Figure 10:
 ![[lab11d-serialtool_output.png]]
 <div style="text-align: center">Figure 10: SerialTool Output of 64-bit Two-Level Barrel Shifter</div>
-After opening the elaborated design schematic of the 4-bit 
+After opening the elaborated design schematic of the 4-bit carry-look-ahead adder, we can expand the adder and other portions of it to view all the hardware, as seen in Figure 11.
+![[lab12a-4bit_schematic.png]]
+<div style="text-align: center">Figure 11: Elaborated Design Schematic of 4-bit CLA</div>
+Opening design runs, we can view the number of look-up tables and flip-flops this CLA uses, as shown in Figure 12:
+![[lab12a-4bit_resource_utilization.png]]
+<div style="text-align: center">Figure 12: Resource Utilization of 4-bit CLA</div>
+After doing testing on the board using the switches, we can view the output of our additions via the seven-segment display. This is shown in Figure 13.
+![[lab12a-4bit_board_test.jpg]]
+<div style="text-align: center">Figure 13: FPGA Board Testing of 4-bit CLA</div>
+After opening the elaborated design schematic of the 16-bit carry-look-ahead adder, we can expand the adder and other portions of it to view all the hardware, as seen in Figure 14.
+![[lab12a-16bit_schematic.png]]
+<div style="text-align: center">Figure 14: Elaborated Design Schematic of 16-bit CLA</div>
+Opening design runs, we can view the number of look-up tables and flip-flops this CLA uses, as shown in Figure 15:
+![[lab12a-16bit_resource_utilization.png]]
+<div style="text-align: center">Figure 15: Resource Utilization of 16-bit CLA</div>
+After doing testing on the board using the switches, we can view the output of our additions via the seven-segment display. This is shown in Figure 17.
+
 ### Discussion/Analysis
 
 
