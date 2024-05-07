@@ -29,8 +29,19 @@ After running through various tests using SerialTool's HEX terminal, we get outp
 Looking in the elaborated design of the 64-bit two-level decoder, we can view the look-up tables and flip-flops it uses, as seen in Figure 5:
 ![[lab11c-resource_utilization.png]]
 <div style="text-align: center">Figure 5: Resource Utilization of 64-bit Two-Level Decoder</div>
-After running through more tests, this time using the decoder, using SerialTool's HEX terminal, we get outputs from the FPGA device in hexadecimal. These are shown in Figure 5:
-
+After running through more tests, this time using the decoder, using SerialTool's HEX terminal, we get outputs from the FPGA device in hexadecimal. These are shown in Figure 6:
+![[lab11c-serialtool_output.png]]
+<div style="text-align: center">Figure 7: SerialTool Output of 64-bit Two-Level Decoder</div>
+Now that we have introduced a 64-bit two-level barrel shifter, we can open it's elaborated design schematic and expand the barrel shifter section, as the other sections are not important. This schematic is shown in Figure 8:
+![[lab11d-barrel_shifter_schematic.png]]
+<div style="text-align: center">Figure 8: Design Schematic of 64-bit Two-Level Barrel Shifter</div>
+Opening design runs, we can view the number of look-up tables and flip-flops this barrel shifter uses, as shown in Figure 9:
+![[lab11d-resource_utilization.png]]
+<div style="text-align: center">Figure 9: Resource Utilization of 64-bit Two-Level Barrel Shifter</div>
+After testing the 64-bit two-level barrel shifter, using SerialTool's HEX terminal, we can get outputs from the FPGA device in hexadecimal. These are shown in Figure 10:
+![[lab11d-serialtool_output.png]]
+<div style="text-align: center">Figure 10: SerialTool Output of 64-bit Two-Level Barrel Shifter</div>
+After opening the elaborated design schematic of the 4-bit 
 ### Discussion/Analysis
 
 
