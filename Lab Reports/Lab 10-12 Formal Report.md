@@ -8,7 +8,7 @@
 	- Corbin Hibler
 	- Dylan Hughes
 ### Introduction
-	From lab 10 to lab 12 we analyzed the design and functions of the parts that make up a two-level multiplier.  First we separrated the two-
+	From lab 10 to lab 12 we analyzed the design and functions of the parts that make up a two-level multiplier.  First we separrated the two-level multiplier into its major components, the priority encoder, decoder, barrel shifter, and carry-look-ahead adder.
 
 ### Methodology
 
