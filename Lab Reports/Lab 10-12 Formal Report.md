@@ -90,3 +90,5 @@ After introducing the 64-bit two-level multiplier,
 
 
 ### References
+[M. Phillips, F. Hassan, A. Ammar and N. Hagerdorn, "Leveraging a Novel Two-Level Priority Encoder for High-Precision Integer Multiplication," 2023 IEEE 66th International Midwest Symposium on Circuits and Systems (MWSCAS), Tempe, AZ, USA, 2023, pp. 1118-1122, doi: 10.1109/MWSCAS57524.2023.10405960. keywords: {Performance evaluation;Hardware;Complexity theory;Phase locked loops;Physics;Field programmable gate arrays;Clocks;high precision;integer multiplication;priority encoder;encryption;variable radix},
+
