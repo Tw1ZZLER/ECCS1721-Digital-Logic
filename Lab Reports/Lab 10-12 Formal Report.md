@@ -95,7 +95,9 @@ After using SerialTool to send data to the board and receive outputs, we can vie
 <div style="text-align: center">Figure 27: SerialTool Output of 64-bit Two-Level Multiplier (1)</div>
 ![[lab12c-serialtool-2.png]]
 <div style="text-align: center">Figure 28: SerialTool Output of 64-bit Two-Level Multiplier (2)</div>
-Compiling this data into the given spreadsheet, we can compare our data against the data that we received. 
+We can compile this data into the given spreadsheet, which is shown in Figure 29.
+![[lab12c-spreadsheet.png]]
+<div style="text-align: center">Figure 29: Spreadsheet of 64-bit Two-Level Multiplier Results</div>
 ### Discussion/Analysis
 
 
@@ -103,3 +105,6 @@ Compiling this data into the given spreadsheet, we can compare our data against 
 
 
 ### References
+[1] M. Phillips, F. Hassan, A. Ammar, and N. Hagerdorn, “Leveraging a Novel Two-Level Priority Encoder for High-Precision Integer Multiplication,” Aug. 2023, doi: https://doi.org/10.1109/mwscas57524.2023.10405960.
+
+‌
