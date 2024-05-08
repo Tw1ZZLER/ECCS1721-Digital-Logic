@@ -62,11 +62,19 @@ After doing testing on the board using the switches, we can view the output of o
 ![[lab12a-16bit_board_test_5AFE.jpg]]
 <div style="text-align: center">Figure 16: FPGA Board Testing of 16-bit CLA</div>
 Introducing the 64-bit CLA adder and opening it's elaborated design schematic, we can view it's overall hardware, as seen in Figure 17.
-
+![[lab12b-full_schematic.png]]
+<div style="text-align: center">Figure 17: 64-bit CLA Adder Design Schematic</div>
+Expanding the adder section, we can view the general hardware of the adder, as seen in Figure 18.
+![[lab12b-adder_schematic.png]]
+<div style="text-align: center">Figure 18: Expanded 64-bit CLA Adder Design Schematic</div>
+After expanding all CLAs, we can get an even more detailed look at the full hardware of the adder, as seen in Figure 19.
+![[lab12b-expanded_CLA_schematic.png]]
+<div style="text-align: center">Figure 19: Fully Expanded 64-bit CLA Adder Design Schematic</div>
+Opening design runs in elaborated design, we can view the total number of look-up tables and flip-flops that this adder uses in F
 ### Discussion/Analysis
 
 
 ### Conclusion
 
 
-### Attachments / Appendix (optional)
+### References
