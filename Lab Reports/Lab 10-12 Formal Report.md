@@ -1,5 +1,5 @@
 # ECCS 1721
-## Lab 10-12 - INSERT TITLE
+## Lab 10-12 - High-Precision Multipliers & Their Building Blocks
 - Labs Conducted: 
 	- Lab 10: 2024-04-02
 	- Lab 11: 2024-04-09
@@ -14,6 +14,7 @@
 
 
 ### Results
+#### Lab 11
 Figure 1 is the elaborated design schematic of the 64-bit two-level priority encoder:
 ![[lab11b-full_schematic.png]]
 <div style="text-align: center">Figure 1: 64-Bit Two-Level Priority Encoder Design Schematic</div>
