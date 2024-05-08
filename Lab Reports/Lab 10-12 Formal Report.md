@@ -84,7 +84,10 @@ Using the given spreadsheet, we can organize these values and compare them to th
 After introducing the 64-bit two-level multiplier, we can view it's elaborated design schematic and expand portions of the hardware as seen in Figure 24.
 ![[lab12c-schematic-multiplier.png]]
 <div style="text-align: center">Figure 24: 64-Bit Two-Level Multiplier Design Schematic</div>
-We can zoom in on the CLA portion that only contains 2 CLAs 
+We can zoom in on the CLA portion that only contains 2 CLAs and take a screenshot, as viewed in Figure 25.
+![[lab12c-schematic-cla.png]]
+<div style="text-align: center">Figure 25: Expanded View of CLAs in 64-Bit Two-Level Multiplier Design Schematic</div>
+Opening design runs in elaborated
 
 ### Discussion/Analysis
 
