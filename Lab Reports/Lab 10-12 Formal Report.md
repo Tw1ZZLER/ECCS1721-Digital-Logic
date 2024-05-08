@@ -8,7 +8,7 @@
 	- Corbin Hibler
 	- Dylan Hughes
 ### Introduction
-	
+	From lab 10 to lab 12 we learned how to de
 
 ### Methodology
 
