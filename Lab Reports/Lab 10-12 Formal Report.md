@@ -1,5 +1,5 @@
 # ECCS 1721
-## Lab 10-12 - High-Precision Multipliers & Their Building Blocks
+## Labs 10-12 - Two-Level Multiplier
 - Labs Conducted: 
 	- Lab 10: 2024-04-02
 	- Lab 11: 2024-04-09
