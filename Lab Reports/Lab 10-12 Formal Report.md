@@ -70,7 +70,10 @@ Expanding the adder section, we can view the general hardware of the adder, as s
 After expanding all CLAs, we can get an even more detailed look at the full hardware of the adder, as seen in Figure 19.
 ![[lab12b-expanded_CLA_schematic.png]]
 <div style="text-align: center">Figure 19: Fully Expanded 64-bit CLA Adder Design Schematic</div>
-Opening design runs in elaborated design, we can view the total number of look-up tables and flip-flops that this adder uses in F
+Opening design runs in elaborated design, we can view the total number of look-up tables and flip-flops that this adder uses in Figure 20.
+![[lab12b-resource_utilization.png]]
+<div style="text-align: center">Figure 20: 64-bit CLA Adder Resource Utilization</div>
+After using SerialTool to send data to the board over serial communication,
 ### Discussion/Analysis
 
 
