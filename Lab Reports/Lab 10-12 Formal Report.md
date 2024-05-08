@@ -78,7 +78,7 @@ After using SerialTool to send data to the board over serial communication, we c
 <div style="text-align: center">Figure 21: SerialTool Output of 64-bit CLA Adder (1)</div>
 ![[lab12b-serialtool_output_2.png]]
 <div style="text-align: center">Figure 22: SerialTool Output of 64-bit CLA Adder (2)</div>
-Using the given spreadsheet, we can organize these values and compare them to their respected expected values in Figure 23.
+Using the given spreadsheet, we can organize these values and compare them to their respected expected values in Figure 23. All of the values we received matched the expected values given.
 ![[lab12b-excel_spreadsheet.png]]
 <div style="text-align: center">Figure 23: Spreadsheet of 64-bit CLA Adder Results</div>
 
