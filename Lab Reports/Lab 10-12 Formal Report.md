@@ -8,7 +8,7 @@
 	- Corbin Hibler
 	- Dylan Hughes
 ### Introduction
-	From lab 10 to lab 12 we learned how to de
+	From lab 10 to lab 12 we analyzed the design and functions of the parts that make up a two-level multiplier.  
 
 ### Methodology
 
@@ -96,8 +96,3 @@ Opening design runs in elaborated
 
 
 ### References
-[1] M. Phillips, F. Hassan, A. Ammar, and N. Hagerdorn, “Leveraging a Novel Two-Level Priority Encoder for High-Precision Integer Multiplication,” Aug. 2023, doi: 
-https://doi.org/10.1109/mwscas57524.2023.10405960.
-
-‌
-
