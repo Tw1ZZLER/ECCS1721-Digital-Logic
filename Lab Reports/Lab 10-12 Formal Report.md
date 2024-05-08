@@ -10,7 +10,7 @@
 ### Introduction
 
 
-### Procedure
+### Methodology
 
 
 ### Results
