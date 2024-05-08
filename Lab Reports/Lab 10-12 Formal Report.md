@@ -87,7 +87,10 @@ After introducing the 64-bit two-level multiplier, we can view it's elaborated d
 We can zoom in on the CLA portion that only contains 2 CLAs and take a screenshot, as viewed in Figure 25.
 ![[lab12c-schematic-cla.png]]
 <div style="text-align: center">Figure 25: Expanded View of CLAs in 64-Bit Two-Level Multiplier Design Schematic</div>
-Opening design runs in elaborated
+Opening design runs in elaborated design allows us to view the look-up tables and flip-flops in Vivado 2023 Edition. We can look at this in Figure 26.
+![[lab12c-fpgaresources.png]]
+<div style="text-align: center">Figure 26: 64-Bit Two-Level Multiplier Resource Utilization</div>
+
 
 ### Discussion/Analysis
 
