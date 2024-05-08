@@ -90,3 +90,8 @@ After introducing the 64-bit two-level multiplier,
 
 
 ### References
+[1] M. Phillips, F. Hassan, A. Ammar, and N. Hagerdorn, “Leveraging a Novel Two-Level Priority Encoder for High-Precision Integer Multiplication,” Aug. 2023, doi: 
+https://doi.org/10.1109/mwscas57524.2023.10405960.
+
+‌
+
