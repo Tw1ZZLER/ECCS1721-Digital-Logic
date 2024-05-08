@@ -81,7 +81,7 @@ After using SerialTool to send data to the board over serial communication, we c
 Using the given spreadsheet, we can organize these values and compare them to their respected expected values in Figure 23. All of the values we received matched the expected values given.
 ![[lab12b-excel_spreadsheet.png]]
 <div style="text-align: center">Figure 23: Spreadsheet of 64-bit CLA Adder Results</div>
-
+After introducing the 64-bit two-level multiplier, 
 
 ### Discussion/Analysis
 
