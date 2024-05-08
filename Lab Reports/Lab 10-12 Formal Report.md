@@ -90,8 +90,12 @@ We can zoom in on the CLA portion that only contains 2 CLAs and take a screensho
 Opening design runs in elaborated design allows us to view the look-up tables and flip-flops in Vivado 2023 Edition. We can look at this in Figure 26.
 ![[lab12c-fpgaresources.png]]
 <div style="text-align: center">Figure 26: 64-Bit Two-Level Multiplier Resource Utilization</div>
-
-
+After using SerialTool to send data to the board and receive outputs, we can view these outputs in the HEX terminal and take screenshots of them. These are shown in Figures 27 and 28.
+![[lab12c-serialtool-1.png]]
+<div style="text-align: center">Figure 27: SerialTool Output of 64-bit Two-Level Multiplier (1)</div>
+![[lab12c-serialtool-2.png]]
+<div style="text-align: center">Figure 28: SerialTool Output of 64-bit Two-Level Multiplier (2)</div>
+Compiling this data into the given spreadsheet, we can compare our data against the data that we received. 
 ### Discussion/Analysis
 
 
