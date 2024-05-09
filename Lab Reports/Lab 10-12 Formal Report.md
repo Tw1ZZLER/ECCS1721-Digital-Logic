@@ -136,7 +136,7 @@ In this lab we created and tested CLA's of increasing sizes to better understand
 ### Conclusion
 To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the two-level priority encoder, an efficient encoder that saves area and complexity. The 64-bit two-level multiplier discussed in this lab  was designed by ONU's ECCS department, and was the subject of a research project.
 
-The three labs, the writing of this report, and the reading of the paper all helped us to understand the 
+The three labs, the writing of this report, and the reading of the paper all helped us to better understand the different pieces of hardware used and hardware in general. The project was very comprehensive of all topics covered in the course, including but not limited to: binary arithmetic, logic gates, encoders, decoders, adders, multiplexers, shift registers, barrel shifters, flip-flops, and especially VHDL. The three labs were useful in understanding the real-world applications of digital logic, which includes high-speed, high-precision arithmetic. Multiplication is a complex task, and optimizing the process for computers is important. We learned all the important outcomes of the lab, 
 
 ### References
 [1] M. Phillips, F. Hassan, A. Ammar, and N. Hagerdorn, “Leveraging a Novel Two-Level Priority Encoder for High-Precision Integer Multiplication,” Aug. 2023, doi: https://doi.org/10.1109/mwscas57524.2023.10405960.
