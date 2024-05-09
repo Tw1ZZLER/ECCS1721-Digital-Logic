@@ -132,7 +132,9 @@ Once the whole multiplier input has been read a "done" signal is needed because 
 #### Lab 12
 In this lab we created and tested CLA's of increasing sizes to better understand their recursive nature as shown in Figure 19.  Every recursion had a similar structure of four CLA adder blocks and one CLA logic block with each adder block containing another iteration of this structure for however many recursions were necessary as shown in Figure 17. 
 ### Conclusion
-To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the 
+To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the two-level priority encoder, an efficient encoder that saves area and complexity. The 64-bit two-level multiplier discussed in this lab  was designed by ONU's ECCS department, and was the subject of a research project.
+
+The three labs, the writing of this report, and the reading of the paper all helped us t
 
 ### References
 [1] M. Phillips, F. Hassan, A. Ammar, and N. Hagerdorn, “Leveraging a Novel Two-Level Priority Encoder for High-Precision Integer Multiplication,” Aug. 2023, doi: https://doi.org/10.1109/mwscas57524.2023.10405960.
