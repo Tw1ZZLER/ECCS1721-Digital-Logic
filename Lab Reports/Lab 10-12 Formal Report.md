@@ -141,9 +141,11 @@ In this lab we created and tested CLAs of increasing sizes to better understand 
 #### Final Thoughts
 The whole multiplier cost 1023 LUTs and 416 FF's as shown in Figure 26.  This is a bit more expensive than the 64-bit two-level multiplier in the original research paper. In Figure 30, we can see that their version utilized 815 LUTs and 194 FFs. The most expensive component out of all the components of the multiplier was the 64-bit CLA, with 278 LUTs and 220 FFs.
 
-In order to use this hardware for higher input precision, we must increase the size of the multiplicand ($m$) and multiplier ($n$) registers to the precision we want. The product register will follow, which will be the size
+In order to use this hardware for higher input precision, we must increase the size of the multiplicand ($m$) and multiplier ($n$) registers to the precision we want. The product register and the inputs of the CLA will follow, which will be $m + n$ bits. The input of the priority encoder and decoder also have to be adjusted to whatever the multiplier register is, notated as $n$ bits. The barrel shifter and decoder's inputs will be adjust to $\lfloor log_2n\rfloor$, which is the output of the priority encoder.
 
-How expensive is each component? Which is the most expensive? What would you need to do in order to use this hardware for higher input precisions (512+ bits)? Can the hardware be improved? If so, explain how. If not, explain why not. There is no wrong answer, this is just to get you thinking about how the hardware works.
+We believe this hardware can be improved 
+
+How expensive is each component? Which is the most expensive? What would you need to do in order to use this hardware for higher input precision(512+ bits)? Can the hardware be improved? If so, explain how. If not, explain why not. There is no wrong answer, this is just to get you thinking about how the hardware works.
 ### Conclusion
 To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the two-level priority encoder, an efficient encoder that saves area and complexity. The 64-bit two-level multiplier discussed in this lab  was designed by ONU's ECCS department, and was the subject of a research project.
 
