@@ -119,6 +119,9 @@ After using SerialTool to send data to the board and receive outputs, we can vie
 We can compile this data into the given spreadsheet, which is shown in Figure 29.
 ![[lab12c-spreadsheet.png]]
 <div style="text-align: center">Figure 29: Spreadsheet of 64-bit Two-Level Multiplier Results</div>
+In the original research paper, we were given the resource utilization of the multiplier at different levels of bits. This is shown in Figure 30.
+![[Pasted image 20240508215336.png]]
+<div style="text-align: center">Figure 30: Spreadsheet of Resource Utilization at Different Bit Levels of Two-Level Multiplier</div>
 ### Discussion
 #### Lab 10
 In this lab, we discussed how the two level multiplier was more suitable for high precision multiplications than a previously covered array multiplier.  This was because the two-level multiplier had a more efficient clock that truncated the clock cycles only to what we need, saving time for these complicated multiplications that already take many clock cycles to complete. It was also more efficient due to using CLA adders to skip partial products of 0's. It does this because if the partial product was a 0 it can be skipped and the barrel shifter can shift the bits left as needed.
@@ -134,9 +137,9 @@ Once the whole multiplier input has been read a "done" signal is needed because 
 In this lab we created and tested CLAs of increasing sizes to better understand their recursive nature as shown in Figure 19. Every recursion had a similar structure of four CLA adder blocks and one CLA logic block with each adder block containing another iteration of this structure for however many recursions were necessary as shown in Figure 18. 
 
 #### Final Thoughts
-The whole multiplier cost 1023 LUT's and 416 FF's as shown in Figure 26.  This is a bit more expensive than the 64-bit two-level multiplier in the original research paper.
+The whole multiplier cost 1023 LUTs and 416 FF's as shown in Figure 26.  This is a bit more expensive than the 64-bit two-level multiplier in the original research paper. In Figure 30, we can see that their version utilizes 815 LUTs and 194 FFs. The two-level priority encoder utilizes 
 
-
+How expensive is each component? Which is the most expensive? What would you need to do in order to use this hardware for higher input precisions (512+ bits)? Can the hardware be improved? If so, explain how. If not, explain why not. There is no wrong answer, this is just to get you thinking about how the hardware works.
 ### Conclusion
 To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the two-level priority encoder, an efficient encoder that saves area and complexity. The 64-bit two-level multiplier discussed in this lab  was designed by ONU's ECCS department, and was the subject of a research project.
 
