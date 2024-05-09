@@ -103,6 +103,7 @@ We can compile this data into the given spreadsheet, which is shown in Figure 29
 ### Discussion
 In general this multiplier seems quite expensive compared to other hardware we've covered previously in this course. In Figure 26, we saw that it uses 1023 look-up tables and 416 flip-flops. 
 #### Lab 10
+In this lab 
 ##### Part A - Stopwatch
 1. It is the fact that the first counter - the clock divider - goes all the way to $2^{20}-1$ instead of 1 million. We solve this by truncating it. We add a comparator and multiplexor that allow us to to truncate at a million.
 2. There were 2 clock dividers one on the stopwatch side and one on the multi-segment display side. It only increments when you are press the enable button. 
