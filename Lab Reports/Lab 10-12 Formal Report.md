@@ -99,6 +99,7 @@ We can compile this data into the given spreadsheet, which is shown in Figure 29
 ![[lab12c-spreadsheet.png]]
 <div style="text-align: center">Figure 29: Spreadsheet of 64-bit Two-Level Multiplier Results</div>
 ### Discussion
+In general this multiplier seems quite expensive compared to other hardware we've covered previously in this course. In Figure 26, we saw that it uses 1023 look-up tables and 416 flip-flops. 
 #### Lab 10
 ##### Part A - Stopwatch
 1. It is the fact that the first counter - the clock divider - goes all the way to $2^{20}-1$ instead of 1 million. We solve this by truncating it. We add a comparator and multiplexor that allow us to to truncate at a million.
@@ -118,7 +119,7 @@ We can compile this data into the given spreadsheet, which is shown in Figure 29
 
 16. This tells us that the priority encoder is non-invertable. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work.
 
-16. We will split our 128-bit packet into 2 64-bit packets by using a multiplexor to decide which section of bits we will use. For the transciever, we send this data from the multiplexor to a shift register so when the receiver recieves the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
+16. We will split our 128-bit packet into 2 64-bit packets by using a multiplexer to decide which section of bits we will use. For the transceiver, we send this data from the multiplexer to a shift register so when the receiver receives the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
 
 ### Conclusion
 
