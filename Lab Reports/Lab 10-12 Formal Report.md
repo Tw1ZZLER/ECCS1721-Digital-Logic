@@ -124,19 +124,10 @@ In general this multiplier seems quite expensive compared to other hardware we'v
 #### Lab 10
 In this lab we discussed how the two level multiplier was more suitable for high precision multiplications than a previously covered array multiplier.  This was because the two-level multiplier had a more efficient clock that truncated the clock cycles only to what we need, saving time for these complicated multiplications that already take many clock cycles to complete.  It was also more efficient  due to using CLA adders to skip partial products of 0's.  It does this because if the partial product was a 0 it can be skipped and the barrel shifter can shift the bits left as needed.
 Once the whole multiplier input has been read a "done" signal is needed because the time it takes for the multiplication to complete can vary.  If there was no "done" signal the multiplier would go through all 2048 bits which would waste a lot of time.  In order to further reduce the cost of the hardware we used a "fine-coarse" method in the barrel shifter to simplify the hardware and shrink the number of clock cycles needed, making the hardware as cheap as possible.  Lastly the carry-look-ahead adder was the final essential piece being the part that was adding all the partial products, and the only component that can enable and disable shifted bits from the barrel shifter when needed.
-##### Multiplier
-1. As we saw with the stopwatch, it counted too far up to $2^{20}-1$ instead of 1 million. The new multiplier truncates the clock cycles only to what we need, and because high precision multiplications take so long, this multiplier is much more efficient because it makes use of CLA adders and skips partial products of 0.
-2. If the partial product is a 0, it is skipped and the barrel shifter will shift all of our bits to the left as needed.
-3. The done signal is important because the time it takes to multiply can vary. If there is no done signal, the clocks will keep running through all 2048 bits, wasting time.
-4. To reduce of the complexity of those specific pieces of hardware. Those are the pieces of hardware that were added to the serial multiplier to make it take less clock cycles, so we want it to be as cheap as possible.
-5. It's the part adding all of the partial products, and it's the only one that can enable shifted bits from the barrel shifters when needed, and disabled when there is a 0.
 
 #### Lab 11
- In Lab 11,Our experimental results of the decoder matched the expected results from the handout. However, the outputs of our decoder did not match the inputs of our priority encoder.
-
-16. This tells us that the priority encoder is non-invertable. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work.
-
-16. We will split our 128-bit packet into 2 64-bit packets by using a multiplexer to decide which section of bits we will use. For the transceiver, we send this data from the multiplexer to a shift register so when the receiver receives the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
+ In Lab 11, Our experimental results of the decoder matched the expected results from the handout. However, the outputs of our decoder did not match the inputs of our priority encoder.  This told us that the priority encoder is non-invertible. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work. 
+  In order to make the hardware container view the most significant half of the output we could split our 128-bit packet into 2 64-bit packets by using a multiplexer to decide which section of bits we will use. For the transceiver, we send this data from the multiplexer to a shift register so when the receiver receives the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
 
 ### Conclusion
 
