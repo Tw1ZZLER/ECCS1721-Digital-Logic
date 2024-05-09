@@ -26,13 +26,13 @@ The two-level priority encoder will also send data to the two-level barrel shift
 The carry-look-ahead adder recieves the bit string from the barrel shifter and will add it to the output of the current product register. For the first term, the product register will be 0, meaning that the output of the CLA will just be the output of the barrel shifter, which will be a 128-bit output. After that, it will add the previous product register to the next term from the barrel shifter, and so on. The hardware diagram of this adder is shown in Figures 17-19. The resource utilization is shown in Figure 20, and the results are shown in Figures 21-23.
 
 #### Logic Gates
-To finish off the design of the multiplier, we tie everything together using XOR and NOR gates. An $n$-input XOR gate is used to calculate the 
+To finish off the design of the multiplier, we tie everything together using XOR and NOR gates. An 64-input XOR gate is used to calculate the most-significant high bit we will remove from the multiplier register. Another 64
 
 #### Serial Transceiver
 The serial transceiver, a hardware module written by Max, is an important piece for hardware for our application. Since the FPGA board only has a set of 16 switches and cannot take many more inputs, as there are less than 256 pins available on the board, we must instead use serial data transmitted via USB. The serial transceiver will read the bits one at a time and slice them up into the appropriate bit strings to load into the multiplicand and multiplier registers. This is why in SerialTool we are sending the multiplicand and multiplier as a single hexadecimal string.
 
 #### Clock Cycle
-In one clock cycle of this multiplier, we produce a single partial product of the multiplier and multiplicand. We then use the barrel shifter to shift the bits of the multiplier register, moving our partial products over 1 bit each clock cycle. We can then add the output of the product register with the output of the barrel shifter and get a new product register each clock cycle. Once the multiplier register is 0, the multiplier is finished.
+In one clock cycle of this multiplier, we produce a single partial product of the multiplier and multiplicand. We use the decoder's output to consume the most significant high bit of the multiplier register, which lets the hardware continue to the next high bit on the next clock cycle [1]. We then use the barrel shifter to shift the bits of the multiplier register, moving our partial products over 1 bit each clock cycle. We can then add the output of the product register with the output of the barrel shifter and get a new product register each clock cycle. Once the multiplier register is 0, the multiplier is finished.
 
 ### Results
 #### Lab 11
