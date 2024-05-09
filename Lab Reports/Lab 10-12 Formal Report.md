@@ -129,7 +129,9 @@ In this lab, we discussed how the two level multiplier was more suitable for hig
 Once the whole multiplier input has been read a "done" signal is needed because the time it takes for the multiplication to complete can vary.  If there was no "done" signal the multiplier would go through all 2048 bits which would waste a lot of time.  In order to further reduce the cost of the hardware we used a "fine-coarse" method in the barrel shifter to simplify the hardware and shrink the number of clock cycles needed, making the hardware as cheap as possible. Lastly, the carry-look-ahead adder was the final essential piece being the part that was adding all the partial products, and the only component that can enable and disable shifted bits from the barrel shifter when needed.
 
 #### Lab 11
- In Lab 11, Our experimental results of the decoder matched the expected results from the handout. However, the outputs of our decoder did not match the inputs of our priority encoder as shown in Figure 7.  This told us that the priority encoder is non-invertible. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work. 
+ In Lab 11, we went over a two-level priority encoder, decoder, and barrel shifter. The two-level priority encoder shown in utilized 148 LUTs and 156 FFs, as shown in Figure 3. The two-level decoder utilized 148 LUTs and FFs, the same as the encoder, as shown in Figure 5.
+ 
+ Our experimental results of the decoder matched the expected results from the handout. However, the outputs of our decoder did not match the inputs of our priority encoder as shown in Figure 7. This told us that the priority encoder is non-invertible. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work. 
  
  In order to make the hardware container view the most significant half of the output we would split our 128-bit packet into 2 64-bit packets by using a multiplexer to decide which section of bits we will use. For the transceiver, we send this data from the multiplexer to a shift register so when the receiver receives the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
 
@@ -137,7 +139,7 @@ Once the whole multiplier input has been read a "done" signal is needed because 
 In this lab we created and tested CLAs of increasing sizes to better understand their recursive nature as shown in Figure 19. Every recursion had a similar structure of four CLA adder blocks and one CLA logic block with each adder block containing another iteration of this structure for however many recursions were necessary as shown in Figure 18. 
 
 #### Final Thoughts
-The whole multiplier cost 1023 LUTs and 416 FF's as shown in Figure 26.  This is a bit more expensive than the 64-bit two-level multiplier in the original research paper. In Figure 30, we can see that their version utilizes 815 LUTs and 194 FFs. The two-level priority encoder utilizes 
+The whole multiplier cost 1023 LUTs and 416 FF's as shown in Figure 26.  This is a bit more expensive than the 64-bit two-level multiplier in the original research paper. In Figure 30, we can see that their version utilized 815 LUTs and 194 FFs. 
 
 How expensive is each component? Which is the most expensive? What would you need to do in order to use this hardware for higher input precisions (512+ bits)? Can the hardware be improved? If so, explain how. If not, explain why not. There is no wrong answer, this is just to get you thinking about how the hardware works.
 ### Conclusion
