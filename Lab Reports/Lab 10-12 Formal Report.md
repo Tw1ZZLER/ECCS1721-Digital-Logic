@@ -136,7 +136,9 @@ In this lab we created and tested CLA's of increasing sizes to better understand
 The whole multiplier cost 1023 LUT's and 416 FF's as shown in Figure 26.  
 
 ### Conclusion
-To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the 
+To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the two-level priority encoder, an efficient encoder that saves area and complexity. The 64-bit two-level multiplier discussed in this lab  was designed by ONU's ECCS department, and was the subject of a research project.
+
+The three labs, the writing of this report, and the reading of the paper all helped us to understand the 
 
 ### References
 [1] M. Phillips, F. Hassan, A. Ammar, and N. Hagerdorn, “Leveraging a Novel Two-Level Priority Encoder for High-Precision Integer Multiplication,” Aug. 2023, doi: https://doi.org/10.1109/mwscas57524.2023.10405960.
