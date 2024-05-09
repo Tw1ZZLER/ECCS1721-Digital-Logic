@@ -17,7 +17,7 @@ At a high-level, the multiplication algorithm works by taking the multiplier and
 To make high-precision integer multiplication more efficient, the main component of our 64-bit two-level multiplier is a two-level priority encoder. A schematic of this encoder can be found in Figure 1, along with an expanded view in Figure 2. A $n$-input two-level priority encoder  requires many gates, as cost and complexity increases exponentially with large $n$ values [1]. We can see the example of this in Figure 3, where the encoder uses a large number of flip-flops and look-up tables. For this reason, normal priority encoders are not typically used for high-precision applications, such as a high input multipliers. However, by using a two-level priority encoder, we can make a new, more efficient design. 
 
 #### Two-Level Decoder
-The next component of our multiplier is a two-level decoder, which will decode the output of the priority encoder and send that data to an XOR gate with the output of the multiplier register. 
+The next component of our multiplier is a two-level decoder, which will decode the output of the priority encoder and send that data to an XOR gate with the output of the multiplier register. The decoder will take the value given by the priority encoder and turn it back into a 64-bit string of bits, which is then used to determine the high-bits that will be sent back into the multiplier register.
 
 #### Two-Level Barrel Shifter
 The two-level priority encoder will also send data to the two-level barrel shifter. 
