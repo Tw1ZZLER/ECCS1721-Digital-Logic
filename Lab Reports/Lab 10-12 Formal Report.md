@@ -8,7 +8,7 @@
 	- Corbin Hibler
 	- Dylan Hughes
 ### Introduction
-	From lab 10 to lab 12 we analyzed the design and functions of the parts that make up a two-level multiplier.  We separrated the two-level multiplier into its major components, the priority encoder, decoder, barrel shifter, and carry-look-ahead adder.  Using Vivado we learned the concepts and applications of serial communication and how can be used to .  Finally we implemented and tested CLA's of increacing size to complete the whole two-level multiplier.
+	From lab 10 to lab 12 we analyzed the design and functions of the parts that make up a two-level multiplier.  We separrated the two-level multiplier into its major components, the priority encoder, decoder, barrel shifter, and carry-look-ahead adder.  Using Vivado we learned the concepts and applications of serial communication and how it can be used to manage more bits of data than the hardware can normally handle.  Finally we implemented and tested CLA's of increacing size to complete the whole two-level multiplier.
 
 ### Methodology
 To make high-precision integer multiplication more efficient, the main component of our 64-bit two-level multiplier is a two-level priority encoder. A $n$-input two-level priority encoder  requires many gates, as cost and complexity increases exponentially with large $n$ values [1]. For this reason, normal priority encoders are not typically used for high-precision applications, such as a high input multipliers. However, by using a two-level priority encoder, 
