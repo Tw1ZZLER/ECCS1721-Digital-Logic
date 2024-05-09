@@ -32,7 +32,7 @@ To finish off the design of the multiplier, we tie everything together using XOR
 The serial transceiver, a hardware module written by Max, is an important piece for hardware for our application. Since the FPGA board only has a set of 16 switches and cannot take many more inputs, as there are less than 256 pins available on the board, we must instead use serial data transmitted via USB. The serial transceiver will read the bits one at a time and slice them up into the appropriate bit strings to load into the multiplicand and multiplier registers. This is why in SerialTool we are sending the multiplicand and multiplier as a single hexadecimal string.
 
 #### Clock Cycle
-In one clock cycle of this multiplier, we produce a single partial product of the multiplier and multiplicand. We then use the barrel shifter to shift the bits of the mulitregister, moving our partial products over 1 bit. Once the multiplier
+In one clock cycle of this multiplier, we produce a single partial product of the multiplier and multiplicand. We then use the barrel shifter to shift the bits of the multiplier register, moving our partial products over 1 bit. Once the multiplier register is 0, the multiplier is finished.
 
 ### Results
 #### Lab 11
