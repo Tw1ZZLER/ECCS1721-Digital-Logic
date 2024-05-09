@@ -103,7 +103,7 @@ We can compile this data into the given spreadsheet, which is shown in Figure 29
 ### Discussion
 In general this multiplier seems quite expensive compared to other hardware we've covered previously in this course. In Figure 26, we saw that it uses 1023 look-up tables and 416 flip-flops. 
 #### Lab 10
-In this lab we discussed how the two level multiplier was more suitable for high precision calculations than a previously covered 
+In this lab we discussed how the two level multiplier was more suitable for high precision multiplications than a previously covered array multiplier.  This was because the two-level multiplier had a more efficient clock that truncated the clock cycles only to what we need, saving time for these complicated multiplications that already take many clock cycles to complete.  It was also more efficient   
 ##### Multiplier
 1. As we saw with the stopwatch, it counted too far up to $2^{20}-1$ instead of 1 million. The new multiplier truncates the clock cycles only to what we need, and because high precision multiplications take so long, this multiplier is much more efficient because it makes use of CLA adders and skips partial products of 0.
 2. If the partial product is a 0, it is skipped and the barrel shifter will shift all of our bits to the left as needed.
