@@ -139,7 +139,11 @@ The whole multiplier cost 1023 LUT's and 416 FF's as shown in Figure 26.  This i
 ### Conclusion
 To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the two-level priority encoder, an efficient encoder that saves area and complexity. The 64-bit two-level multiplier discussed in this lab  was designed by ONU's ECCS department, and was the subject of a research project.
 
-The three labs, the writing of this report, and the reading of the paper all helped us to understand the 
+The three labs, the writing of this report, and the reading of the paper all helped us to better understand the different pieces of hardware used and hardware in general. The project was very comprehensive of all topics covered in the course, including but not limited to: binary arithmetic, logic gates, encoders, decoders, adders, multiplexers, shift registers, barrel shifters, flip-flops, and especially VHDL. The three labs were useful in understanding the real-world applications of digital logic, which includes high-speed, high-precision arithmetic. Multiplication is a complex task, and optimizing the process for computers is important. 
+
+We learned all the important outcomes of the labs, including understanding VHDL components and their creation, and connections to other pieces of hardware. Additionally, we have seen two multiplication methods, one that was hand-crafted by our own faculty, and can apply them in the future. We know that the FPGA board can only support so many inputs, as do many other devices, and why serial communication is important.
+
+Overall, we enjoyed working on this project. Digital logic was the favorite class of the semester, and very much tied into our goals as electrical and computer engineers. Hardware is the building blocks of everything to come, and it's been very interesting so far. We look forward to the future courses where we utilize the topics we have learned so far.
 
 ### References
 [1] M. Phillips, F. Hassan, A. Ammar, and N. Hagerdorn, “Leveraging a Novel Two-Level Priority Encoder for High-Precision Integer Multiplication,” Aug. 2023, doi: https://doi.org/10.1109/mwscas57524.2023.10405960.
