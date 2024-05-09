@@ -39,24 +39,38 @@ In one clock cycle of this multiplier, we produce a single partial product of th
 Figure 1 is the elaborated design schematic of the 64-bit two-level priority encoder:
 ![[lab11b-full_schematic.png]]
 <div style="text-align: center">Figure 1: 64-Bit Two-Level Priority Encoder Design Schematic</div>
-We can expand the encoder section of this schematic to view the hardware of the encoder, as seen in Figure 2:
+
+We can expand the encoder section of this schematic to view the hardware of the encoder, as 
+seen in Figure 2:
+
 ![[lab11b-subschematic.png]]
 <div style="text-align: center">Figure 2: Encoder Design Schematic</div>
+
 Opening design runs in elaborated design, we can view the number of look-up tables and flip-flops used by the 64-bit two-level priority encoder, as seen in Figure 3:
+
 ![[lab11b-resource-utilization.png]]
 <div style="text-align: center">Figure 3: Resource Utilization of 64-bit Two-Level Priority Encoder</div>
+
 After running through various tests using SerialTool's HEX terminal, we get outputs from the FPGA device in hexadecimal. These are shown in Figure 4:
+
 ![[lab11b-serialtool_output.png]]
 <div style="text-align: center">Figure 4: SerialTool Output of 64-bit Two-Level Priority Encoder</div>
+
 Looking in the elaborated design of the 64-bit two-level decoder, we can view the look-up tables and flip-flops it uses, as seen in Figure 5:
+
 ![[lab11c-resource_utilization.png]]
 <div style="text-align: center">Figure 5: Resource Utilization of 64-bit Two-Level Decoder</div>
+
 After running through more tests, this time using the decoder, using SerialTool's HEX terminal, we get outputs from the FPGA device in hexadecimal. These are shown in Figure 6:
+
 ![[lab11c-serialtool_output.png]]
 <div style="text-align: center">Figure 7: SerialTool Output of 64-bit Two-Level Decoder</div>
+
 Now that we have introduced a 64-bit two-level barrel shifter, we can open it's elaborated design schematic and expand the barrel shifter section, as the other sections are not important. This schematic is shown in Figure 8:
+
 ![[lab11d-barrel_shifter_schematic.png]]
 <div style="text-align: center">Figure 8: Design Schematic of 64-bit Two-Level Barrel Shifter</div>
+
 Opening design runs, we can view the number of look-up tables and flip-flops this barrel shifter uses, as shown in Figure 9:
 ![[lab11d-resource_utilization.png]]
 <div style="text-align: center">Figure 9: Resource Utilization of 64-bit Two-Level Barrel Shifter</div>
@@ -129,11 +143,11 @@ In this lab, we discussed how the two level multiplier was more suitable for hig
 Once the whole multiplier input has been read a "done" signal is needed because the time it takes for the multiplication to complete can vary.  If there was no "done" signal the multiplier would go through all 2048 bits which would waste a lot of time.  In order to further reduce the cost of the hardware we used a "fine-coarse" method in the barrel shifter to simplify the hardware and shrink the number of clock cycles needed, making the hardware as cheap as possible. Lastly, the carry-look-ahead adder was the final essential piece being the part that was adding all the partial products, and the only component that can enable and disable shifted bits from the barrel shifter when needed.
 
 #### Lab 11
- In Lab 11, we went over a two-level priority encoder, decoder, and barrel shifter. The two-level priority encoder shown in utilized 148 LUTs and 156 FFs, as shown in Figure 3. The two-level decoder utilized 148 LUTs and FFs, the same as the encoder, as shown in Figure 5. The two-level barrel shifter utilized 303 LUTs and 161 FFs which is considerably more resources than the encoder and decoder. This was shown in Figure 9.
+In Lab 11, we went over a two-level priority encoder, decoder, and barrel shifter. The two-level priority encoder shown in utilized 148 LUTs and 156 FFs, as shown in Figure 3. The two-level decoder utilized 148 LUTs and FFs, the same as the encoder, as shown in Figure 5. The two-level barrel shifter utilized 303 LUTs and 161 FFs which is considerably more resources than the encoder and decoder. This was shown in Figure 9.
  
- Our experimental results of the decoder matched the expected results from the handout. However, the outputs of our decoder did not match the inputs of our priority encoder as shown in Figure 7. This told us that the priority encoder is non-invertible. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work. 
- 
- In order to make the hardware container view the most significant half of the output we would split our 128-bit packet into 2 64-bit packets by using a multiplexer to decide which section of bits we will use. For the transceiver, we send this data from the multiplexer to a shift register so when the receiver receives the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
+Our experimental results of the decoder matched the expected results from the handout. However, the outputs of our decoder did not match the inputs of our priority encoder as shown in Figure 7. This told us that the priority encoder is non-invertible. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work. 
+
+In order to make the hardware container view the most significant half of the output we would split our 128-bit packet into 2 64-bit packets by using a multiplexer to decide which section of bits we will use. For the transceiver, we send this data from the multiplexer to a shift register so when the receiver receives the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
 
 #### Lab 12
 In this lab we created and tested CLAs of increasing sizes to better understand their recursive nature as shown in Figure 19. Every recursion had a similar structure of four CLA adder blocks and one CLA logic block with each adder block containing another iteration of this structure for however many recursions were necessary as shown in Figure 18. The resource utilization of the final CLA shown, which was the 64-bit CLA, was 278 LUTs and 220 FFs, as shown in Figure 20. 
@@ -143,9 +157,8 @@ The whole multiplier cost 1023 LUTs and 416 FF's as shown in Figure 26.  This is
 
 In order to use this hardware for higher input precision, we must increase the size of the multiplicand ($m$) and multiplier ($n$) registers to the precision we want. The product register and the inputs of the CLA will follow, which will be $m + n$ bits. The input of the priority encoder and decoder also have to be adjusted to whatever the multiplier register is, notated as $n$ bits. The barrel shifter and decoder's inputs will be adjust to $\lfloor log_2n\rfloor$, which is the output of the priority encoder.
 
-We believe this hardware can be improved 
+We believe this hardware could be improved by implementing higher-level priority encoders as the input precisions increase. The complexity will increase rapidly, therefore it would be better to introduce higher-level priority encoders that would have less complexity.
 
-How expensive is each component? Which is the most expensive? What would you need to do in order to use this hardware for higher input precision(512+ bits)? Can the hardware be improved? If so, explain how. If not, explain why not. There is no wrong answer, this is just to get you thinking about how the hardware works.
 ### Conclusion
 To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the two-level priority encoder, an efficient encoder that saves area and complexity. The 64-bit two-level multiplier discussed in this lab  was designed by ONU's ECCS department, and was the subject of a research project.
 
