@@ -127,8 +127,10 @@ Once the whole multiplier input has been read a "done" signal is needed because 
 
 #### Lab 11
  In Lab 11, Our experimental results of the decoder matched the expected results from the handout. However, the outputs of our decoder did not match the inputs of our priority encoder.  This told us that the priority encoder is non-invertible. We cannot figure out what the original input to the priority encoder was, solely based on the decoder output. We would need a standard encoder if we wanted to get the multiplier from the decoder output. A priority encoder will not work. 
-  In order to make the hardware container view the most significant half of the output we could split our 128-bit packet into 2 64-bit packets by using a multiplexer to decide which section of bits we will use. For the transceiver, we send this data from the multiplexer to a shift register so when the receiver receives the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
+  In order to make the hardware container view the most significant half of the output we would split our 128-bit packet into 2 64-bit packets by using a multiplexer to decide which section of bits we will use. For the transceiver, we send this data from the multiplexer to a shift register so when the receiver receives the 64 bits, we will load the shift register with the first 64 bits and wait for the next 64 bits to fully load our shift register.
 
+#### Lab 12
+In this lab we created and tested CLA's of increasing sizes to better understand their recursive nature as shown in Figure 19.  Every recursion had a similar structure of four adder blocks and one 
 ### Conclusion
 
 
