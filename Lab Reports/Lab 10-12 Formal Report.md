@@ -142,7 +142,7 @@ The three labs, the writing of this report, and the reading of the paper all hel
 
 We learned all the important outcomes of the labs, including understanding VHDL components and their creation, and connections to other pieces of hardware. Additionally, we have seen two multiplication methods, one that was hand-crafted by our own faculty, and can apply them in the future. We know that the FPGA board can only support so many inputs, as do many other devices, and why serial communication is important.
 
-Overall, we enjoyed working on this project. Digital logic was the favorite class of the semester, and very much tied into our goals as electrical and computer engineers. Hardware is the building blocks of everything to come, and it's been very interesting so far. 
+Overall, we enjoyed working on this project. Digital logic was the favorite class of the semester, and very much tied into our goals as electrical and computer engineers. Hardware is the building blocks of everything to come, and it's been very interesting so far. We look forward to the future courses where we utilize the topics we have learned so far.
 
 ### References
 [1] M. Phillips, F. Hassan, A. Ammar, and N. Hagerdorn, “Leveraging a Novel Two-Level Priority Encoder for High-Precision Integer Multiplication,” Aug. 2023, doi: https://doi.org/10.1109/mwscas57524.2023.10405960.
