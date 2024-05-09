@@ -8,7 +8,7 @@
 	- Corbin Hibler
 	- Dylan Hughes
 ### Introduction
-	From lab 10 to lab 12 we analyzed the design and functions of the parts that make up a two-level multiplier.  We separrated the two-level multiplier into its major components, the priority encoder, decoder, barrel shifter, and carry-look-ahead adder.  Using Vivado we learned the concepts and applications of serial communication
+	From lab 10 to lab 12 we analyzed the design and functions of the parts that make up a two-level multiplier.  We separrated the two-level multiplier into its major components, the priority encoder, decoder, barrel shifter, and carry-look-ahead adder.  Using Vivado we learned the concepts and applications of serial communication and how it interacts with the components of the two-level multiplier.  Finally we implemented the CLA to complete the whole two-level multiplier
 
 ### Methodology
 
