@@ -133,7 +133,7 @@ Once the whole multiplier input has been read a "done" signal is needed because 
 In this lab we created and tested CLA's of increasing sizes to better understand their recursive nature as shown in Figure 19.  Every recursion had a similar structure of four CLA adder blocks and one CLA logic block with each adder block containing another iteration of this structure for however many recursions were necessary as shown in Figure 18. 
 
 #### Final Thoughts
-The whole multiplier cost 1023 LUT's and 416 FF's as shown in Figure 26.  
+The whole multiplier cost 1023 LUT's and 416 FF's as shown in Figure 26.  this is slightly less
 
 ### Conclusion
 To summarize, we produced a 64-bit two-level multiplier by utilizing multiple components of hardware, including the two-level priority encoder, an efficient encoder that saves area and complexity. The 64-bit two-level multiplier discussed in this lab  was designed by ONU's ECCS department, and was the subject of a research project.
