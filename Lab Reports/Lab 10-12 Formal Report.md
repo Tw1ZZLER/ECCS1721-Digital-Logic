@@ -20,10 +20,10 @@ To make high-precision integer multiplication more efficient, the main component
 The next component of our multiplier is a two-level decoder, which will decode the output of the priority encoder and send that data to an XOR gate with the output of the multiplier register. The decoder will take the value given by the priority encoder and turn it back into a 64-bit string of bits, which is then used to determine the high-bits that will be sent back into the multiplier register. We can see the results of this decoder in Figure 7.
 
 #### Two-Level Barrel Shifter
-The two-level priority encoder will also send data to the two-level barrel shifter. The barrel shifter
+The two-level priority encoder will also send data to the two-level barrel shifter. The barrel shifter will take the 6-bit string and shift its bits, effectively performing a $n/2$ or $n\cdot2$  operation on the bit string [1]. This is then outputted to the carry-look-ahead adder. The schematic of the barrel shifter is shown in Figure 8, with its resource utilization in Figure 9 and SerialTool outputs in Figure 10.
 
 #### Carry-Look-Ahead Adder
-
+The carry-look-ahead adder recieves the bit string from the barrel shifter and will add it to the output of the current product register. For the first term, the product register will be 0, meaning that the output of the CLA will just be the output of the barrel shifter, which will be a 128-bit output.
 
 #### Logic Gates
 To finish off the design of the multiplier, we tie everything together using XOR and NOR gates. An $n$-input XOR gate is used to calculate the 
