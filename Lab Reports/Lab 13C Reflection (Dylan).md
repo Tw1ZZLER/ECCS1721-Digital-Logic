@@ -1,15 +1,11 @@
-This is an individual assignment related to lab 13 part C.
+# 13C Reflection
+## Groups
+- Pairwise: Dylan Hughes
+- Large Group: Dylan Hughes, Anthony Bellino, Quinton Fesq
 
-Submit the following as one pdf file:
+## Reflection
+#### Group Reasoning
+Power is very important in smartphones and laptops in general, because of battery life and limitation, so the for the processors of these power got the highest score.  For the processor for the desktop, clock period got the highest score, as these processors need to be as fast as possible. Graphics cards are designed for as much throughput as possible and parallel processing, which is why they got a high throughput score on all 3. For the user interfaces, latency got the highest score on all 3, as sluggish and slow user interfaces are often awful to use. 
 
-Title page mentioning who did you work with as a pair and as a group.
+#### Personal Reflection
 
-Filled excel sheet. First page is individual, second page should match the page of the person who you worked with in pair, third page should match the group who you worked with.
-
-One page reflection divided into two paragraphs:
-
-     First paragraph mention the justification of the final group prioritization in the excel sheet (you can focus on giving a justification of the highest score for each category). You can work on this paragraph as a group.
-
-    Second paragraph is a reflection on your personality from the perspective of how much your ranking changed from individual to pair to group. You have to write this individually
-
-Please follow the handout and rubric
